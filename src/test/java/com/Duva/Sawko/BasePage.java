@@ -2205,23 +2205,46 @@ public void Verify_to_find_chart_by_Apply_History_of_Present_illness_option() th
 	System.out.println("STEP 09 | Click on Quality Option ");
 	common.log("<br><br>STEP 09 | Click on Quality Option ");
 	common.pause(10);
-	
 }
 
-public void Verify_to_Delete_Chart() throws InterruptedException, IOException{
+public void Verify_to_load_and_retrieve_all_data_of_chart() throws InterruptedException, IOException{
     
 	common.pause(20);
 	verify_login_details_of_admin();
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[7]/div/span[1]")).click();
-	System.out.println("STEP 07 | Click on Coding Tools ");
-	common.log("<br><br>STEP 07 | Click on Coding Tools  ");
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
 	common.pause(10);
 	
-	driver.findElement(By.xpath("//*[@id=\"menu_manage_dsgcc\"]/span")).click();
-	System.out.println("STEP 08 | Click on DSGCC ");
-	common.log("<br><br>STEP 08 | Click on DSGCC ");
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"BIPanel\"]/span")).click();
+	System.out.println("STEP 10 | Click on Basic Information ");
+	common.log("<br><br>STEP 10 | Click on Basic Information ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"HPIPanel\"]/span")).click();
+	System.out.println("STEP 11 | Click on History Of Present Illness ");
+	common.log("<br><br>STEP 11 | Click on History Of Present Illness ");
 	common.pause(10);
 	
 	

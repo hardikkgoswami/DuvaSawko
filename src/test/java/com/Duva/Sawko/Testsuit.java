@@ -87,60 +87,70 @@ public class Testsuit {
         basePage.verify_to_add_new_applicant_as_student();
     }
     
+//  Test Case 11 ::    
     @Test
     public void Verify_to_check_dates_functionality() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_check_dates_functionality();
     }
     
+//  Test Case 12 ::     
     @Test
     public void Verify_to_check_My_Profile_and_Logout_options() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_check_My_Profile_and_Logout_options();
     }
-    
+ 
+//  Test Case 13 :: 
     @Test
     public void Verify_to_Reset_Password() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Reset_Password();
     }
-    
+ 
+//  Test Case 14 :: 
     @Test
     public void Verify_to_fill_My_Profile() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_fill_My_Profile();
     }
-    
+  
+//  Test Case 15 :: 
     @Test
     public void Verify_to_Search_User() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Search_User();
     }
     
+//  Test Case 16 :: 
     @Test
     public void Verify_to_display_Chart_Properly_after_refresh_page() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_display_Chart_Properly_after_refresh_page();
     }
     
+//  Test Case 17 :: 
     @Test
     public void Verify_to_view_Manage_ICD_10() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_view_Manage_ICD_10();
     }
     
+//  Test Case 18 :: 
     @Test 
     public void Verify_to_view_Manage_CPT() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_view_Manage_CPT();
     }
     
+//  Test Case 19 ::     
     @Test 
     public void Verify_to_view_Average_Daily_Logins() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_check_dates_functionality();
     }
     
+//  Test Case 20 :: 
     @Test 
     public void Verify_to_Select_Date_In_Calendar() throws InterruptedException, IOException{
         basePage.enterURL();
@@ -521,7 +531,21 @@ public class Testsuit {
     @Test 
     public void Verify_to_Delete_Chart() throws InterruptedException, IOException{
         basePage.enterURL();
-        basePage.Verify_to_Delete_Chart();
+        basePage.Verify_to_delete_DSGCC();
+    } 
+    
+//  Test Case 79 ::
+    @Test 
+    public void Verify_to_load_and_retrieve_all_data_of_chart() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_load_and_retrieve_all_data_of_chart();
+    } 
+    
+//  Test Case 80 ::
+    @Test 
+    public void Verify_to_display_error_message_chart_number_is_blank() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Show_Error_Message_In_Red_Color();
     } 
     
 

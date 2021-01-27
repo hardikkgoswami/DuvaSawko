@@ -955,5 +955,29 @@
             </class>
         </classes>
     </test> 
+    
+         <!-- Test Case 79 :: Chart Loader  :: Verify to load and retrieve all data of chart -->
+    <test name="Verify to load and retrieve all data of chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_and_retrieve_all_data_of_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 80 :: Chart Loader  :: Verify to display error message chart number is blank -->
+    <test name="Verify to display error message chart number is blank">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_chart_number_is_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
         
 </suite>
