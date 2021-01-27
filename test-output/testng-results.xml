@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<br><br>STEP 01 | Open URL ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 02 | Enter Email address of Admin  ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 03 | Enter Password of Admin  ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 04 | Click on Sign In button  ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 12 | Click on Basic Information ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 13 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 14 | Click on History Of Present Illness ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 15 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 16 | Click on Review of System ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 17 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 18 | Click on Orders ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 19 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 20 | Click on DSGCC ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 21 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 22 | Click on Impression Plan ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 23 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 24 | Click on Impression Plan ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 25 | Click on Complete Checkbox ]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91535" started-at="2021-01-27T10:19:59Z" finished-at="2021-01-27T10:21:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91535" started-at="2021-01-27T10:19:59Z" finished-at="2021-01-27T10:21:30Z">
+      <class name="com.Duva.Sawko.Testsuit">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="11" started-at="2021-01-27T15:49:59Z" finished-at="2021-01-27T15:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onBefore -->
+        <test-method status="PASS" signature="Verify_to_Click_on_all_Complete_check_box_in_all_options()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_Click_on_all_Complete_check_box_in_all_options" duration-ms="91388" started-at="2021-01-27T15:49:59Z" finished-at="2021-01-27T15:51:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<br><br>STEP 01 | Open URL ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 02 | Enter Email address of Admin  ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 03 | Enter Password of Admin  ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 04 | Click on Sign In button  ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 12 | Click on Basic Information ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 13 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 14 | Click on History Of Present Illness ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 15 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 16 | Click on Review of System ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 17 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 18 | Click on Orders ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 19 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 20 | Click on DSGCC ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 21 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 22 | Click on Impression Plan ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 23 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 24 | Click on Impression Plan ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 25 | Click on Complete Checkbox ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verify_to_Click_on_all_Complete_check_box_in_all_options -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="126" started-at="2021-01-27T15:51:30Z" finished-at="2021-01-27T15:51:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Duva.Sawko.Testsuit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

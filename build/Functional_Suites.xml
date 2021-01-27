@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Report" verbose="10" parallel="tests"
+    thread-count="2">
+    
+     <!-- Put IP of localhost/Grid Hub machine -->
+    <parameter name="selenium.host" value="localhost" />
+    
+    <!-- Put Port of localhost RC/Grid Hub machine -->
+    <parameter name="selenium.port" value="6666" />
+    
+    <!-- Put target browser name as below:  -->
+    <parameter name="selenium.browser" value="chrome" />
+    
+    <!-- @NOTE: 1) Un-comment <test> tag to run respective test. 2) Commentr
+     <test> tag to unrun respective test. -->
+    
+    <parameter name="selenium.url"
+    value="https://www.google.com/" />
+   
+   
+       
+     <!-- Test Case 1 :: Verify Login details of Student -->
+    <test name="Verify Login details of Student">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_Login_Details_of_Student">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+	
+	<!-- Test Case 2 :: Verify Wrong Password -->
+    <test name="Verify Wrong Password">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_Wrong_Password">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+    <!-- Test Case 3 :: Verify Wrong Email  -->
+    <test name="Verify Wrong Email">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_Wrong_Email">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test Case 4 :: Verify To View Applicant Introduction Video -->
+    <test name="Verify To View Applicant Introduction Video">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_View_Applicant_Introduction_Video">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+    <!-- Test Case 5 :: Verify To View Medical Decision Making Tools  Video -->
+    <test name="Verify To View Medical Decision Making Tools Video">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_View_Medical_Decision_Making_Tools_Video">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+    <!-- Test Case 6 :: Verify To View Medical Decision Making Tools - DSGCC Video -->
+    <test name="Verify To View Medical Decision Making Tools DSGCC Video">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_View_Medical_Decision_Making_Tools_DSGCC_Video">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+    <!-- Test Case 7 :: Verify To View Medical Decision Making Tools - Scenario Video -->
+    <test name="Verify To View Medical Decision Making Tools - Scenario Video">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_View_Medical_Decision_Making_Tools_Scenario_Video">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+    <!-- Test Case 8 :: Verify To View Applicant Tutorial Video -->
+    <test name="Verify To View Applicant Tutorial Video">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_View_Applicant_Tutorial_Video">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+    <!-- Test Case 9 :: Verify Login Details of Admin -->
+    <test name="Verify Login Details of Admin">
+        <classes>
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_Login_Details_of_Admin">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+    <!-- Test Case 10 :: Verify To Add New Applicant as Student  -->
+    <test name="Verify To Add New Applicant as Student">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_Add_New_Applicant_as_Student">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+     <!-- Test Case 11 Logins :: Verify to check dates(week, month) functionality  -->
+    <test name="Verify to check dates functionality">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_dates_functionality">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 12 :: My Account  :: Verify to check My Profile and Logout options -->
+    <test name="Verify to check My Profile and Logout options">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_My_Profile_and_Logout_options">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+     <!-- Test Case 13 :: Logins  :: Verify to Reset Password -->
+    <test name="Verify to Reset Passwords">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Reset_Password">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 14 :: My Account  :: Verify to fill My Profile -->
+    <test name="Verify to fill My Profile">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_fill_My_Profile">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 15 :: Logins  :: Verify to Search User  -->
+    <test name="Verify to Search User">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_User">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 16 :: Logins  :: Verify to display Chart Properly after refresh page -->
+    <test name="Verify to display Chart Properly after refresh page">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Chart_Properly_after_refresh_page">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 17 :: Manage ICD 10  :: Verify to view Manage ICD 10 -->
+    <test name="Verify to view Manage ICD 10">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Manage_ICD_10">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 18 :: Manage CPT  :: Verify to view Manage CPT -->
+    <test name="Verify to view Manage CPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Manage_CPT">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 19 :: Logins  :: Verify to view Average Daily Logins -->
+    <test name="Verify to view Average Daily Logins">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Average_Daily_Logins">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 20 :: Logins  :: Verify to Select Date In Calendar -->
+    <test name="Verify to Select Date In Calendar">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_Date_In_Calendar">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 21 :: Login  :: Verify to display valid error message when user didn't enter Email Address -->
+    <test name="Verify to display valid error message when user didn't enter Email Address">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_valid_error_message_when_user_didnt_enter_Email_Address">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 22 :: Login  :: Verify to display valid error message when user didn't enter Email Address -->
+    <test name="Verify to display valid error message when user didn't enter Email Address">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_valid_error_message_when_user_didnt_enter_Email_Address1">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 23 :: Manage Users  :: Verify to Find by data First Name -->
+    <test name="Verify to Find by data First Name">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_by_data_First_Name">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 24 :: Chart Loader  :: Verify to View Chart Loader -->
+    <test name="Verify to View Chart Loader">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Chart_Loader">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 25 :: Manage CPT  :: Verify to Find data By CPT -->
+    <test name="Verify to Find data By CPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_data_By_CPT">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 26 :: Manage CPT  :: Verify to Update CPT -->
+    <test name="Verify to Update CPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Update_CPT">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 27 :: Manage DSGCC  :: Verify to Add DSGCC -->
+    <test name="Verify to Add DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_DSGCC">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 28 :: Manage DSGCC  :: Verify to Find by Risk level DSGCC -->
+    <test name="Verify to Find by Risk level DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_by_Risk_level_DSGCC">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 29 :: Manage ICD 10  :: Verify to Find Manage ICD 10 by Diagnosis Code -->
+    <test name="Verify to Find Manage ICD 10 by Diagnosis Code">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Manage_ICD_10_by_Diagnosis_Code">
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 30 :: Manage DSGCC  :: Verify to delete DSGCC -->
+    <test name="Verify to delete DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_DSGCC"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 31 :: Manage DSGCC  :: Verify to Find by Text 1 DSGCC -->
+    <test name="Verify to Find by Text 1 DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_by_Text_1_DSGCC"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 32 :: Manage DSGCC  :: Verify to View Item per page -->
+    <test name="Verify to View Item per page">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Item_per_page"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 33 :: Utilities  :: Verify to View Sequence -->
+    <test name="Verify to View Sequence">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Sequence"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 34 :: Manage DSGCC  :: Verify to Clear All -->
+    <test name="Verify to Clear All">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Clear_All"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 35 :: Manage User  :: Verify to View Panel Bars -->
+    <test name="Verify to View Panel Bars">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Panel_Bars"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 36 :: Manage ICD 10  :: Verify to edit Notes -->
+    <test name="Verify to edit Notes">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Notes"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 37 :: Chart Loader  :: Verify to Add MetaData in Chart Loader -->
+    <test name="Verify to Add MetaData in Chart Loader">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_MetaData_in_Chart_Loader"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+
+     <!-- Test Case 38 :: Chart Loader  :: Verify to Completed New Chart Loader -->
+    <test name="Verify to Completed New Chart Loader">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Completed_New_Chart_Loader"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 39 :: Chart Loader  :: Verify to Complete Checkbox on each section -->
+    <test name="Verify to Complete Checkbox on each section">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Complete_Checkbox_on_each_section"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 40 :: Chart Loader  :: Verify to view HPI Parser tab -->
+    <test name="Verify to view HPI Parser tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_HPI_Parser_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 41 :: Chart Loader  :: Verify to Upload Image for Mockups -->
+    <test name="Verify to Upload Image for Mockups">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Upload_Image_for_Mockups"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 42 :: Chart Loader  :: Verify to view Datagrid Per Page -->
+    <test name="Verify to view Datagrid Per Page">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Datagrid_Per_Page"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 43 :: Chart Loader  :: Verify to Show Error Message In Red Color -->
+    <test name="Verify to Show Error Message In Red Color">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Show_Error_Message_In_Red_Color"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 44 :: Chart Loader  :: Verify to Remember Chart number -->
+    <test name="Verify to Remember Chart number">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Remember_Chart_number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 45 :: Chart Loader  :: Verify that if checkbox is checked then it should disable dropdown -->
+    <test name="Verify that if checkbox is checked then it should disable dropdown">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_if_checkbox_is_checked_then_it_should_disable_dropdown"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 46 :: Chart Loader  :: Verify when user submit metadata it move to chart finder message should disappear -->
+    <test name="Verify when user submit metadata it move to chart finder message should disappear">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_when_user_submit_metadata_it_move_to_chart_finder_message_should_disappear"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 47 :: Chart Loader  :: Verify to select Tickers button in Metadata -->
+    <test name="Verify to select Tickers button in Metadata">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_Tickers_button_in_Metadata"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 48 :: Chart Loader  :: Verify to tickers button  on Metadata -->
+    <test name="Verify to tickers button  on Metadata">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_tickers_button_on_Metadata"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 49 :: Chart Loader  :: Verify to reset data in Chart Finder MetaData -->
+    <test name="Verify to reset data in Chart Finder MetaData">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_reset_data_in_Chart_Finder_MetaData"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 50 :: Chart Loader  :: Verify to don't load chart data when no data selected -->
+    <test name="Verify to don't load chart data when no data selected">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_dont_load_chart_data_when_no_data_selected"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 51 :: Chart Loader  ::Verify to Refresh page and it Reset Chart -->
+    <test name="Verify to Refresh page and it Reset Chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Refresh_page_and_it_Reset_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 52 :: Chart Loader  :: Verify to select Visit type, Classification and EMR filter to search Chart list -->
+    <test name="Verify to select Visit type, Classification and EMR filter to search Chart list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_Visit_type_Classification_and_EMR_filter_to_search_Chart_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 53 :: Chart Loader  :: Verify to * Asterisks shouldn't display if complete checkbox is checked -->
+    <test name="Verify to * Asterisks shouldn't display if complete checkbox is checked">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Asterisks_shouldnt_display_if_complete_checkbox_is_checked"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 54 :: Chart Loader  :: Verify to view New Chart button  -->
+    <test name="Verify to view New Chart button ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_New_Chart_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 55 :: Chart Loader  :: Verify to Delete Selected Chart  -->
+    <test name="Verify to Delete Selected Chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Delete_Selected_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 56 :: Chart Loader  :: Verify to load selected chart in Chart Loader  -->
+    <test name="Verify to load selected chart in Chart Loader">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_selected_chart_in_Chart_Loader"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+     <!-- Test Case 57 :: Chart Loader  :: Verify to Find Chart and Display Basic Information Correctly  -->
+    <test name="Verify to Find Chart and Display Basic Information Correctly">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Veriy_to_Find_Chart_and_Display_Basic_Information_Correctly"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 58 :: Chart Loader  :: Verify to Find Chart and Display HPI Parser  -->
+    <test name="Verify to Find Chart and Display HPI Parser">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_and_Display_HPI_Parser"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 59 :: Chart Loader  :: Verify that if Complete checkbox is checked then it should disable all the things  -->
+    <test name="Verify that if Complete checkbox is checked then it should disable all the things">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_if_Complete_checkbox_is_checked_then_it_should_disable_all_the_things"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 60 :: Chart Loader  :: Verify to display Message for Submit button -->
+    <test name="Veriy to display Message for Submit button">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Veriy_to_display_Message_for_Submit_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 61 :: Chart Loader  :: Verify to Success Message when user submit MetaData -->
+    <test name="Verify to Success Message when user submit MetaData">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Success_Message_when_user_submit_MetaData"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 62 :: Chart Loader  :: Verify When user Create New Chart it display * Asterisks -->
+    <test name="Verify When user Create New Chart it display * Asterisks">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_When_user_Create_New_Chart_it_display_Asterisks"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 63 :: Chart Loader  :: Verify that when user click on New Chart button it clear fields -->
+    <test name="Verify that when user click on New Chart button it clear fields">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_when_user_click_on_New_Chart_button_it_clear_fields"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 64 :: Chart Loader  :: Verify to deselect chart from selected charts -->
+    <test name="Verify to deselect chart from selected charts">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_deselect_chart_from_selected_charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 65 :: Chart Loader  :: Verify to display error message when required fields are empty -->
+    <test name="Verify to display error message when required fields are empty">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_required_fields_are_empty"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 66 :: Chart Loader  :: Verify to redirect HPI Parser tab when user click on HPI Parser button  -->
+    <test name="Verify to redirect HPI Parser tab when user click on HPI Parser button ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_redirect_HPI_Parser_tab_when_user_click_on_HPI_Parser_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 67 :: Chart Loader  :: Verify to add multiple HPI Parser  -->
+    <test name="Verify to add multiple HPI Parser">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_multiple_HPI_Parser"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 68 :: Chart Loader  :: Verify to select only one option(Stable, Worsening) in History of Present illness option  -->
+    <test name="Verify to select only one option(Stable, Worsening) in History of Present illness option ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_only_one_option_in_History_of_Present_illness_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 69 :: Chart Loader  :: Verify to upload bulk images   -->
+    <test name="Verify to upload bulk images">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_upload_bulk_images"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 70 :: Chart Loader  :: Verify to remove error message when radio button selected    -->
+    <test name="Verify to remove error message when radio button selected ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_remove_error_message_when_radio_button_selected"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 71 :: Chart Loader  :: Verify to view all tabs   -->
+    <test name="Verify to view all tabs">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_all_tabs"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 72 :: Chart Loader  :: Verify to select dropdown list in MetaData   -->
+    <test name="Verify to select dropdown list in MetaData">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_dropdown_list_in_MetaData"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 73 :: Chart Loader  :: Verify that when user select New option is shouldnt select radio button(Stable, Worsening) in HPI  -->
+    <test name="Verify that when user select New option is shouldnt select radio button(Stable, Worsening) in HPI ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_when_user_select_New_option_is_shouldnt_select_radio_button_in_HPI"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 74 :: Chart Loader  :: Verify to display Message when user make change in MetaData Pages -->
+    <test name="Verify to display Message when user make change in MetaData Pages">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Message_when_user_make_change_in_MetaData_Pages"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 75 :: Chart Loader  :: Verify to Click on all Complete check box in all options -->
+    <test name="Verify to Click on all Complete check box in all options">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Click_on_all_Complete_check_box_in_all_options"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 76 :: Chart Loader  :: Verify to Reset all apply filters IN Metadata -->
+    <test name="Verify to Reset all apply filters IN Metadata">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Reset_all_apply_filters_IN_Metadata"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 77 :: Chart Loader  :: Verify to find chart by Apply History of Present illness option -->
+    <test name="Verify to find chart by Apply History of Present illness option">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_find_chart_by_Apply_History_of_Present_illness_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+         <!-- Test Case 78 :: Chart Loader  :: Verify to Delete Chart -->
+    <test name="Verify to Delete Chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Delete_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+        
+</suite>
