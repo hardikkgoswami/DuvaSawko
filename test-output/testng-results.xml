@@ -17,70 +17,28 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+      <![CDATA[<br><br>STEP 07 | Click on Coding Tools  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP 08 | Click on DSGCC ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+      <![CDATA[<br><br>STEP 09 | Click on Delete Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 12 | Click on Basic Information ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 13 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 14 | Click on History Of Present Illness ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 15 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 16 | Click on Review of System ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 17 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 18 | Click on Orders ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 19 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 20 | Click on DSGCC ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 21 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 22 | Click on Impression Plan ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 23 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 24 | Click on Impression Plan ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 25 | Click on Complete Checkbox ]]>
+      <![CDATA[<br><br>STEP 10 | Click on No Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91535" started-at="2021-01-27T10:19:59Z" finished-at="2021-01-27T10:21:30Z">
+  <suite name="Default suite" duration-ms="54424" started-at="2021-02-01T12:12:56Z" finished-at="2021-02-01T12:13:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91535" started-at="2021-01-27T10:19:59Z" finished-at="2021-01-27T10:21:30Z">
+    <test name="Default test" duration-ms="54424" started-at="2021-02-01T12:12:56Z" finished-at="2021-02-01T12:13:50Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="11" started-at="2021-01-27T15:49:59Z" finished-at="2021-01-27T15:49:59Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="11" started-at="2021-02-01T17:42:56Z" finished-at="2021-02-01T17:42:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Click_on_all_Complete_check_box_in_all_options()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_Click_on_all_Complete_check_box_in_all_options" duration-ms="91388" started-at="2021-01-27T15:49:59Z" finished-at="2021-01-27T15:51:30Z">
+        <test-method status="PASS" signature="Verify_to_delete_DSGCC()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_delete_DSGCC" duration-ms="54306" started-at="2021-02-01T17:42:56Z" finished-at="2021-02-01T17:43:50Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -98,62 +56,20 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+              <![CDATA[<br><br>STEP 07 | Click on Coding Tools  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP 08 | Click on DSGCC ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+              <![CDATA[<br><br>STEP 09 | Click on Delete Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 12 | Click on Basic Information ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 13 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 14 | Click on History Of Present Illness ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 15 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 16 | Click on Review of System ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 17 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 18 | Click on Orders ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 19 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 20 | Click on DSGCC ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 21 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 22 | Click on Impression Plan ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 23 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 24 | Click on Impression Plan ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 25 | Click on Complete Checkbox ]]>
+              <![CDATA[<br><br>STEP 10 | Click on No Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Click_on_all_Complete_check_box_in_all_options -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="126" started-at="2021-01-27T15:51:30Z" finished-at="2021-01-27T15:51:30Z">
+        </test-method> <!-- Verify_to_delete_DSGCC -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="98" started-at="2021-02-01T17:43:50Z" finished-at="2021-02-01T17:43:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -979,5 +979,126 @@
             </class>
         </classes>
     </test> 
+    
+         <!-- Test Case 81 :: Chart Loader  :: Verify to delete multiple charts from list -->
+    <test name="Verify to delete multiple charts from list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_multiple_charts_from_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 82 :: Chart Loader  :: Verify to display next and previous chart -->
+    <test name="Verify to display next and previous chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_next_and_previous_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 83 :: Chart Loader  :: Verify to status as complete -->
+    <test name="Verify to status as complete">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_status_as_complete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 84 :: Chart Loader  :: Verify to Select checkbox in Review of Systems -->
+    <test name="Verify to Select checkbox in Review of Systems">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_checkbox_in_Review_of_Systems"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+          <!-- Test Case 85 :: Chart Loader  :: Verify to History of Present illness text it HPI tab -->
+    <test name="Verify to History of Present illness text it HPI tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_History_of_Present_illness_text_it_HPI_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 86 :: Chart Loader  :: Verify to Show Error Message In Red Color -->
+    <test name="Verify to Show Error Message In Red Color">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Show_Error_Message_In_Red_Color1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+         <!-- Test Case 87 :: Chart Loader  :: Verify to status as In Progress -->
+    <test name="Verify to status as In Progress">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_status_as_In_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 88 :: Chart Loader  :: Verify to user checked mark Complete checkbox -->
+    <test name="Verify to user checked mark Complete checkbox">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_user_checked_mark_Complete_checkbox"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 89 :: Chart Loader  :: Verify to See Success message when user enter HPI Parser -->
+    <test name="Verify to See Success message when user enter HPI Parser">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_See_Success_message_when_user_enter_HPI_Parser"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 90 :: Chart Loader  :: Verify to select EMR radio options -->
+    <test name="Verify to select EMR radio options">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_EMR_radio_options"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
         
 </suite>

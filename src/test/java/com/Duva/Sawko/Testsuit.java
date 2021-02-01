@@ -156,61 +156,71 @@ public class Testsuit {
         basePage.enterURL();
         basePage.Verify_to_Select_Date_In_Calendar();
     }
-    
+
+//  Test Case 21 ::     
     @Test 
     public void Verify_to_display_valid_error_message_when_user_didnt_enter_Email_Address() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_display_valid_error_message_when_user_didnt_enter_Email_Address();
     }
     
+//  Test Case 22 ::     
     @Test 
     public void Verify_to_display_valid_error_message_when_user_didnt_enter_Email_Address1() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_display_valid_error_message_when_user_didnt_enter_Email_Address();
     }
     
+//  Test Case 23 ::     
     @Test 
     public void Verify_to_Find_by_data_First_Name() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Find_by_data_First_Name();
     }
     
+//  Test Case 24 ::     
     @Test 
     public void Verify_to_View_Chart_Loader() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_View_Chart_Loader();
     }
     
+//  Test Case 25 ::     
     @Test 
     public void Verify_to_Find_data_By_CPT() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Find_data_By_CPT();
     }
     
+//  Test Case 26 ::     
     @Test 
     public void Verify_to_Update_CPT() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Update_CPT();
     }
     
+//  Test Case 27 ::     
     @Test 
     public void Verify_to_Add_DSGCC() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Add_DSGCC();
     }
     
+//  Test Case 28 ::     
     @Test 
     public void Verify_to_Find_by_Risk_level_DSGCC() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Add_DSGCC();
     }
     
+//  Test Case 29 ::     
     @Test 
     public void Verify_to_Find_Manage_ICD_10_by_Diagnosis_Code() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Find_Manage_ICD_10_by_Diagnosis_Code();
     }
     
+//  Test Case 30 ::     
     @Test 
     public void Verify_to_delete_DSGCC() throws InterruptedException, IOException{
         basePage.enterURL();
@@ -547,6 +557,76 @@ public class Testsuit {
         basePage.enterURL();
         basePage.Verify_to_Show_Error_Message_In_Red_Color();
     } 
+    
+//  Test Case 81 ::    
+    @Test 
+    public void Verify_to_delete_multiple_charts_from_list() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Delete_Selected_Chart();
+    }
+    
+//  Test Case 82 ::    
+    @Test 
+    public void Verify_to_display_next_and_previous_chart() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_display_next_and_previous_chart();
+    }
+    
+//  Test Case 83 ::    
+    @Test 
+    public void Verify_to_status_as_complete() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Completed_New_Chart_Loader();
+    }
+    
+//  Test Case 84 ::    
+    @Test 
+    public void Verify_to_Select_checkbox_in_Review_of_Systems() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_checkbox_in_Review_of_Systems();
+    }
+
+//  Test Case 85 ::    
+    @Test 
+    public void Verify_to_History_of_Present_illness_text_it_HPI_tab() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_History_of_Present_illness_text_it_HPI_tab();
+    }
+    
+//  Test Case 86 ::    
+    @Test 
+    public void Verify_to_Show_Error_Message_In_Red_Color1() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Show_Error_Message_In_Red_Color();
+    }
+    
+//  Test Case 87 ::    
+    @Test 
+    public void Verify_to_status_as_In_Progress() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_status_as_In_Progress();
+    }
+    
+//  Test Case 88 ::    
+    @Test 
+    public void Verify_to_user_checked_mark_Complete_checkbox() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_user_checked_mark_Complete_checkbox();
+    }
+    
+//  Test Case 89 ::    
+    @Test 
+    public void Verify_to_See_Success_message_when_user_enter_HPI_Parser() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_See_Success_message_when_user_enter_HPI_Parser();
+    }
+    
+//  Test Case 90 ::    
+    @Test 
+    public void Verify_to_select_EMR_radio_options() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_EMR_radio_options();
+    }
     
 
     
