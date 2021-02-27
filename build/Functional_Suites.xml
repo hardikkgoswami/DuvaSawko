@@ -1100,5 +1100,124 @@
         </classes>
     </test> 
     
+       <!-- Test Case 91 :: Chart Loader  :: Verify Edited data in MetaData -->
+    <test name="Verify Edited data in MetaData">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_Edited_data_in_MetaData"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 92 :: Chart Loader  :: Verify to disable Chart number once it completed  -->
+    <test name="Verify to disable Chart number once it completed">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_disable_Chart_number_once_it_completed"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+        <!-- Test Case 93 :: Chart Loader  :: Verify that if user enter duplicate chart number it shouldnt allow to enter data  -->
+    <test name="Verify that if user enter duplicate chart number it shouldnt allow to enter data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_if_user_enter_duplicate_chart_number_it_shouldnt_allow_to_enter_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+          <!-- Test Case 94 :: Chart Loader  :: Verify to Enlarge Chart Image  -->
+    <test name="Verify to Enlarge Chart Image">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Enlarge_Chart_Image"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+          <!-- Test Case 95 :: Chart Loader  :: Verify that if chart is locked then HPI Parser tab should be disabled  -->
+    <test name="Verify that if chart is locked then HPI Parser tab should be disabled">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_if_chart_is_locked_then_HPI_Parser_tab_should_be_disabled"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 96 :: Chart Loader  :: Verify to complete History of Present illness -->
+    <test name="Verify to complete History of Present illness">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_complete_History_of_Present_illness"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 97 :: Chart Loader  :: Verify to default 0 radio button selected in Special Studies -->
+    <test name="Verify to default 0 radio button selected in Special Studies ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_default_0_radio_button_selected_in_Special_Studies"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 98 :: Chart Loader  :: Verify to Error message when user submit button -->
+    <test name="Verify to Error message when user submit button">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Error_message_when_user_submit_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 99 :: Chart Loader  ::Verify to check filter of History of Present illness -->
+    <test name="Verify to check filter of History of Present illness">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_filter_of_History_of_Present_illness"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+       <!-- Test Case 100 :: Chart Loader  :: Verify to view DSGCC Current Guideline -->
+    <test name="Verify to view DSGCC Current Guideline">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_DSGCC_Current_Guideline"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
         
 </suite>

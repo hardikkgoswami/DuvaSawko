@@ -226,115 +226,134 @@ public class Testsuit {
         basePage.enterURL();
         basePage.Verify_to_delete_DSGCC();
     }
-    
+ 
+//  Test Case 31 :: 
     @Test 
     public void Verify_to_Find_by_Text_1_DSGCC() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Find_by_Text_1_DSGCC();
     }
     
+//  Test Case 32 :: 
     @Test 
     public void Verify_to_View_Item_per_page() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_View_Item_per_page();
     }
     
+//  Test Case 33 :: 
     @Test 
     public void Verify_to_View_Sequence() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_View_Sequence();
     }
     
+//  Test Case 34 :: 
     @Test 
     public void Verify_to_Clear_All() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Clear_All();
     }
     
+//  Test Case 35 ::   
     @Test 
     public void Verify_to_View_Panel_Bars() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_View_Panel_Bars();
     }
     
+//  Test Case 36 :: 
     @Test 
     public void Verify_to_edit_Notes() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_edit_Notes();
     }
     
+//  Test Case 37 :: 
     @Test 
     public void Verify_to_Add_MetaData_in_Chart_Loader() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Add_MetaData_in_Chart_Loader();
     }
     
+//  Test Case 38 :: 
     @Test 
     public void Verify_to_Completed_New_Chart_Loader() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Completed_New_Chart_Loader();
     }
     
+//  Test Case 39 :: 
     @Test 
     public void Verify_to_Complete_Checkbox_on_each_section() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Completed_New_Chart_Loader();
     }
     
+//  Test Case 40 :: 
     @Test 
     public void Verify_to_view_HPI_Parser_tab() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_view_HPI_Parser_tab();
     }
     
+//  Test Case 41 :: 
     @Test 
     public void Verify_to_Upload_Image_for_Mockups() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Upload_Image_for_Mockups();
     }
     
+//  Test Case 42 :: 
     @Test 
     public void Verify_to_view_Datagrid_Per_Page() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_view_Datagrid_Per_Page();
     }
     
+//  Test Case 43 :: 
     @Test 
     public void Verify_to_Show_Error_Message_In_Red_Color() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Show_Error_Message_In_Red_Color();
     }
     
+//  Test Case 44 :: 
     @Test 
     public void Verify_to_Remember_Chart_number() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_Remember_Chart_number();
     }
     
+//  Test Case 45 :: 
     @Test 
     public void Verify_that_if_checkbox_is_checked_then_it_should_disable_dropdown() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_that_if_checkbox_is_checked_then_it_should_disable_dropdown();
     }
     
+//  Test Case 46 :: 
     @Test 
     public void Verify_when_user_submit_metadata_it_move_to_chart_finder_message_should_disappear() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_that_if_checkbox_is_checked_then_it_should_disable_dropdown();
     }
     
+//  Test Case 47 :: 
     @Test 
     public void Verify_to_select_Tickers_button_in_Metadata() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_that_if_checkbox_is_checked_then_it_should_disable_dropdown();
     }
     
+//  Test Case 48 :: 
     @Test 
     public void Verify_to_tickers_button_on_Metadata() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_tickers_button_on_Metadata();
     }
     
+//  Test Case 49 :: 
     @Test 
     public void Verify_to_reset_data_in_Chart_Finder_MetaData() throws InterruptedException, IOException{
         basePage.enterURL();
@@ -628,7 +647,76 @@ public class Testsuit {
         basePage.Verify_to_select_EMR_radio_options();
     }
     
-
+//  Test Case 91 ::    
+    @Test 
+    public void Verify_Edited_data_in_MetaData() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_Edited_data_in_MetaData();
+    }
+    
+//  Test Case 92 ::    
+    @Test 
+    public void Verify_to_disable_Chart_number_once_it_completed() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_disable_Chart_number_once_it_completed();
+    }
+    
+//  Test Case 93 ::    
+    @Test 
+    public void Verify_that_if_user_enter_duplicate_chart_number_it_shouldnt_allow_to_enter_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_that_if_user_enter_duplicate_chart_number_it_shouldnt_allow_to_enter_data();
+    }
+    
+//  Test Case 94 ::    
+    @Test 
+    public void Verify_to_Enlarge_Chart_Image() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Enlarge_Chart_Image();
+    }
+    
+//  Test Case 95 ::    
+    @Test 
+    public void Verify_that_if_chart_is_locked_then_HPI_Parser_tab_should_be_disabled() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_that_if_chart_is_locked_then_HPI_Parser_tab_should_be_disabled();
+    }
+    
+//  Test Case 96 ::    
+    @Test 
+    public void Verify_to_complete_History_of_Present_illness() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_complete_History_of_Present_illness();
+    }
+    
+//  Test Case 97 ::    
+    @Test 
+    public void Verify_to_default_0_radio_button_selected_in_Special_Studies() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_default_0_radio_button_selected_in_Special_Studies();
+    }
+    
+//  Test Case 98 ::    
+    @Test 
+    public void Verify_to_Error_message_when_user_submit_button() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Error_message_when_user_submit_button();
+    }
+    
+//  Test Case 99 ::    
+    @Test 
+    public void Verify_to_check_filter_of_History_of_Present_illness() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_check_filter_of_History_of_Present_illness();
+    }
+    
+//  Test Case 100 ::    
+    @Test 
+    public void Verify_to_view_DSGCC_Current_Guideline() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_DSGCC_Current_Guideline();
+    }
+    
     
     
 }
