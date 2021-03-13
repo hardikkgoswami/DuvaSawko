@@ -1219,5 +1219,125 @@
             </class>
         </classes>
     </test> 
+    
+      <!-- Test Case 101 :: Chart Loader  :: Verify to view DSGCC data should be preload -->
+    <test name="Verify to view DSGCC data should be preload">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_DSGCC_data_should_be_preload"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 102 :: Chart Loader  :: Verify to view Chart finder sort by chart number -->
+    <test name="Verify to view Chart finder sort by chart number">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Chart_finder_sort_by_chart_number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 103 :: Chart Loader  :: Verify to preview of HPI Parser data for current selected chart -->
+    <test name="Verify to preview of HPI Parser data for current selected chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_preview_of_HPI_Parser_data_for_current_selected_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
         
+          <!-- Test Case 104 :: Chart Loader  :: Verify to Select No  radio button in Medication tab -->
+    <test name="Verify to Select No  radio button in Medication tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_No_radio_button_in_Medication_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 105 :: Chart Loader  :: Verify to Select radio button in MDM tab -->
+    <test name="Verify to Select radio button in MDM tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_radio_button_in_MDM_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 106 :: Chart Loader  :: Verify to Select No radio button -->
+    <test name="Verify to Select No radio button">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_No_radio_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 107 :: Chart Loader  :: Verify to count total in MDM -->
+    <test name="Verify to count total in MDM">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_count_total_in_MDM"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 108 :: Chart Loader  :: Verify to fill Special Studies Ancillary Studies Medication and save data -->
+    <test name="Verify to fill Special Studies Ancillary Studies Medication and save data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_fill_Special_Studies_Ancillary_Studies_Medication_and_save_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 109 :: Chart Loader  :: Verify to * Asterisks Should remove when user select complete checkbox -->
+    <test name="Verify to * Asterisks Should remove when user select complete checkbox">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 110 :: Chart Loader  :: Verify to select incorrect chart and that chart shouldn't save -->
+    <test name="Verify to select incorrect chart and that chart shouldn't save">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+      
 </suite>

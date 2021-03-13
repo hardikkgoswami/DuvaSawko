@@ -717,6 +717,77 @@ public class Testsuit {
         basePage.Verify_to_view_DSGCC_Current_Guideline();
     }
     
+//  Test Case 101 ::    
+    @Test 
+    public void Verify_to_view_DSGCC_data_should_be_preload() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_DSGCC_data_should_be_preload();
+    }
+    
+//  Test Case 102 ::    
+    @Test 
+    public void Verify_to_view_Chart_finder_sort_by_chart_number() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Chart_finder_sort_by_chart_number();
+    }
+    
+//  Test Case 103 ::    
+    @Test 
+    public void Verify_to_preview_of_HPI_Parser_data_for_current_selected_chart() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_preview_of_HPI_Parser_data_for_current_selected_chart();
+    }
+    
+//  Test Case 104 ::    
+    @Test 
+    public void Verify_to_Select_No_radio_button_in_Medication_tab() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_No_radio_button_in_Medication_tab();
+    }
+    
+//  Test Case 105 ::    
+    @Test 
+    public void Verify_to_Select_radio_button_in_MDM_tab() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_radio_button_in_MDM_tab();
+    }
+    
+//  Test Case 106 ::    
+    @Test 
+    public void Verify_to_Select_No_radio_button() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_No_radio_button();
+    }
+    
+//  Test Case 107 ::    
+    @Test 
+    public void Verify_to_count_total_in_MDM() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_count_total_in_MDM();
+    }
+    
+//  Test Case 108 ::    
+    @Test 
+    public void Verify_to_fill_Special_Studies_Ancillary_Studies_Medication_and_save_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_fill_Special_Studies_Ancillary_Studies_Medication_and_save_data();
+    }
+    
+
+//  Test Case 109 ::    
+    @Test 
+    public void Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_fill_Special_Studies_Ancillary_Studies_Medication_and_save_data();
+    }
+    
+//  Test Case 110 ::    
+    @Test 
+    public void Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save();
+    }
+    
     
     
 }
