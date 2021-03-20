@@ -1339,5 +1339,126 @@
             </class>
         </classes>
     </test>
+   
+     <!-- Test Case 112 :: Chart Loader  :: Verify to Asterisks Should remove when user select complete checkbox -->
+    <test name="Verify to Asterisks Should remove when user select complete checkbox1">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 111 :: Chart Loader  ::Verify to * Asterisks Should remove when user select complete checkbox -->
+    <test name="Verify to * Asterisks Should remove when user select complete checkbox2">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox2"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 113 :: Chart Loader  :: Verify to view Physical Examination chart -->
+    <test name="Verify to view Physical Examination chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Physical_Examination_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 114 :: Chart Loader  :: Verify to See Success message when user enter HPI Parser -->
+    <test name="Verify to See Success message when user enter HPI Parser1">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_See_Success_message_when_user_enter_HPI_Parser1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 115 :: Chart Loader  :: Verify to select checkbox in Review of System -->
+    <test name="Verify to select checkbox in Review of System">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_checkbox_in_Review_of_System"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 116 :: Chart Loader  :: Verify to select page it should find and display into list -->
+    <test name="Verify to select page it should find and display into list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_page_it_should_find_and_display_into_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 117 :: Chart Loader  :: Verify to view DSGCC Current Guideline -->
+    <test name="Verify to view DSGCC Current Guideline1">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_DSGCC_Current_Guideline1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 118 :: Chart Loader  :: Verify to select radio button and submit data -->
+    <test name="Verify to select radio button and submit data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_radio_button_and_submit_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 119 :: Chart Loader  :: Verify to select radio button and drop down list and submit data -->
+    <test name="Verify to select radio button and drop down list and submit data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_radio_button_and_drop_down_list_and_submit_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 120 :: Chart Loader  :: Verify to Edit Pages and no unwanted flash message display -->
+    <test name="Verify to Edit Pages and no unwanted flash message display">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Pages_and_no_unwanted_flash_message_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
       
 </suite>

@@ -788,6 +788,77 @@ public class Testsuit {
         basePage.Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save();
     }
     
+//  Test Case 112 ::    
+    @Test 
+    public void Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox1() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox1();
+    }
+    
+    
+//  Test Case 111 ::    
+    @Test 
+    public void Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox2() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox1();
+    }
+    
+//  Test Case 113 ::    
+    @Test 
+    public void Verify_to_view_Physical_Examination_chart() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Physical_Examination_chart();
+    }
+    
+//  Test Case 114 ::    
+    @Test 
+    public void Verify_to_See_Success_message_when_user_enter_HPI_Parser1() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_See_Success_message_when_user_enter_HPI_Parser();
+    }
+    
+//  Test Case 115 ::    
+    @Test 
+    public void Verify_to_select_checkbox_in_Review_of_System() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_checkbox_in_Review_of_System();
+    }
+    
+//  Test Case 116 ::    
+    @Test 
+    public void Verify_to_select_page_it_should_find_and_display_into_list() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_page_it_should_find_and_display_into_list();
+    }
+    
+//  Test Case 117 ::    
+    @Test 
+    public void Verify_to_view_DSGCC_Current_Guideline1() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_DSGCC_Current_Guideline();
+    }
+    
+//  Test Case 118 ::    
+    @Test 
+    public void Verify_to_select_radio_button_and_submit_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_radio_button_and_submit_data();
+    }
+    
+//  Test Case 119 ::    
+    @Test 
+    public void Verify_to_select_radio_button_and_drop_down_list_and_submit_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_radio_button_and_drop_down_list_and_submit_data();
+    }
+    
+//  Test Case 120 ::    
+    @Test 
+    public void Verify_to_Edit_Pages_and_no_unwanted_flash_message_display() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Pages_and_no_unwanted_flash_message_display();
+    }
+    
     
     
 }

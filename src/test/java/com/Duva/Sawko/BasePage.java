@@ -1296,8 +1296,8 @@ public void Verify_to_Show_Error_Message_In_Red_Color() throws InterruptedExcept
 	common.log("<br><br>STEP 07 | Enter Chart Number ");
 	common.pause(10);
 	
-	driver.findElement(By.xpath("//*[@id=\"meta_facility\"]")).click();
-	common.pause(10);
+	driver.findElement(By.xpath("//*[@id=\"MDForm\"]/div[2]/div[1]/div[2]/div[2]/div/div[1]/label")).click();
+	common.pause(15);
 	
 	driver.findElement(By.xpath("//*[@id=\"MDForm\"]/div[2]/div[1]/div[2]/div[2]/div/div[1]/span[1]")).click();
 	System.out.println("STEP 08 | Verify It Display Error Message ");
@@ -2946,8 +2946,158 @@ public void Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save() thro
 	System.out.println("STEP 14 | Click on Impression Plan ");
 	common.log("<br><br>STEP 14 | Click on Impression Plan ");
 	common.pause(10);
+}
+
+public void Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox1() throws InterruptedException, IOException{
 	
+	Verify_to_Add_MetaData_in_Chart_Loader();
 	
+	driver.findElement(By.xpath("//*[@id=\"ORDForm\"]/div[2]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 14 | Click on Physical Examination ");
+	common.log("<br><br>STEP 14 | Click on Physical Examination ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"PEForm\"]/div[2]/div[1]/div[1]/label")).click();
+	System.out.println("STEP 15 | Click on Complete Chekcbox ");
+	common.log("<br><br>STEP 15 | Click on Complete Chekcbox ");
+	common.pause(20);
+	
+}
+
+public void Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox2() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	
+	driver.findElement(By.xpath("//*[@id=\"MDMPanel\"]/span")).click();
+	System.out.println("STEP 14 | Click on Medical Decision Making ");
+	common.log("<br><br>STEP 14 | Click on Medical Decision Making ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"MDMForm\"]/div[2]/div[1]/div[1]/label")).click();
+	System.out.println("STEP 15 | Click on Complete Chekcbox ");
+	common.log("<br><br>STEP 15 | Click on Complete Chekcbox ");
+	common.pause(20);
+}
+
+public void Verify_to_view_Physical_Examination_chart() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	
+	driver.findElement(By.xpath("//*[@id=\"ORDForm\"]/div[2]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 14 | Click on Physical Examination ");
+	common.log("<br><br>STEP 14 | Click on Physical Examination ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"peupload\"]")).sendKeys("/Users/mac/Downloads/103_pe.png");
+	System.out.println("STEP 15 | Click on Upload Button ");
+	common.log("<br><br>STEP 15 | Click on Upload Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"PEForm\"]/div[2]/div[1]/div[1]/label")).click();
+	System.out.println("STEP 16 | Click on Complete Chekcbox ");
+	common.log("<br><br>STEP 16 | Click on Complete Chekcbox ");
+	common.pause(20);
+	
+}
+
+public void Verify_to_select_checkbox_in_Review_of_System() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	
+	driver.findElement(By.xpath("//*[@id=\"ROSPanel\"]/span")).click();
+	System.out.println("STEP 16 | Click on Review of System ");
+	common.log("<br><br>STEP 16 | Click on Review of System ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"ROSForm\"]/div[2]/div[2]/div[1]/div/div/div/label[2]")).click();
+	System.out.println("STEP 17 | Select No Option of Is there a history caveat? ");
+	common.log("<br><br>STEP 17 | Select No Option of Is there a history caveat? ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"ROSForm\"]/div[2]/div[2]/div[2]/div/div/label[1]")).click();
+	System.out.println("STEP 17 | Select Yes Option of were all systems reviewed? ");
+	common.log("<br><br>STEP 17 | Select Yes Option of were all systems reviewed? ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//*[@id=\"ROSForm\"]/div[2]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 17 | Click on Complete Checkbox ");
+	common.log("<br><br>STEP 17 | Click on Complete Checkbox ");
+	common.pause(10);
+}
+
+public void Verify_to_select_page_it_should_find_and_display_into_list() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"MD_FINDForm\"]/div/div[3]/div/div[4]/div/div/div/ul/li[6]")).click();
+	System.out.println("STEP 06 | Select 5 Page Number ");
+	common.log("<br><br>STEP 06 | Select 5 Page Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"MD_FINDForm\"]/div/div[3]/div/div[4]/div/div/div/ul/li[13]]")).click();
+	System.out.println("STEP 06 | Select 12 Page Number ");
+	common.log("<br><br>STEP 06 | Select 12 Page Number ");
+	common.pause(10);
+}
+
+public void Verify_to_select_radio_button_and_submit_data() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	
+	driver.findElement(By.xpath("//*[@id=\"IPPanel\"]/span")).click();
+	System.out.println("STEP 22 | Click on Impression Plan ");
+	common.log("<br><br>STEP 22 | Click on Impression Plan ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"IPForm\"]/div[2]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 23 | Click on Complete Checkbox ");
+	common.log("<br><br>STEP 23 | Click on Complete Checkbox ");
+	common.pause(10);
+	
+}
+
+public void Verify_to_select_radio_button_and_drop_down_list_and_submit_data() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	
+	driver.findElement(By.xpath("//*[@id=\"AAPanel\"]/span")).click();
+	System.out.println("STEP 14 | Click on Addenda Option ");
+	common.log("<br><br>STEP 14 | Click on Addenda Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"AAForm\"]/div[3]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 15 | Click on Complete Checkbox ");
+	common.log("<br><br>STEP 15 | Click on Complete Checkbox ");
+	common.pause(10);
+}
+
+public void Verify_to_Edit_Pages_and_no_unwanted_flash_message_display() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
 }
 
 

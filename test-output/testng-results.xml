@@ -23,79 +23,19 @@
       <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 09 | Select Chart Type ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 09 | Click on Visit Type ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 10 | Select EMR ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 11 | Select Classification ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 12 | Click on Basic Information ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 13 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 14 | Click on History Of Present Illness ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 15 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 16 | Click on Review of System ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 17 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 18 | Click on Orders ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 19 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 20 | Click on DSGCC ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 21 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 22 | Click on Impression Plan ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 23 | Click on Complete Checkbox ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 24 | Click on Impression Plan ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 25 | Click on Complete Checkbox ]]>
+      <![CDATA[<br><br>STEP 08 | Verify It Display Error Message ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="123700" started-at="2021-02-27T11:38:40Z" finished-at="2021-02-27T11:40:44Z">
+  <suite name="Default suite" duration-ms="62855" started-at="2021-03-20T06:56:08Z" finished-at="2021-03-20T06:57:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="123700" started-at="2021-02-27T11:38:40Z" finished-at="2021-02-27T11:40:44Z">
+    <test name="Default test" duration-ms="62855" started-at="2021-03-20T06:56:08Z" finished-at="2021-03-20T06:57:11Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="13" started-at="2021-02-27T17:08:40Z" finished-at="2021-02-27T17:08:40Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="12" started-at="2021-03-20T12:26:08Z" finished-at="2021-03-20T12:26:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Veriy_to_display_Message_for_Submit_button()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Veriy_to_display_Message_for_Submit_button" duration-ms="123545" started-at="2021-02-27T17:08:40Z" finished-at="2021-02-27T17:10:43Z">
+        <test-method status="PASS" signature="Verify_to_display_error_message_chart_number_is_blank()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_display_error_message_chart_number_is_blank" duration-ms="62742" started-at="2021-03-20T12:26:08Z" finished-at="2021-03-20T12:27:11Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -119,71 +59,11 @@
               <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 09 | Select Chart Type ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 09 | Click on Visit Type ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 10 | Select EMR ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 11 | Select Classification ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 12 | Click on Basic Information ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 13 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 14 | Click on History Of Present Illness ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 15 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 16 | Click on Review of System ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 17 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 18 | Click on Orders ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 19 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 20 | Click on DSGCC ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 21 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 22 | Click on Impression Plan ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 23 | Click on Complete Checkbox ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 24 | Click on Impression Plan ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 25 | Click on Complete Checkbox ]]>
+              <![CDATA[<br><br>STEP 08 | Verify It Display Error Message ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Veriy_to_display_Message_for_Submit_button -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="132" started-at="2021-02-27T17:10:43Z" finished-at="2021-02-27T17:10:44Z">
+        </test-method> <!-- Verify_to_display_error_message_chart_number_is_blank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="91" started-at="2021-03-20T12:27:11Z" finished-at="2021-03-20T12:27:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

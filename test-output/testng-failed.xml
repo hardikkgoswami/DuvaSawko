@@ -6,7 +6,7 @@
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="onBefore"/>
-          <include name="Verify_to_select_Visit_type_Classification_and_EMR_filter_to_search_Chart_list"/>
+          <include name="Verify_to_display_error_message_chart_number_is_blank"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
