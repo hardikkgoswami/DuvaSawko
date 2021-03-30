@@ -859,6 +859,105 @@ public class Testsuit {
         basePage.Verify_to_Edit_Pages_and_no_unwanted_flash_message_display();
     }
     
+//  Test Case 121 ::    
+    @Test 
+    public void Verify_to_load_multiple_chart_and_When_user_click_on_next_button_it_should_also_change_chart_number() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_load_multiple_chart_and_When_user_click_on_next_button_it_should_also_change_chart_number();
+    }
+    
+//  Test Case 122 ::    
+    @Test 
+    public void Verify_to_view_DSGCC_option() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_DSGCC_option();
+    }
+    
+//  Test Case 123 ::    
+    @Test 
+    public void Verify_to_view_Impression_Plan_option() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Impression_Plan_option();
+    }
+    
+//  Test Case 124 ::    
+    @Test 
+    public void Verify_to_search_Supervising_physician_and_display_into_list() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_search_Supervising_physician_and_display_into_list();
+    }
+    
+//  Test Case 125 ::    
+    @Test 
+    public void Verify_to_Search_keywords_in_DSGCC_Current_Guideline() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Search_keywords_in_DSGCC_Current_Guideline();
+    }
+    
+//  Test Case 126 ::    
+    @Test 
+    public void Verify_to_View_Answer_Key_option() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_View_Answer_Key_option();
+    }
+    
+//  Test Case 127 ::    
+    @Test 
+    public void Verify_to_view_DSGCC_data_grid_in_right_side() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_DSGCC_data_grid_in_right_side();
+    }
+    
+//  Test Case 128 ::    
+    @Test 
+    public void Verify_to_view_Notes() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Notes();
+    }
+    
+//  Test Case 129 ::    
+    @Test 
+    public void Verify_to_Edit_Manage_Users() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Manage_Users();
+    }
+    
+//  Test Case 130 ::    
+    @Test 
+    public void Verify_to_reset_all_fields_and_Status_should_be_blank() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_reset_all_fields_and_Status_should_be_blank();
+    }
+    
+//  Test Case 131 ::    
+    @Test 
+    public void Verify_to_view_My_Profile() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_My_Profile();
+    }
+    
+//  Test Case 132 ::    
+    @Test 
+    public void Verify_to_view_Parameter() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Parameter();
+    }
+    
+//  Test Case 133 ::    
+    @Test 
+    public void Verify_to_edit_Answer_Key() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_edit_Answer_Key();
+    }
+    
+//  Test Case 134 ::    
+    @Test 
+    public void Verify_after_login_display_chart_finder() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_after_login_display_chart_finder();
+    }
+    
+    
     
     
 }

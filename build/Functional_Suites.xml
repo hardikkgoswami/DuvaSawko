@@ -1339,20 +1339,8 @@
             </class>
         </classes>
     </test>
-   
-     <!-- Test Case 112 :: Chart Loader  :: Verify to Asterisks Should remove when user select complete checkbox -->
-    <test name="Verify to Asterisks Should remove when user select complete checkbox1">
-        <classes> 
-            <class name="com.Duva.Sawko.Testsuit">
-                <methods>
-                    <include name="Verify_to_Asterisks_Should_remove_when_user_select_complete_checkbox1"> 
-                    </include>
-                </methods>
-            </class>
-        </classes>
-    </test> 
     
-      <!-- Test Case 111 :: Chart Loader  ::Verify to * Asterisks Should remove when user select complete checkbox -->
+       <!-- Test Case 111 :: Chart Loader  ::Verify to * Asterisks Should remove when user select complete checkbox -->
     <test name="Verify to * Asterisks Should remove when user select complete checkbox2">
         <classes> 
             <class name="com.Duva.Sawko.Testsuit">
@@ -1454,6 +1442,186 @@
             <class name="com.Duva.Sawko.Testsuit">
                 <methods>
                     <include name="Verify_to_Edit_Pages_and_no_unwanted_flash_message_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 121 :: Chart Loader  :: Verify to load multiple chart and When user click on next button it should also change chart number -->
+    <test name="Verify to load multiple chart and When user click on next button it should also change chart number">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_multiple_chart_and_When_user_click_on_next_button_it_should_also_change_chart_number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 122 :: Chart Loader  :: Verify to view DSGCC option -->
+    <test name="Verify to view DSGCC option">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_DSGCC_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 123 :: Chart Loader  :: Verify to view Impression Plan option -->
+    <test name="Verify to view Impression Plan option">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Impression_Plan_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 124 :: Chart Loader  :: Verify to search Supervising physician and display into list. -->
+    <test name="Verify to search Supervising physician and display into list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_search_Supervising_physician_and_display_into_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 124 :: Chart Loader  :: Verify to search Supervising physician and display into list. -->
+    <test name="Verify to search Supervising physician and display into list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_search_Supervising_physician_and_display_into_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 125 :: Chart Loader  ::Verify to Search keywords in DSGCC Current Guideline -->
+    <test name="Verify to Search keywords in DSGCC Current Guideline">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_keywords_in_DSGCC_Current_Guideline"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 126 :: Chart Loader  :: Verify to View Answer Key option -->
+    <test name="Verify to View Answer Key option">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Answer_Key_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 127 :: Chart Loader  :: Verify to view DSGCC data  grid in right side-->
+    <test name="Verify to view DSGCC data  grid in right side.">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_DSGCC_data_grid_in_right_side"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 128 :: Manage ICD 10 :: Verify to view Notes -->
+    <test name="Verify to view Notes">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Notes"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+      
+         <!-- Test Case 129 :: Manage ICD 10 :: Verify to Edit Manage Users  -->
+    <test name="Verify to Edit Manage Users">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Manage_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 130 :: Chart Loader :: Verify to reset all fields and Status should be blank  -->
+    <test name="Verify to reset all fields and Status should be blank">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_reset_all_fields_and_Status_should_be_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 131 :: My Profile :: Verify to view My Profile  -->
+    <test name="Verify to view My Profile">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_My_Profile"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 132 :: Parameters :: Verify to view Parameter -->
+    <test name="Verify to view Parameter">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Parameter"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 133 :: Chart Loader :: Verify to edit Answer Key -->
+    <test name="Verify to edit Answer Key">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Answer_Key"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 134 :: Login :: Verify after login display chart finder  -->
+    <test name="Verify after login display chart finder ">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_after_login_display_chart_finder"> 
                     </include>
                 </methods>
             </class>

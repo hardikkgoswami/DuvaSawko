@@ -17,25 +17,37 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
+      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
+      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Verify It Display Error Message ]]>
+      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 10 | Click on DSGCC ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 11 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 12 | Click on Next Page Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62855" started-at="2021-03-20T06:56:08Z" finished-at="2021-03-20T06:57:11Z">
+  <suite name="Default suite" duration-ms="101701" started-at="2021-03-27T06:51:53Z" finished-at="2021-03-27T06:53:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62855" started-at="2021-03-20T06:56:08Z" finished-at="2021-03-20T06:57:11Z">
+    <test name="Default test" duration-ms="101701" started-at="2021-03-27T06:51:53Z" finished-at="2021-03-27T06:53:35Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="12" started-at="2021-03-20T12:26:08Z" finished-at="2021-03-20T12:26:08Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="12" started-at="2021-03-27T12:21:53Z" finished-at="2021-03-27T12:21:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_display_error_message_chart_number_is_blank()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_display_error_message_chart_number_is_blank" duration-ms="62742" started-at="2021-03-20T12:26:08Z" finished-at="2021-03-20T12:27:11Z">
+        <test-method status="PASS" signature="Verify_to_view_DSGCC_data_should_be_preload()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_view_DSGCC_data_should_be_preload" duration-ms="101557" started-at="2021-03-27T12:21:53Z" finished-at="2021-03-27T12:23:34Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -53,17 +65,29 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
+              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
+              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Verify It Display Error Message ]]>
+              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 10 | Click on DSGCC ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 11 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 12 | Click on Next Page Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_display_error_message_chart_number_is_blank -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="91" started-at="2021-03-20T12:27:11Z" finished-at="2021-03-20T12:27:11Z">
+        </test-method> <!-- Verify_to_view_DSGCC_data_should_be_preload -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-03-27T12:23:34Z" finished-at="2021-03-27T12:23:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
+          <include name="Verify_to_Error_message_when_user_submit_button"/>
           <include name="onBefore"/>
-          <include name="Verify_to_display_error_message_chart_number_is_blank"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
