@@ -1628,5 +1628,196 @@
         </classes>
     </test>
     
+      <!-- Test Case 135 :: Login :: Verify to edit Impression Plan  -->
+    <test name="Verify to edit Impression Plan">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Impression_Plan"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 136 :: Chart Loader :: Verify to add all selected charts  -->
+    <test name="Verify to add all selected charts">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_all_selected_charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 137 :: Chart Loader :: Verify to edit dropdown in Addenda Attestation  -->
+    <test name="Verify to edit dropdown in Addenda Attestation">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_dropdown_in_Addenda_Attestation"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 138 :: Manage DSGCC :: Verify to edit Manage DSGCC -->
+    <test name="Verify to edit Manage DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Manage_DSGCC"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 139 :: Manage Users :: Verify to add Manage Users  -->
+    <test name="Verify to add Manage Users">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_Manage_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 140 :: Chart Loader :: Verify to load chart no 128 and 129  -->
+    <test name="Verify to load chart no 128 and 129">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_chart_no_128_and_129"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 141 :: Manage DSGCC :: Verify to add user and linking data  -->
+    <test name="Verify to add user and linking data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_user_and_linking_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 142 :: Chart Loader :: Verify to add multiple HPI Parser -->
+    <test name="Verify to add multiple HPI Parser">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_multiple_HPI_Parser1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 143 :: Chart Loader :: Verify to Student grid in Answer Key -->
+    <test name="Verify to Student grid in Answer Key">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Student_grid_in_Answer_Key"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 144 :: Chart Loader :: Verify to upload correct file -->
+    <test name="Verify to upload correct file">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_upload_correct_file"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 145 :: Manage Users :: Verify to Export selected data -->
+    <test name="Verify to Export selected data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Export_selected_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 146 :: Chart Loader :: Verify to Edit Answer Key with multiple charts -->
+    <test name="Verify to Edit Answer Key with multiple charts">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Answer_Key_with_multiple_charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 147 :: Chart Loader :: Verify to select PE and display todays data -->
+    <test name="Verify to select PE and display todays data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_PE_and_display_todays_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 148 :: Chart Loader :: Verify to Load In Progress Chart -->
+    <test name="Verify to Load In Progress Chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Load_In_Progress_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 149 :: Chart Loader :: Verify to display error message when user wrong CPT-->
+    <test name="Verify to display error message when user wrong CPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_user_wrong_CPT"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 150 :: Manage Users :: Verify to Enrollment enhancement -->
+    <test name="Verify to Enrollment enhancement">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Enrollment_enhancement"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
       
 </suite>

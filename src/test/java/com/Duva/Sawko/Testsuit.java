@@ -957,6 +957,117 @@ public class Testsuit {
         basePage.Verify_after_login_display_chart_finder();
     }
     
+//  Test Case 135 ::    
+    @Test 
+    public void Verify_to_edit_Impression_Plan() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_edit_Impression_Plan();
+    }
+    
+//  Test Case 136 ::    
+    @Test 
+    public void Verify_to_add_all_selected_charts() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_add_all_selected_charts();
+    }
+    
+//  Test Case 137 ::    
+    @Test 
+    public void Verify_to_edit_dropdown_in_Addenda_Attestation() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_edit_dropdown_in_Addenda_Attestation();
+    }
+    
+//  Test Case 138 ::    
+    @Test 
+    public void Verify_to_edit_Manage_DSGCC() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_edit_Manage_DSGCC();
+    }
+    
+//  Test Case 139 ::    
+    @Test 
+    public void Verify_to_add_Manage_Users() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 140 ::    
+    @Test 
+    public void Verify_to_load_chart_no_128_and_129() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 141 ::    
+    @Test 
+    public void Verify_to_add_user_and_linking_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_add_user_and_linking_data();
+    }
+    
+//  Test Case 142 ::    
+    @Test 
+    public void Verify_to_add_multiple_HPI_Parser1() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_add_multiple_HPI_Parser1();
+    }
+    
+//  Test Case 143 ::    
+    @Test 
+    public void Verify_to_Student_grid_in_Answer_Key() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Student_grid_in_Answer_Key();
+    }
+    
+//  Test Case 144 ::    
+    @Test 
+    public void Verify_to_upload_correct_file() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_upload_correct_file();
+    }
+    
+//  Test Case 145 ::    
+    @Test 
+    public void Verify_to_Export_selected_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Export_selected_data();
+    }
+    
+//  Test Case 146 ::    
+    @Test 
+    public void Verify_to_Edit_Answer_Key_with_multiple_charts() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Answer_Key_with_multiple_charts();
+    }
+    
+//  Test Case 147 ::    
+    @Test 
+    public void Verify_to_select_PE_and_display_todays_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_select_PE_and_display_todays_data();
+    }
+    
+//  Test Case 148 ::    
+    @Test 
+    public void Verify_to_Load_In_Progress_Chart() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Load_In_Progress_Chart();
+    }
+    
+//  Test Case 149 ::    
+    @Test 
+    public void Verify_to_display_error_message_when_user_wrong_CPT() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_display_error_message_when_user_wrong_CPT();
+    }
+    
+//  Test Case 150 ::    
+    @Test 
+    public void Verify_to_Enrollment_enhancement() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Enrollment_enhancement();
+    }
     
     
     

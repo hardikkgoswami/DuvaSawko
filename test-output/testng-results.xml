@@ -29,25 +29,34 @@
       <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 10 | Click on DSGCC ]]>
+      <![CDATA[<br><br>STEP 10 | Click on Complete Checkbox ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 11 | Click on Complete Checkbox ]]>
+      <![CDATA[<br><br>STEP 11 | Select EMR ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 12 | Click on Next Page Button ]]>
+      <![CDATA[<br><br>STEP 12 | Select Classification ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 13 | Select Downcode ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 14 | Click on Complete Checkbox ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 15 | Click on Submit Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="101701" started-at="2021-03-27T06:51:53Z" finished-at="2021-03-27T06:53:35Z">
+  <suite name="Default suite" duration-ms="84707" started-at="2021-04-03T14:41:14Z" finished-at="2021-04-03T14:42:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="101701" started-at="2021-03-27T06:51:53Z" finished-at="2021-03-27T06:53:35Z">
+    <test name="Default test" duration-ms="84707" started-at="2021-04-03T14:41:14Z" finished-at="2021-04-03T14:42:39Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="12" started-at="2021-03-27T12:21:53Z" finished-at="2021-03-27T12:21:53Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="13" started-at="2021-04-03T20:11:14Z" finished-at="2021-04-03T20:11:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_view_DSGCC_data_should_be_preload()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_view_DSGCC_data_should_be_preload" duration-ms="101557" started-at="2021-03-27T12:21:53Z" finished-at="2021-03-27T12:23:34Z">
+        <test-method status="PASS" signature="Verify_to_select_EMR_radio_options()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_select_EMR_radio_options" duration-ms="84552" started-at="2021-04-03T20:11:14Z" finished-at="2021-04-03T20:12:39Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -77,17 +86,26 @@
               <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 10 | Click on DSGCC ]]>
+              <![CDATA[<br><br>STEP 10 | Click on Complete Checkbox ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 11 | Click on Complete Checkbox ]]>
+              <![CDATA[<br><br>STEP 11 | Select EMR ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 12 | Click on Next Page Button ]]>
+              <![CDATA[<br><br>STEP 12 | Select Classification ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 13 | Select Downcode ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 14 | Click on Complete Checkbox ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 15 | Click on Submit Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_view_DSGCC_data_should_be_preload -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-03-27T12:23:34Z" finished-at="2021-03-27T12:23:35Z">
+        </test-method> <!-- Verify_to_select_EMR_radio_options -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="130" started-at="2021-04-03T20:12:39Z" finished-at="2021-04-03T20:12:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

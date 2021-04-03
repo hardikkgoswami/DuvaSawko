@@ -3414,6 +3414,428 @@ public void Verify_after_login_display_chart_finder() throws InterruptedExceptio
 	common.pause(20);
 }
 
+public void Verify_to_edit_Impression_Plan() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"IPPanel\"]/span")).click();
+	System.out.println("STEP 10 | Click on Impression Plan ");
+	common.log("<br><br>STEP 10 | Click on Impression Plan ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"IPForm\"]/div[2]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 11 | Click on Complete Checkbox ");
+	common.log("<br><br>STEP 11 | Click on Complete Checkbox ");
+	common.pause(10);
+	
+}
+
+
+public void Verify_to_add_all_selected_charts() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[6]/td[2]")).click();
+	System.out.println("STEP 08 | Select Chart Number ");
+	common.log("<br><br>STEP 08 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[4]/td[2]")).click();
+	System.out.println("STEP 09 | Select Chart Number ");
+	common.log("<br><br>STEP 09 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[7]/td[2]")).click();
+	System.out.println("STEP 10 | Select Chart Number ");
+	common.log("<br><br>STEP 10 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 11 | Click on Load Button ");
+	common.log("<br><br>STEP 11 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"load_next_chart\"]")).click();
+	System.out.println("STEP 12 | Click on Next Button ");
+	common.log("<br><br>STEP 12 | Click on Next Button ");
+	common.pause(10);
+}
+
+public void Verify_to_edit_dropdown_in_Addenda_Attestation() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 11 | Click on Load Button ");
+	common.log("<br><br>STEP 11 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"AAPanel\"]/span")).click();
+	System.out.println("STEP 12 | Click on Addenda Option ");
+	common.log("<br><br>STEP 12 | Click on Addenda Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"AAForm\"]/div[3]/div[2]/div[4]/div/span/span/span[1]")).click();
+	Actions builder = new Actions(driver);
+	builder.sendKeys(Keys.ARROW_DOWN);
+	builder.sendKeys(Keys.ARROW_DOWN);
+	builder.sendKeys(Keys.ENTER);
+	System.out.println("STEP 13 | Select Supervising physician Dropwdown ");
+	common.log("<br><br>STEP 13 | Select Supervising physician Dropwdown ");
+	common.pause(10);
+}
+
+public void Verify_to_edit_Manage_DSGCC() throws InterruptedException, IOException{
+	
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[7]/div/span[1]")).click();
+	System.out.println("STEP 07 | Click on Coding Tools ");
+	common.log("<br><br>STEP 07 | Click on Coding Tools  ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_manage_dsgcc\"]/span")).click();
+	System.out.println("STEP 08 | Click on Mange DSGCC ");
+	common.log("<br><br>STEP 08 | Click on Mange DSGCC ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_dsgcc_grid\"]/table/tbody/tr[1]/td[5]/a[1]")).click();
+	System.out.println("STEP 09 | Click on Edit button ");
+	common.log("<br><br>STEP 09 | Click on Edit button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_dsgcc_grid\"]/table/tbody/tr[1]/td[3]/input")).sendKeys(" Test");
+	System.out.println("STEP 10 | Edit Text ");
+	common.log("<br><br>STEP 10 | Edit Text ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_dsgcc_grid\"]/table/tbody/tr[1]/td[5]/a[1]")).click();
+	System.out.println("STEP 11 | Click on Update button ");
+	common.log("<br><br>STEP 11 | Click on Update button ");
+	common.pause(10);
+
+}
+
+public void Verify_to_load_chart_no_128_and_129() throws InterruptedException, IOException{
+	
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"grid_result_chart_finder\"]/div/a[3]/span")).click();
+	System.out.println("STEP 07 | Click on Next button ");
+	common.log("<br><br>STEP 07 | Click on Next button ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[15]/td[2]")).click();
+	System.out.println("STEP 08 | Select Chart Number ");
+	common.log("<br><br>STEP 08 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"grid_result_chart_finder\"]/div/a[3]/span")).click();
+	System.out.println("STEP 09 | Click on Next button ");
+	common.log("<br><br>STEP 09 | Click on Next button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[2]/td[2]")).click();
+	System.out.println("STEP 10 | Select Chart Number ");
+	common.log("<br><br>STEP 10 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 11 | Click on Load Button ");
+	common.log("<br><br>STEP 11 | Click on Load Button ");
+	common.pause(20);
+}
+
+public void Verify_to_add_user_and_linking_data() throws InterruptedException, IOException{
+	
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[7]/div/span[1]")).click();
+	System.out.println("STEP 07 | Click on Coding Tools ");
+	common.log("<br><br>STEP 07 | Click on Coding Tools  ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_manage_dsgcc\"]/span")).click();
+	System.out.println("STEP 08 | Click on Mange DSGCC ");
+	common.log("<br><br>STEP 08 | Click on Mange DSGCC ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"dsfccaddform\"]/div[2]/div/div/div/div[1]/label/span")).click();
+	System.out.println("STEP 09 | Select Risk Level ");
+	common.log("<br><br>STEP 09 | Select Risk Level ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"dsfccaddform\"]/div[4]/div[1]/div/label[1]/span")).click();
+	System.out.println("STEP 10 | Select Type ");
+	common.log("<br><br>STEP 10 | Select Type ");
+	common.pause(10);
+}
+
+public void Verify_to_add_multiple_HPI_Parser1() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"HPIPanel\"]")).click();
+	System.out.println("STEP 14 | Click on History of Present Option ");
+	common.log("<br><br>STEP 14 | Click on History of Present Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"HPIForm\"]/div[2]/div/div/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP 15 | Click on Complete Button ");
+	common.log("<br><br>STEP 15 | Click on Complete Button ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//*[@id=\"openhpiparsetab\"]")).click();
+	System.out.println("STEP 16 | Click on HPI Parser Button ");
+	common.log("<br><br>STEP 16 | Click on HPI Parser Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"toparse\"]")).sendKeys("Testing Data");
+	System.out.println("STEP 17 | Enter HPI Parser Text ");
+	common.log("<br><br>STEP 17 | Enter HPI Parser Text ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip-3\"]/div/div[2]/input")).click();
+	System.out.println("STEP 18 | Click on Parse it button ");
+	common.log("<br><br>STEP 18 | Click on Parse it button ");
+	common.pause(10);
+}
+
+public void Verify_to_Student_grid_in_Answer_Key() throws InterruptedException, IOException{
+	
+	Verify_to_Add_MetaData_in_Chart_Loader();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"WRPPanel\"]/span")).click();
+	System.out.println("STEP 14 | Click on Answer Key Option ");
+	common.log("<br><br>STEP 14 | Click on Answer Key Option ");
+	common.pause(10);
+}
+
+public void Verify_to_upload_correct_file() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 11 | Click on Load Button ");
+	common.log("<br><br>STEP 11 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"metaupload\"]")).click();
+	System.out.println("STEP 12 | Click on Upload Button ");
+	common.log("<br><br>STEP 12 | Click on Upload Button ");
+	common.pause(20);
+}
+
+public void Verify_to_Export_selected_data() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"export\"]")).click();
+	System.out.println("STEP 07 | Click on Export Button ");
+	common.log("<br><br>STEP 07 | Click on Export Button ");
+	common.pause(20);
+}
+
+public void Verify_to_Edit_Answer_Key_with_multiple_charts() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP 06 | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"WRPPanel\"]/span")).click();
+	System.out.println("STEP 10 | Click on Answer Key Option ");
+	common.log("<br><br>STEP 10 | Click on Answer Key Option ");
+	common.pause(10);
+}
+
+public void Verify_to_select_PE_and_display_todays_data() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"PEPanel\"]/span")).click();
+	System.out.println("STEP 10 | Click on Physical Examination Option ");
+	common.log("<br><br>STEP 10 | Click on Physical Examination Option ");
+	common.pause(10);
+	
+}
+
+
+public void Verify_to_Load_In_Progress_Chart() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+}
+
+public void Verify_to_display_error_message_when_user_wrong_CPT() throws InterruptedException, IOException{
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 07 | Select Chart Number ");
+	common.log("<br><br>STEP 07 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 08 | Click on Load Button ");
+	common.log("<br><br>STEP 08 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"WRPPanel\"]/span")).click();
+	System.out.println("STEP 10 | Click on Answer Key Option ");
+	common.log("<br><br>STEP 10 | Click on Answer Key Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"WRPForm\"]/div[3]/div[1]/div/label/span")).click();
+	System.out.println("STEP 11 | Click on Complete Checkbox ");
+	common.log("<br><br>STEP 11 | Click on Complete Checkbox ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"cpt_1\"]")).sendKeys("11111");
+	System.out.println("STEP 12 | Enter wrong CPT ");
+	common.log("<br><br>STEP 12 | Enter wrong CPT ");
+	common.pause(10);
+	
+}
+
+public void Verify_to_Enrollment_enhancement() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[4]")).click();
+	System.out.println("STEP 07 | Select User From List ");
+	common.log("<br><br>STEP 07 | Select User From List ");
+	common.pause(10);
+	
+	
+}
 
 
 
