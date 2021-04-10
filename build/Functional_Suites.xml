@@ -1819,5 +1819,126 @@
             </class>
         </classes>
     </test>
+    
+      <!-- Test Case 151 :: Student Progress :: Verify to view Student Progress -->
+    <test name="Verify to view Student Progress">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Student_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 152 :: Manage Users :: Verify to edited data should save -->
+    <test name="Verify to edited data should save">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edited_data_should_save"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+         <!-- Test Case 153 :: Chart Loader :: Verify to load Chart finder page -->
+    <test name="Verify to load Chart finder page">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_Chart_finder_page"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
       
+         <!-- Test Case 154 :: Manage Users :: Verify to clear all fields -->
+    <test name="Verify to clear all fields">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_clear_all_fields"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 155 :: Manage Users :: Verify to display error message when other fields are blank -->
+    <test name="Verify to display error message when other fields are blank">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_other_fields_are_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 156 :: Manage Users :: Verify when user enter all values it should display blank fields -->
+    <test name="Verify when user enter all values it should display blank fields">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_when_user_enter_all_values_it_should_display_blank_fields"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 157 :: Manage Users :: Verify to make data grid per page -->
+    <test name="Verify to make data grid per page">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_make_data_grid_per_page"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 158 :: Manage Users :: Verify to apply filter from first letter  -->
+    <test name="Verify to apply filter from first letter">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_apply_filter_from_first_letter"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 159 :: Manage Users :: Verify to Search by Mobile Phone -->
+    <test name="Verify to Search by Mobile Phone">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_by_Mobile_Phone"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 160 :: Manage Users :: Verify that Other phone is optional  -->
+    <test name="Verify that Other phone is optional">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_Other_phone_is_optional"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
 </suite>

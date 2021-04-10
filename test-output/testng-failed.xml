@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
-          <include name="Verify_to_Error_message_when_user_submit_button"/>
           <include name="onBefore"/>
+          <include name="Verify_to_preview_of_HPI_Parser_data_for_current_selected_chart"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

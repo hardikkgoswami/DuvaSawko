@@ -1069,6 +1069,76 @@ public class Testsuit {
         basePage.Verify_to_Enrollment_enhancement();
     }
     
+//  Test Case 151 ::    
+    @Test 
+    public void Verify_to_view_Student_Progress() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Student_Progress();
+    }
+    
+//  Test Case 152 ::    
+    @Test 
+    public void Verify_to_edited_data_should_save() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_edited_data_should_save();
+    }
+    
+//  Test Case 153 ::    
+    @Test 
+    public void Verify_to_load_Chart_finder_page() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_load_multiple_chart_and_When_user_click_on_next_button_it_should_also_change_chart_number();
+    }
+    
+//  Test Case 154 ::    
+    @Test 
+    public void Verify_to_clear_all_fields() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_clear_all_fields();
+    }
+    
+//  Test Case 155 ::    
+    @Test 
+    public void Verify_to_display_error_message_when_other_fields_are_blank() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_display_error_message_when_other_fields_are_blank();
+    }
+    
+//  Test Case 156 ::    
+    @Test 
+    public void Verify_when_user_enter_all_values_it_should_display_blank_fields() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_when_user_enter_all_values_it_should_display_blank_fields();
+    }
+    
+//  Test Case 157 ::    
+    @Test 
+    public void Verify_to_make_data_grid_per_page() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_make_data_grid_per_page();
+    }
+    
+//  Test Case 158 ::    
+    @Test 
+    public void Verify_to_apply_filter_from_first_letter() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_apply_filter_from_first_letter();
+    }
+    
+//  Test Case 159 ::    
+    @Test 
+    public void Verify_to_Search_by_Mobile_Phone() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Search_by_Mobile_Phone();
+    }
+    
+//  Test Case 160 ::    
+    @Test 
+    public void Verify_that_Other_phone_is_optional() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_that_Other_phone_is_optional();
+    }
+    
     
     
 }

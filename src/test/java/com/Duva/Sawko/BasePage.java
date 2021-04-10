@@ -3833,12 +3833,305 @@ public void Verify_to_Enrollment_enhancement() throws InterruptedException, IOEx
 	System.out.println("STEP 07 | Select User From List ");
 	common.log("<br><br>STEP 07 | Select User From List ");
 	common.pause(10);
+}
+
+public void Verify_to_view_Student_Progress() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
 	
+	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
+	System.out.println("STEP 07 | Click on Student Progress ");
+	common.log("<br><br>STEP 07 | Click on Student Progress ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
+	System.out.println("STEP 08 | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP 08 | Verify It display Student Progress!!! ");
+	common.pause(20);
+	
+}
+
+public void Verify_to_edited_data_should_save() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[4]")).click();
+	System.out.println("STEP 07 | Select User From List ");
+	common.log("<br><br>STEP 07 | Select User From List ");
+	common.pause(10);
+	
+	WebElement edit_firstname = driver.findElement(By.xpath("//*[@id=\"add_namefirst\"]"));
+	edit_firstname.clear();
+	edit_firstname.sendKeys("Gwyn");
+	System.out.println("STEP 08 | Edit First Name ");
+	common.log("<br><br>STEP 08 | Edit First Name ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"done_user\"]")).click();
+	System.out.println("STEP 09 | Click on Done Edit Button ");
+	common.log("<br><br>STEP 09 | Edit Done Edit Button ");
+	common.pause(10);
 	
 }
 
 
+public void Verify_to_clear_all_fields() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	Random incdate = new Random();
+	int incdateLow = 50;
+	int incdateHigh = 250;
+	int incdateResult = incdate.nextInt(incdateHigh-incdateLow) + incdateLow;	
+	String startvaluedate = "0";
+	String Incrementdatevalue =  Integer.toString(incdateResult);
+
+	driver.findElement(By.xpath("//*[@id=\"add_namefirst\"]")).sendKeys("Qa"+Incrementdatevalue);
+	System.out.println("STEP 07 | Enter First Name ");
+	common.log("<br><br>STEP 07 | Enter First Name ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_namelast\"]")).sendKeys("Qa"+Incrementdatevalue);
+	System.out.println("STEP 07 | Enter Last Name ");
+	common.log("<br><br>STEP 07 | Enter Last Name ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_phonemobile\"]")).sendKeys("9898123287");
+	System.out.println("STEP 08 | Enter Mobile Number ");
+	common.log("<br><br>STEP 08 | Enter Mobile Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_email\"]")).sendKeys("qa"+Incrementdatevalue+"@mailinator.com");
+	System.out.println("STEP 09 | Enter Email Address ");
+	common.log("<br><br>STEP 09 | Enter Email Address ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div[2]/div[1]/div/form/div[4]/div/input[3]")).click();
+	System.out.println("STEP 10 | Click on Clear Button ");
+	common.log("<br><br>STEP 10 | Click on Clear Button ");
+	common.pause(10);
+}
 
 
+public void Verify_to_display_error_message_when_other_fields_are_blank() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	Random incdate = new Random();
+	int incdateLow = 50;
+	int incdateHigh = 250;
+	int incdateResult = incdate.nextInt(incdateHigh-incdateLow) + incdateLow;	
+	String startvaluedate = "0";
+	String Incrementdatevalue =  Integer.toString(incdateResult);
+
+	driver.findElement(By.xpath("//*[@id=\"add_namefirst\"]")).click();
+	System.out.println("STEP 07 | Enter First Name ");
+	common.log("<br><br>STEP 07 | Enter First Name ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_namelast\"]")).click();
+	System.out.println("STEP 07 | Enter Last Name ");
+	common.log("<br><br>STEP 07 | Enter Last Name ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_phonemobile\"]")).click();
+	System.out.println("STEP 08 | Enter Mobile Number ");
+	common.log("<br><br>STEP 08 | Enter Mobile Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_phonemobile\"]")).click();
+	System.out.println("STEP 09 | Enter Email Address ");
+	common.log("<br><br>STEP 09 | Enter Email Address ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[1]/div[1]/div/span")).isDisplayed();
+	System.out.println("STEP 10 | Verify It Display Error Message ");
+	common.log("<br><br>STEP 10 | Verify It Display Error Message ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[1]/div[3]/div/span")).isDisplayed();
+	System.out.println("STEP 11 | Verify It Display Error Message ");
+	common.log("<br><br>STEP 11 | Verify It Display Error Message ");
+	common.pause(10);
+}
+
+public void Verify_when_user_enter_all_values_it_should_display_blank_fields() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	Random incdate = new Random();
+	int incdateLow = 50;
+	int incdateHigh = 250;
+	int incdateResult = incdate.nextInt(incdateHigh-incdateLow) + incdateLow;	
+	String startvaluedate = "0";
+	String Incrementdatevalue =  Integer.toString(incdateResult);
+
+	driver.findElement(By.xpath("//*[@id=\"add_namefirst\"]")).sendKeys("Qa"+Incrementdatevalue);
+	System.out.println("STEP 07 | Enter First Name ");
+	common.log("<br><br>STEP 07 | Enter First Name ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_namelast\"]")).sendKeys("Qa"+Incrementdatevalue);
+	System.out.println("STEP 07 | Enter Last Name ");
+	common.log("<br><br>STEP 07 | Enter Last Name ");
+	common.pause(10);
+	
+	WebElement mobile_no = driver.findElement(By.xpath("//*[@id=\"add_phonemobile\"]"));
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys("9889123485");
+	System.out.println("STEP 08 | Enter Mobile Number ");
+	common.log("<br><br>STEP 08 | Enter Mobile Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_email\"]")).sendKeys("qa"+Incrementdatevalue+"@mailinator.com");
+	System.out.println("STEP 09 | Enter Email Address ");
+	common.log("<br><br>STEP 09 | Enter Email Address ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[2]/span")).click();
+	System.out.println("STEP 10 | Click on Other Tab ");
+	common.log("<br><br>STEP 10 | Click on Other Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_address1\"]")).sendKeys("Qa Testing Address");
+	System.out.println("STEP 11 | Enter Address ");
+	common.log("<br><br>STEP 11 | Enter Address ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//*[@id=\"add_zip\"]")).sendKeys("32164");
+	System.out.println("STEP 12 | Enter Address ");
+	common.log("<br><br>STEP 12 | Enter Address ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[2]/div/div/div[3]/div[2]/label")).click();
+	System.out.println("STEP 13 | Enter City, State, Country ");
+	common.log("<br><br>STEP 13 | Enter City, State, Country ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP 14 | Click on Submit Button ");
+	common.log("<br><br>STEP 14 | Click on Submit Button ");
+	common.pause(20);
+}
+
+public void Verify_to_make_data_grid_per_page() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/div[2]/a[3]/span")).click();
+	System.out.println("STEP 06 | Click on Next button ");
+	common.log("<br><br>STEP 06 | Click on Next button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/div[2]/a[4]/span")).click();
+	System.out.println("STEP 07 | Click on Last button ");
+	common.log("<br><br>STEP 07 | Click on Last button ");
+	common.pause(10);
+}
+
+public void Verify_to_apply_filter_from_first_letter() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"namefirst\"]")).sendKeys("Qa");
+	System.out.println("STEP 07 | Enter First Name to Search ");
+	common.log("<br><br>STEP 07 | Enter First Name to Search ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[3]")).isDisplayed();
+	System.out.println("STEP 08 | It search and Display Manage User List!!! ");
+	common.log("<br><br>STEP 08 | It search and Display Manage User List!!! ");
+	common.pause(20);
+}
+
+public void Verify_to_Search_by_Mobile_Phone() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+	
+	WebElement mobile_no = driver.findElement(By.xpath("//*[@id=\"phonemobile\"]"));
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys(Keys.BACK_SPACE);
+	mobile_no.sendKeys("9898989812");
+	System.out.println("STEP 07 | Enter Mobile Number to Search ");
+	common.log("<br><br>STEP 07 | Enter Mobile Number to Search ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[3]")).isDisplayed();
+	System.out.println("STEP 08 | It search and Display Manage User List!!! ");
+	common.log("<br><br>STEP 08 | It search and Display Manage User List!!! ");
+	common.pause(20);
+}
+
+public void Verify_that_Other_phone_is_optional() throws InterruptedException, IOException{
+    
+	Verify_when_user_enter_all_values_it_should_display_blank_fields();
+}
 
 }
