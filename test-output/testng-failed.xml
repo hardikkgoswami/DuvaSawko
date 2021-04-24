@@ -6,8 +6,8 @@
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="onBefore"/>
-          <include name="Verify_to_preview_of_HPI_Parser_data_for_current_selected_chart"/>
           <include name="tearDown"/>
+          <include name="Verify_to_select_page_it_should_find_and_display_into_list"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
     </classes>

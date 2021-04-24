@@ -17,46 +17,28 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
+      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
+      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
+      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 09 | Select Chart Type ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 09 | Click on Visit Type ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 10 | Select EMR ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 11 | Select Classification ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 14 | Click on Impression Plan ]]>
+      <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="124852" started-at="2021-04-10T11:34:50Z" finished-at="2021-04-10T11:36:55Z">
+  <suite name="Default suite" duration-ms="70845" started-at="2021-04-24T06:52:16Z" finished-at="2021-04-24T06:53:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="124852" started-at="2021-04-10T11:34:50Z" finished-at="2021-04-10T11:36:55Z">
+    <test name="Default test" duration-ms="70845" started-at="2021-04-24T06:52:16Z" finished-at="2021-04-24T06:53:27Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="16" started-at="2021-04-10T17:04:50Z" finished-at="2021-04-10T17:04:50Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="15" started-at="2021-04-24T12:22:16Z" finished-at="2021-04-24T12:22:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save" duration-ms="124698" started-at="2021-04-10T17:04:50Z" finished-at="2021-04-10T17:06:55Z">
+        <test-method status="PASS" signature="Verify_to_Edit_Pages_and_no_unwanted_flash_message_display()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_Edit_Pages_and_no_unwanted_flash_message_display" duration-ms="70696" started-at="2021-04-24T12:22:16Z" finished-at="2021-04-24T12:23:26Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -74,38 +56,20 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
+              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
+              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
+              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 09 | Select Chart Type ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 09 | Click on Visit Type ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 10 | Select EMR ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 11 | Select Classification ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 14 | Click on Impression Plan ]]>
+              <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="127" started-at="2021-04-10T17:06:55Z" finished-at="2021-04-10T17:06:55Z">
+        </test-method> <!-- Verify_to_Edit_Pages_and_no_unwanted_flash_message_display -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-04-24T12:23:26Z" finished-at="2021-04-24T12:23:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1940,5 +1940,125 @@
         </classes>
     </test>
     
+      <!-- Test Case 161 :: Manage Users :: Verify to search user   -->
+    <test name="Verify to search user">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_search_user"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 162 :: Manage Users :: Verify to add Middle Initial and verify into list  -->
+    <test name="Verify to add Middle Initial and verify into list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_Middle_Initial_and_verify_into_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 163 :: Chart Loader :: Verify to reset filter when user go to next chart in DSGCC tab  -->
+    <test name="Verify to reset filter when user go to next chart in DSGCC tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_reset_filter_when_user_go_to_next_chart_in_DSGCC_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 164 :: Chart Loader :: Verify to delete DSGCC -->
+    <test name="Verify to delete DSGCC1">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_DSGCC1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 165 :: Manage Users :: Verify to Edit User Details -->
+    <test name="Verify to Edit User Details">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_User_Details"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 166 :: Student Answer Key :: Verify functionality when user left blank fields -->
+    <test name="Verify functionality when user left blank fields">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_functionality_when_user_left_blank_fields"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 167 :: Parameters :: Verify that submit button is disable -->
+    <test name="Verify that submit button is disable">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_submit_button_is_disable"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 168 :: Chart Loader :: Verify to change In Progress status to Complete  -->
+    <test name="Verify to change In Progress status to Complete">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_change_In_Progress_status_to_Complete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 169 :: Chart Loader :: Verify to upload video file and it show error message  -->
+    <test name="Verify to upload video file and it show error message">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_upload_video_file_and_it_show_error_message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 170 :: Chart Loader :: Verify to HPI Parser select New by default in Is this a new or established problem  -->
+    <test name="Verify to HPI Parser select New by default in Is this a new or established problem">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>

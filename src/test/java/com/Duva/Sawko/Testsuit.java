@@ -1139,6 +1139,76 @@ public class Testsuit {
         basePage.Verify_that_Other_phone_is_optional();
     }
     
+//  Test Case 161 ::    
+    @Test 
+    public void Verify_to_search_user() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_search_user();
+    }
+    
+//  Test Case 162 ::    
+    @Test 
+    public void Verify_to_add_Middle_Initial_and_verify_into_list() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 163 ::    
+    @Test 
+    public void Verify_to_reset_filter_when_user_go_to_next_chart_in_DSGCC_tab() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_reset_filter_when_user_go_to_next_chart_in_DSGCC_tab();
+    }
+    
+//  Test Case 164 ::    
+    @Test 
+    public void Verify_to_delete_DSGCC1() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_delete_DSGCC();
+    }
+    
+//  Test Case 165 ::    
+    @Test 
+    public void Verify_to_Edit_User_Details() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Manage_Users();
+    }
+    
+//  Test Case 166 ::    
+    @Test 
+    public void Verify_functionality_when_user_left_blank_fields() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_functionality_when_user_left_blank_fields();
+    }
+    
+//  Test Case 167 ::    
+    @Test 
+    public void Verify_that_submit_button_is_disable() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_that_submit_button_is_disable();
+    }
+    
+//  Test Case 168 ::    
+    @Test 
+    public void Verify_to_change_In_Progress_status_to_Complete() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_change_In_Progress_status_to_Complete();
+    }
+
+//  Test Case 169 ::    
+    @Test 
+    public void Verify_to_upload_video_file_and_it_show_error_message() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_upload_video_file_and_it_show_error_message();
+    }
+    
+//  Test Case 170 ::    
+    @Test 
+    public void Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_redirect_HPI_Parser_tab_when_user_click_on_HPI_Parser_button();
+    }
+
     
     
 }
