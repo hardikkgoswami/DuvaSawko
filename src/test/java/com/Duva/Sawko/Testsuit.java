@@ -1265,6 +1265,94 @@ public class Testsuit {
         basePage.Verify_to_search_Student_by_name_and_no_record_found_display_message();
     }
     
+//  Test Case 179 ::    
+    @Test 
+    public void Verify_to_view_Manage_Stage() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 180 ::    
+    @Test 
+    public void Verify_to_Load_Chart_no_524_to_Load_all_data() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Load_Chart_no_524_to_Load_all_data();
+    }
+    
+//  Test Case 181 ::    
+    @Test 
+    public void Verify_to_load_charts() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_load_charts();
+    }
+    
+//  Test Case 182 ::    
+    @Test 
+    public void Verify_to_functionality_of_Email() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_functionality_of_Email();
+    }
+    
+//  Test Case 183 ::    
+    @Test 
+    public void Verify_to_check_Risk_Level() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_check_Risk_Level();
+    }
+    
+//  Test Case 184 ::    
+    @Test 
+    public void Verify_to_refresh_page_and_charts_list() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_refresh_page_and_charts_list();
+    }
+    
+//  Test Case 185 ::    
+    @Test 
+    public void Verify_to_search_chart_by_Page_Range() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_search_chart_by_Page_Range();
+    }
+    
+//  Test Case 186 ::    
+    @Test 
+    public void Verify_to_create_new_user_and_login_with_new_user() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 187 ::    
+    @Test 
+    public void Verify_to_Display_Message_when_user_add_or_delete_DSGCC() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_delete_and_add_DSGCC();
+    }
+    
+//  Test Case 188 ::    
+    @Test 
+    public void Verify_to_display_error_message_when_user_upload_any_other_format_file() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_display_error_message_when_user_upload_any_other_format_file();
+    }
+    
+//  Test Case 189 ::    
+    @Test 
+    public void Verify_to_Add_or_to_or_in_ICD_Strings() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_display_error_message_when_user_wrong_CPT();
+    }
+    
+//  Test Case 190 ::    
+    @Test 
+    public void Verify_to_display_data_as_per_Select_Data_Grid() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_display_data_as_per_Select_Data_Grid();
+    }
+    
+    
+    
+    
+    
     
 
     

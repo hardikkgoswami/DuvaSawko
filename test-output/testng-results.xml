@@ -26,22 +26,19 @@
       <![CDATA[<br><br>STEP 09 | Click on All Time Raio Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 09 | Enter Name to Search ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 10 | Verify It Display Search Result ]]>
+      <![CDATA[<br><br>STEP 10 | Click on Data Gride to Select other option ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98531" started-at="2021-05-03T07:31:19Z" finished-at="2021-05-03T07:32:58Z">
+  <suite name="Default suite" duration-ms="70315" started-at="2021-05-03T12:52:31Z" finished-at="2021-05-03T12:53:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98531" started-at="2021-05-03T07:31:19Z" finished-at="2021-05-03T07:32:58Z">
+    <test name="Default test" duration-ms="70315" started-at="2021-05-03T12:52:31Z" finished-at="2021-05-03T12:53:41Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="19" started-at="2021-05-03T13:01:19Z" finished-at="2021-05-03T13:01:19Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="16" started-at="2021-05-03T18:22:31Z" finished-at="2021-05-03T18:22:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_search_Student_by_name_and_no_record_found_display_message()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_search_Student_by_name_and_no_record_found_display_message" duration-ms="98384" started-at="2021-05-03T13:01:19Z" finished-at="2021-05-03T13:02:58Z">
+        <test-method status="PASS" signature="Verify_to_display_data_as_per_Select_Data_Grid()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_display_data_as_per_Select_Data_Grid" duration-ms="70140" started-at="2021-05-03T18:22:31Z" finished-at="2021-05-03T18:23:41Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -68,14 +65,11 @@
               <![CDATA[<br><br>STEP 09 | Click on All Time Raio Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 09 | Enter Name to Search ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 10 | Verify It Display Search Result ]]>
+              <![CDATA[<br><br>STEP 10 | Click on Data Gride to Select other option ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_search_Student_by_name_and_no_record_found_display_message -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="118" started-at="2021-05-03T13:02:58Z" finished-at="2021-05-03T13:02:58Z">
+        </test-method> <!-- Verify_to_display_data_as_per_Select_Data_Grid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="148" started-at="2021-05-03T18:23:41Z" finished-at="2021-05-03T18:23:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

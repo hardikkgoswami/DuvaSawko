@@ -2156,6 +2156,150 @@
         </classes>
     </test>
     
+     <!-- Test Case 179 :: Manage Stage :: Verify to view Manage Stage -->
+    <test name="Verify to view Manage Stage">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Manage_Stage"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 180 :: Chart Loader :: Verify to Load Chart no 524 to Load all data -->
+    <test name="Verify to Load Chart no 524 to Load all data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Load_Chart_no_524_to_Load_all_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 181 :: Chart Loader :: Verify to load charts -->
+    <test name="Verify to load charts">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 182 :: Manage Email :: Verify to functionality of Email -->
+    <test name="Verify to functionality of Email">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_functionality_of_Email"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 183 :: Manage DSGCC :: Verify to check Risk Level -->
+    <test name="Verify to check Risk Level">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_Risk_Level"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 184 :: Chart Loader :: Verify to refresh page and charts list -->
+    <test name="Verify_to_refresh_page_and_charts_list">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_refresh_page_and_charts_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 185 :: Chart Loader :: Verify to search chart by Page Range -->
+    <test name="Verify to search chart by Page Range">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_search_chart_by_Page_Range"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 186 :: Manage Users :: Verify to create new user and login with new user -->
+    <test name="Verify to create new user and login with new user">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_create_new_user_and_login_with_new_user"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 187 :: Chart Loader :: Verify to Display Message when user add or delete DSGCC -->
+    <test name="Verify to Display Message when user add or delete DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_Message_when_user_add_or_delete_DSGCC"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 188 :: Manage State :: Verify to display error message when user upload any other format(video) file -->
+    <test name="Verify to display error message when user upload any other format(video) file">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_user_upload_any_other_format_file"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 189 :: Chart Loader :: Verify to Add or to or in ICD Strings -->
+    <test name="Verify to Add or to or in ICD Strings">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_or_to_or_in_ICD_Strings"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test Case 190 :: Student Progress :: Verify to display data as per Select Data Grid -->
+    <test name="Verify to display data as per Select Data Grid">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_data_as_per_Select_Data_Grid"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
     
 </suite>
