@@ -17,28 +17,31 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+      <![CDATA[<br><br>STEP 07 | Click on Student Progress ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP 08 | Verify It display Student Progress!!! ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+      <![CDATA[<br><br>STEP 09 | Click on All Time Raio Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
+      <![CDATA[<br><br>STEP 09 | Enter Name to Search ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 10 | Verify It Display Search Result ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70845" started-at="2021-04-24T06:52:16Z" finished-at="2021-04-24T06:53:27Z">
+  <suite name="Default suite" duration-ms="98531" started-at="2021-05-03T07:31:19Z" finished-at="2021-05-03T07:32:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70845" started-at="2021-04-24T06:52:16Z" finished-at="2021-04-24T06:53:27Z">
+    <test name="Default test" duration-ms="98531" started-at="2021-05-03T07:31:19Z" finished-at="2021-05-03T07:32:58Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="15" started-at="2021-04-24T12:22:16Z" finished-at="2021-04-24T12:22:16Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="onBefore" is-config="true" duration-ms="19" started-at="2021-05-03T13:01:19Z" finished-at="2021-05-03T13:01:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Edit_Pages_and_no_unwanted_flash_message_display()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_Edit_Pages_and_no_unwanted_flash_message_display" duration-ms="70696" started-at="2021-04-24T12:22:16Z" finished-at="2021-04-24T12:23:26Z">
+        <test-method status="PASS" signature="Verify_to_search_Student_by_name_and_no_record_found_display_message()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="Verify_to_search_Student_by_name_and_no_record_found_display_message" duration-ms="98384" started-at="2021-05-03T13:01:19Z" finished-at="2021-05-03T13:02:58Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -56,20 +59,23 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+              <![CDATA[<br><br>STEP 07 | Click on Student Progress ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP 08 | Verify It display Student Progress!!! ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+              <![CDATA[<br><br>STEP 09 | Click on All Time Raio Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 09 | Click on Unlock Button ]]>
+              <![CDATA[<br><br>STEP 09 | Enter Name to Search ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 10 | Verify It Display Search Result ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Edit_Pages_and_no_unwanted_flash_message_display -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-04-24T12:23:26Z" finished-at="2021-04-24T12:23:27Z">
+        </test-method> <!-- Verify_to_search_Student_by_name_and_no_record_found_display_message -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@3ec300f1]" name="tearDown" is-config="true" duration-ms="118" started-at="2021-05-03T13:02:58Z" finished-at="2021-05-03T13:02:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

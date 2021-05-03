@@ -1208,6 +1208,64 @@ public class Testsuit {
         basePage.enterURL();
         basePage.Verify_to_redirect_HPI_Parser_tab_when_user_click_on_HPI_Parser_button();
     }
+    
+//  Test Case 171 ::    
+    @Test 
+    public void Verify_to_Select_Mid_Level() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_Mid_Level();
+    }
+    
+//  Test Case 172 ::    
+    @Test 
+    public void Verify_to_delete_and_add_DSGCC() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_delete_and_add_DSGCC();
+    }
+    
+//  Test Case 173 ::    
+    @Test 
+    public void Verify_to_create_new_chart_once_existing_chart_complete() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_create_new_chart_once_existing_chart_complete();
+    }
+    
+//  Test Case 174 ::    
+    @Test 
+    public void Verify_to_View_HPI_Parser_tab() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_View_HPI_Parser_tab();
+    }
+    
+//  Test Case 175 ::    
+    @Test 
+    public void Verify_to_Load_Chart_no_168_for_HPI_Parser_tab() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Load_Chart_no_168_for_HPI_Parser_tab();
+    }
+    
+//  Test Case 176 ::    
+    @Test 
+    public void Verify_to_change_score_based_on_CPT() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_change_score_based_on_CPT();
+    }
+    
+//  Test Case 177 ::    
+    @Test 
+    public void Verify_to_view_user_Progress() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 178 ::    
+    @Test 
+    public void Verify_to_search_Student_by_name_and_no_record_found_display_message() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_search_Student_by_name_and_no_record_found_display_message();
+    }
+    
+    
 
     
     

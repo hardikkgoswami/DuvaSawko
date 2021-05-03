@@ -2060,5 +2060,102 @@
         </classes>
     </test>
     
+      <!-- Test Case 171 :: Chart Loader :: Verify to Select Mid Level -->
+    <test name="Verify to Select Mid Level">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_Mid_Level"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 172 :: Chart Loader :: Verify to delete and add DSGCC  -->
+    <test name="Verify to delete and add DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_and_add_DSGCC"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 173 :: Chart Loader :: Verify to create new chart once existing chart complete  -->
+    <test name="Verify to create new chart once existing chart complete">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_create_new_chart_once_existing_chart_complete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 174 :: Chart Loader :: Verify to View HPI Parser tab -->
+    <test name="Verify to View HPI Parser tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_HPI_Parser_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 175 :: Chart Loader :: Verify to Load Chart no 168 for HPI Parser tab -->
+    <test name="Verify to Load Chart no 168 for HPI Parser tab">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Load_Chart_no_168_for_HPI_Parser_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 176 :: Chart Loader :: Verify to change score based on CPT  -->
+    <test name="Verify to change score based on CPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_change_score_based_on_CPT"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 177 :: Student Progress :: Verify to view user Progress  -->
+    <test name="Verify to view user Progress">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_user_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 178 :: Student Progress :: Verify to search Student by name and no record found display message -->
+    <test name="Verify to search Student by name and no record found display message">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_search_Student_by_name_and_no_record_found_display_message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
     
 </suite>
