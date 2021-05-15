@@ -2300,6 +2300,126 @@
         </classes>
     </test>
     
+     <!-- Test Case 191 :: Student Progress :: Verify to Clear Filters -->
+    <test name="Verify to Clear Filters">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Clear_Filters"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 192 :: Student Answer Key :: Verify to apply Classification filter -->
+    <test name="Verify to apply Classification filter">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_apply_Classification_filter"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 193 :: Student Answer Key :: Verify to Select First Provider  -->
+    <test name="Verify to Select First Provider">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_First_Provider"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 194 :: Student Progress :: Verify to Select Next and Back button for Data Grid -->
+    <test name="Verify to Select Next and Back button for Data Grid">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_Next_and_Back_button_for_Data_Grid"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 195 :: Student Answer Key :: Verify to Clear data -->
+    <test name="Verify to Clear data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Clear_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 196 :: Logins :: Verify to click on Statistics -->
+    <test name="Verify to click on Statistics">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_click_on_Statistics"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 197 :: Manage Stage :: Verify to Add New Row -->
+    <test name="Verify to Add New Row">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_New_Row"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 198 :: Manage Stage :: Verify to check Stage and Role filter -->
+    <test name="Verify to check Stage and Role filter">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_Stage_and_Role_filter"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 199 :: Parameters :: Verify to Change values in Parameters  -->
+    <test name="Verify to Change values in Parameters">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Change_values_in_Parameters"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 200 :: Manage DSGCC :: Verify to Check Sorting  -->
+    <test name="Verify to Check Sorting">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Check_Sorting"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
     
 </suite>

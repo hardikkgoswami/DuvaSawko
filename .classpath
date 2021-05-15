@@ -23,16 +23,16 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/allure-testng-example-1.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/ATUReporter_Selenium_testNG_5.5_BETA.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/ATUTestRecorder_2.1.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/guice-3.0.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/javax.mail-api-1.5.5.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/reportng-1.1.4.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/saxon-8.7.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/SaxonLiaison.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/selenium-server-standalone-2.53.0.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/selenium-server-standalone-3.0.0-beta2.jar"/>
-	<classpathentry kind="lib" path="/Users/mac/Documents/Documents/workspace/DuvaSawko/lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/allure-testng-example-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/ATUReporter_Selenium_testNG_5.5_BETA.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/javax.mail-api-1.5.5.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/selenium-server-standalone-3.0.0-beta2.jar"/>
+	<classpathentry kind="lib" path="/Users/adroid/Documents/workspace/DuvaSawko/lib/velocity-dep-1.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

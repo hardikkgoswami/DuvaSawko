@@ -1,4 +1,5 @@
 package com.Duva.Sawko;
+import java.awt.AWTException;
 import java.io.IOException;
 
 import org.testng.annotations.*;
@@ -1347,6 +1348,76 @@ public class Testsuit {
     public void Verify_to_display_data_as_per_Select_Data_Grid() throws InterruptedException, IOException{
         basePage.enterURL();
         basePage.Verify_to_display_data_as_per_Select_Data_Grid();
+    }
+    
+//  Test Case 191 ::    
+    @Test 
+    public void Verify_to_Clear_Filters() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Clear_Filters();
+    }
+    
+//  Test Case 192 ::    
+    @Test 
+    public void Verify_to_apply_Classification_filter() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_apply_Classification_filter();
+    }
+    
+//  Test Case 193 ::    
+    @Test 
+    public void Verify_to_Select_First_Provider() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_First_Provider();
+    }
+    
+//  Test Case 194 ::    
+    @Test 
+    public void Verify_to_Select_Next_and_Back_button_for_Data_Grid() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Select_Next_and_Back_button_for_Data_Grid();
+    }
+    
+//  Test Case 195 ::    
+    @Test 
+    public void Verify_to_Clear_data() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Clear_data();
+    }
+    
+//  Test Case 196 ::    
+    @Test 
+    public void Verify_to_click_on_Statistics() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_click_on_Statistics();
+    }
+    
+//  Test Case 197 ::    
+    @Test 
+    public void Verify_to_Add_New_Row() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Add_New_Row();
+    }
+    
+//  Test Case 198 ::    
+    @Test 
+    public void Verify_to_check_Stage_and_Role_filter() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_check_Stage_and_Role_filter();
+    }
+    
+//  Test Case 199 ::    
+    @Test 
+    public void Verify_to_Change_values_in_Parameters() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Change_values_in_Parameters();
+    }
+    
+//  Test Case 200 ::    
+    @Test 
+    public void Verify_to_Check_Sorting() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Check_Sorting();
     }
     
     
