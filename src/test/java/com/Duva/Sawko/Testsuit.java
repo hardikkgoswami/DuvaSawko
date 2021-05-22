@@ -1420,6 +1420,76 @@ public class Testsuit {
         basePage.Verify_to_Check_Sorting();
     }
     
+//  Test Case 201 ::    
+    @Test 
+    public void Verify_to_check_filter_like_Type_Text1_Text2() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_check_filter_like_Type_Text1_Text2();
+    }
+    
+//  Test Case 202 ::    
+    @Test 
+    public void Verify_to_Check_Sorting_ManageCPT() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Check_Sorting_ManageCPT();
+    }
+    
+//  Test Case 203 ::    
+    @Test 
+    public void Verify_to_Search_CPT_By_Text1_and_Text2() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Search_CPT_By_Text1_and_Text2();
+    }
+    
+//  Test Case 204 ::    
+    @Test 
+    public void Verify_to_Check_Sorting_in_First_and_Last_Name() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Check_Sorting_in_First_and_Last_Name();
+    }
+    
+//  Test Case 205 ::    
+    @Test 
+    public void Verify_to_Find_Chart_by_Answer_Key() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Find_Chart_by_Answer_Key();
+    }
+    
+//  Test Case 206 ::    
+    @Test 
+    public void Verify_to_Upload_Image_in_HPI_Parser_Review_of_System_and_DSGCC() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Upload_Image_in_HPI_Parser_Review_of_System_and_DSGCC();
+    }
+    
+//  Test Case 207 ::    
+    @Test 
+    public void Verify_to_Change_Stage_Advancement() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Change_Stage_Advancement();
+    }
+    
+//  Test Case 208 ::    
+    @Test 
+    public void Verify_to_delete() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_delete();
+    }
+    
+//  Test Case 209 ::    
+    @Test 
+    public void Verify_to_see_User_Progress() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_see_User_Progress();
+    }
+    
+//  Test Case 210 ::    
+    @Test 
+    public void Verify_to_display_Provider1_and_Provider2() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_display_Provider1_and_Provider2();
+    }
+    
     
     
     

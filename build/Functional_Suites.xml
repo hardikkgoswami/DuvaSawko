@@ -2420,6 +2420,125 @@
         </classes>
     </test>
     
+     <!-- Test Case 201 :: Manage DSGCC :: Verify to check filter like Type Text1 Text2 and  -->
+    <test name="Verify to check filter like Type Text1 Text2">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_filter_like_Type_Text1_Text2"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 202 :: Manage CPT :: Verify to Check Sorting  -->
+    <test name="Verify to Check Sorting ManageCPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Check_Sorting_ManageCPT"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 203 :: Manage CPT :: Verify to Search CPT By Text1 and Text2 -->
+    <test name="Verify to Search CPT By Text1 and Text2">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_CPT_By_Text1_and_Text2"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 204 :: Manage Users :: Verify to Check Sorting in First and Last Name -->
+    <test name="Verify to Check Sorting in First and Last Name">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Check_Sorting_in_First_and_Last_Name"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 205 :: Chart Loader :: Verify to Find Chart by Answer Key -->
+    <test name="Verify to Find Chart by Answer Key">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_by_Answer_Key"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 206 :: Chart Loader :: Verify to Upload Image in HPI Parser Review of System and DSGCC  -->
+    <test name="Verify to Upload Image in HPI Parser Review of System and DSGCC">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Upload_Image_in_HPI_Parser_Review_of_System_and_DSGCC"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test Case 207 :: Parameters :: Verify to Change Stage Advancement -->
+    <test name="Verify to Change Stage Advancement">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Change_Stage_Advancement"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 208 :: Student Answer Key :: Verify to delete -->
+    <test name="Verify to delete">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 209 :: Student Answer Key :: Verify to see User Progress -->
+    <test name="Verify to see User Progress">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_see_User_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 210 :: Student Answer Key :: Verify to display Provider 1 and Provider2  -->
+    <test name="Verify to display Provider 1 and Provider2">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Provider1_and_Provider2"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
     
     
 </suite>
