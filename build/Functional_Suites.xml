@@ -2540,5 +2540,125 @@
         </classes>
     </test>
     
+       <!-- Test Case 211 :: Student Progress :: Verify to view Test History By Day  -->
+    <test name="Verify to view Test History By Day">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Test_History_By_Day"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 212 :: Manage Users :: Verify that Submit button should work in Add and Edit Users -->
+    <test name="Verify to view Test History By Day">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_Submit_button_should_work_in_Add_and_Edit_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 213 :: Chart Loader :: Verify to Find Chart By Status -->
+    <test name="Verify_to_Find_Chart_By_Status">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_By_Status"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 214 :: Manage Stage :: Verify to Edit Feedback -->
+    <test name="Verify to Edit Feedback">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Feedback"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 215 :: Student Answer Key :: Verify to Edit Student Answer Key-->
+    <test name="Verify to Edit Student Answer Key">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Student_Answer_Key"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 216 :: Student Progress :: Verify to view CPT in Student Progress -->
+    <test name="Verify to view CPT in Student Progress">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_CPT_in_Student_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 217 :: Student Progress :: Verify to Calculate final Score Perfectly -->
+    <test name="Verify to Calculate final Score Perfectly">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Calculate_final_Score_Perfectly"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 218 :: Student Progress :: Verify to final score shouldnt more than Poss score -->
+    <test name="Verify to final score shouldn't more than Poss score">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_final_score_shouldnt_more_than_Poss_score"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 219 :: Student Progress :: Verify to Edit points after finalization -->
+    <test name="Verify to Edit points after finalization">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_points_after_finalization"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 220 :: Student Progress :: Verify to Display any message in extra space area -->
+    <test name="Verify to Display any message in extra space area">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_any_message_in_extra_space_area"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>

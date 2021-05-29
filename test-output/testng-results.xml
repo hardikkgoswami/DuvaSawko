@@ -20,19 +20,43 @@
       <![CDATA[<br><br>STEP 06 | Click on Manage Users button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Select User From List ]]>
+      <![CDATA[<br><br>STEP 07 | Enter First Name ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 07 | Enter Last Name ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 08 | Enter Mobile Number ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 09 | Enter Email Address ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 10 | Click on Other Tab ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 11 | Enter Address ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 12 | Enter Address ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 13 | Enter City, State, Country ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 14 | Click on Submit Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73546" started-at="2021-05-22T13:20:27Z" finished-at="2021-05-22T13:21:40Z">
+  <suite name="Default suite" duration-ms="79359" started-at="2021-05-29T11:53:07Z" finished-at="2021-05-29T11:54:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73546" started-at="2021-05-22T13:20:27Z" finished-at="2021-05-22T13:21:40Z">
+    <test name="Default test" duration-ms="79359" started-at="2021-05-29T11:53:07Z" finished-at="2021-05-29T11:54:26Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="31" started-at="2021-05-22T18:50:27Z" finished-at="2021-05-22T18:50:27Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="18" started-at="2021-05-29T17:23:07Z" finished-at="2021-05-29T17:23:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Enrollment_enhancement()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_Enrollment_enhancement" duration-ms="73357" started-at="2021-05-22T18:50:27Z" finished-at="2021-05-22T18:51:40Z">
+        <test-method status="PASS" signature="Verify_that_Other_phone_is_optional()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_that_Other_phone_is_optional" duration-ms="79162" started-at="2021-05-29T17:23:07Z" finished-at="2021-05-29T17:24:26Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -53,11 +77,35 @@
               <![CDATA[<br><br>STEP 06 | Click on Manage Users button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Select User From List ]]>
+              <![CDATA[<br><br>STEP 07 | Enter First Name ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 07 | Enter Last Name ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 08 | Enter Mobile Number ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 09 | Enter Email Address ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 10 | Click on Other Tab ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 11 | Enter Address ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 12 | Enter Address ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 13 | Enter City, State, Country ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 14 | Click on Submit Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Enrollment_enhancement -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="141" started-at="2021-05-22T18:51:40Z" finished-at="2021-05-22T18:51:40Z">
+        </test-method> <!-- Verify_that_Other_phone_is_optional -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="164" started-at="2021-05-29T17:24:26Z" finished-at="2021-05-29T17:24:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

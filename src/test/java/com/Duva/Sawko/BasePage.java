@@ -689,14 +689,13 @@ public class BasePage {
 	  Verify_to_check_dates_functionality();
 	  common.pause(40);
 	
-	  driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div[2]/div[1]/div/div[1]/span/span/span/span[3]/span")).click();
+	  driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div[2]/div[1]/div/div[1]/span/span/span/span[3]/span")).click();
 	  System.out.println("STEP 09 | Click on User Dropdown ");
 	  common.log("<br><br>STEP 09 | Click on User Dropdown ");
 	  Actions builder = new Actions(driver);
 	  builder.sendKeys(Keys.ARROW_UP);
 	  builder.sendKeys(Keys.ENTER);
 	  common.pause(10);
-		
   }
   
 public void Verify_to_display_Chart_Properly_after_refresh_page() throws InterruptedException, IOException{
@@ -2818,15 +2817,16 @@ public void Verify_to_view_Chart_finder_sort_by_chart_number() throws Interrupte
 	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"grid_result_chart_finder\"]/div/span[1]/span/span/span[1]")).click();
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/div/span[1]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='25']")).click();
 	System.out.println("STEP 07 | Click on Item Per Page Dropdown ");
 	common.log("<br><br>STEP 07 | Click on Item Per Page Dropdown ");
 	common.pause(20);
 
-	Actions builder = new Actions(driver);
-	builder.sendKeys(Keys.ARROW_DOWN);
-	builder.sendKeys(Keys.ENTER);
-	common.pause(10);
+//	Actions builder = new Actions(driver);
+//	builder.sendKeys(Keys.ARROW_DOWN);
+//	builder.sendKeys(Keys.ENTER);
 }
 
 public void Verify_to_preview_of_HPI_Parser_data_for_current_selected_chart() throws InterruptedException, IOException{
@@ -4634,7 +4634,7 @@ public void Verify_to_view_Manage_Stage() throws InterruptedException, IOExcepti
 	verify_login_details_of_admin();
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[5]/div/span[1]")).click();
 	System.out.println("STEP 06 | Click on Training Tools ");
 	common.log("<br><br>STEP 06 | Click on Training Tools ");
 	common.pause(10);
@@ -5403,8 +5403,91 @@ public void Verify_to_see_User_Progress() throws InterruptedException, IOExcepti
 public void Verify_to_display_Provider1_and_Provider2() throws InterruptedException, IOException{
     
 	Verify_to_view_user_Progress();
-	
 }
 
+public void Verify_to_Find_Chart_By_Status() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"MD_FINDForm\"]/div/div[3]/div/div[3]/div/div/label[2]/span")).click();
+	System.out.println("STEP 06 | Select Status ");
+	common.log("<br><br>STEP 06 | Select Status ");
+	common.pause(10);
+}
+
+public void Verify_to_Edit_Feedback() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[5]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Training Tools ");
+	common.log("<br><br>STEP 06 | Click on Training Tools ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_manage_mode\"]/span")).click();
+	System.out.println("STEP 07 | Click on Manage Mode ");
+	common.log("<br><br>STEP 07 | Click on Manage Mode ");
+	common.pause(10);
+}
+
+
+public void Verify_to_Edit_Student_Answer_Key() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"admin_menu_treeview_tv_active\"]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Answer Key ");
+	common.log("<br><br>STEP 06 | Click on Answer Key ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
+	System.out.println("STEP 07 | Click on Student Answer Key ");
+	common.log("<br><br>STEP 07 | Click on Student Answer Key ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"search_studentasnwerkey\"]/div[1]/div[2]/div/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='ED_APP_1']")).click();
+	System.out.println("STEP 07 | Click on Item Per Page Dropdown ");
+	common.log("<br><br>STEP 07 | Click on Item Per Page Dropdown ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"student_answer_key_grid\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP 07 | Select Any data from list ");
+	common.log("<br><br>STEP 07 | Select Any data from list ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/div[1]/div[1]/div/div[5]/div[1]/label[2]")).click();
+	System.out.println("STEP 08 | Edit Classification ");
+	common.log("<br><br>STEP 08 | Edit Classification ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"done_edit\"]")).click();
+	System.out.println("STEP 09 | Click on Done Edit Button ");
+	common.log("<br><br>STEP 09 | Click on Done Edit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP 10 | Click on Submit Button ");
+	common.log("<br><br>STEP 10 | Click on Submit Button ");
+	common.pause(10);
+}
+
+public void Verify_to_view_CPT_in_Student_Progress() throws InterruptedException, IOException{
+    
+	Verify_to_view_user_Progress();
+	common.pause(20);
+}
+
+public void Verify_to_Calculate_final_Score_Perfectly() throws InterruptedException, IOException{
+    
+	Verify_to_view_user_Progress();
+	common.pause(20);
+}
+
+	
 
 }

@@ -1490,6 +1490,78 @@ public class Testsuit {
         basePage.Verify_to_display_Provider1_and_Provider2();
     }
     
+//  Test Case 211 ::    
+    @Test 
+    public void Verify_to_view_Test_History_By_Day() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_see_User_Progress();
+    }
+    
+//  Test Case 212 ::    
+    @Test 
+    public void Verify_that_Submit_button_should_work_in_Add_and_Edit_Users() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_when_user_enter_all_values_it_should_display_blank_fields();
+    }
+    
+//  Test Case 213 ::    
+    @Test 
+    public void Verify_to_Find_Chart_By_Status() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Find_Chart_By_Status();
+    }
+    
+//  Test Case 214 ::    
+    @Test 
+    public void Verify_to_Edit_Feedback() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Feedback();
+    }
+    
+//  Test Case 215 ::    
+    @Test 
+    public void Verify_to_Edit_Student_Answer_Key() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Student_Answer_Key();
+    }
+
+//  Test Case 216 ::    
+    @Test 
+    public void Verify_to_view_CPT_in_Student_Progress() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_view_CPT_in_Student_Progress();
+    }
+    
+//  Test Case 217 ::    
+    @Test 
+    public void Verify_to_Calculate_final_Score_Perfectly() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Calculate_final_Score_Perfectly();
+    }
+    
+//  Test Case 218 ::    
+    @Test 
+    public void Verify_to_final_score_shouldnt_more_than_Poss_score() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Calculate_final_Score_Perfectly();
+    }
+    
+//  Test Case 219 ::    
+    @Test 
+    public void Verify_to_Edit_points_after_finalization() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Calculate_final_Score_Perfectly();
+    }
+    
+//  Test Case 220 ::    
+    @Test 
+    public void Verify_to_Display_any_message_in_extra_space_area() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Calculate_final_Score_Perfectly();
+    }
+    
+    
+    
     
     
     
