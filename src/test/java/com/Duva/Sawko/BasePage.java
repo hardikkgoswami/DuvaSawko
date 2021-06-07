@@ -4219,7 +4219,7 @@ public void Verify_functionality_when_user_left_blank_fields() throws Interrupte
 	verify_login_details_of_admin();
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"admin_menu_treeview_tv_active\"]/div/span[1]")).click();
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
 	System.out.println("STEP 06 | Click on Answer Key ");
 	common.log("<br><br>STEP 06 | Click on Answer Key ");
 	common.pause(10);
@@ -5438,7 +5438,7 @@ public void Verify_to_Edit_Student_Answer_Key() throws InterruptedException, IOE
 	verify_login_details_of_admin();
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"admin_menu_treeview_tv_active\"]/div/span[1]")).click();
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
 	System.out.println("STEP 06 | Click on Answer Key ");
 	common.log("<br><br>STEP 06 | Click on Answer Key ");
 	common.pause(10);
@@ -5488,6 +5488,130 @@ public void Verify_to_Calculate_final_Score_Perfectly() throws InterruptedExcept
 	common.pause(20);
 }
 
+public void Verify_to_Edit_Feedback_CPT_Provider() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
 	
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Answer Key ");
+	common.log("<br><br>STEP 06 | Click on Answer Key ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
+	System.out.println("STEP 08 | Click on Student Answer Key ");
+	common.log("<br><br>STEP 08 | Click on Student Answer Key ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[1]/div/div/form/div[1]/div[2]/div/span/span/span[2]")).click();
+	common.pause(10);
+	driver.findElement(By.xpath("//li[text()='ED_APP_2']")).click();
+	System.out.println("STEP 09 | Click on Test # Dropdown ");
+	common.log("<br><br>STEP 09 | Click on Test # Dropdown ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"student_answer_key_grid\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP 10 | Select Any Test from List ");
+	common.log("<br><br>STEP 10 | Select Any Test from List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"addkeytabstrip\"]/ul/li[2]/span[2]")).click();
+	System.out.println("STEP 11 | Click on Feedback CPT/Provider ");
+	common.log("<br><br>STEP 11 | Click on Feedback CPT/Provider ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body")).sendKeys("testing data");
+	System.out.println("STEP 12 | Enter Feedback CPT ");
+	common.log("<br><br>STEP 12 | Enter Feedback CPT ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP 13 | Click on Submit Button ");
+	common.log("<br><br>STEP 13 | Click on Submit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"done_edit\"]")).click();
+	System.out.println("STEP 14 | Click on Done Edit Button ");
+	common.log("<br><br>STEP 14 | Click on Done Edit Button ");
+	common.pause(10);
+
+}
+
+public void Verify_to_view_Stage_Messages() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//div[3]/div[1]/ul/li[6]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Utilities ");
+	common.log("<br><br>STEP 06 | Click on Utilities  ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_parameters\"]/span")).click();
+	System.out.println("STEP 07 | Click on Parameters ");
+	common.log("<br><br>STEP 07 | Click on Parameters  ");
+	common.pause(10);
+}
+
+public void Verify_to_status_default_select_by_All() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"MD_FINDForm\"]/div/div[3]/div/div[3]/div/div/label[2]/span")).click();
+	System.out.println("STEP 06 | Select In Progress Status ");
+	common.log("<br><br>STEP 06 | Select In Progress Status ");
+	common.pause(10);
+}
+
+
+	
+public void Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Answer Key ");
+	common.log("<br><br>STEP 06 | Click on Answer Key ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
+	System.out.println("STEP 08 | Click on Student Answer Key ");
+	common.log("<br><br>STEP 08 | Click on Student Answer Key ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[1]/div/div/form/div[1]/div[2]/div/span/span/span[2]")).click();
+	common.pause(10);
+	driver.findElement(By.xpath("//li[text()='ED_APP_2']")).click();
+	System.out.println("STEP 09 | Click on Test # Dropdown ");
+	common.log("<br><br>STEP 09 | Click on Test # Dropdown ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"student_answer_key_grid\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP 10 | Select Any Test from List ");
+	common.log("<br><br>STEP 10 | Select Any Test from List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"addkeytabstrip\"]/ul/li[3]/span[2]")).click();
+	System.out.println("STEP 11 | Click on Feedback ICD Modifier ");
+	common.log("<br><br>STEP 11 | Click on Feedback ICD Modifier ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body]")).click();
+	System.out.println("STEP 12 | Enter Feedback ICD ");
+	common.log("<br><br>STEP 12 | Enter Feedback ICD ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP 13 | Click on Submit Button ");
+	common.log("<br><br>STEP 13 | Click on Submit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"done_edit\"]")).click();
+	System.out.println("STEP 14 | Click on Done Edit Button ");
+	common.log("<br><br>STEP 14 | Click on Done Edit Button ");
+	common.pause(10);
+}
 
 }

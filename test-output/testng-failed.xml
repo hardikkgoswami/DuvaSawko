@@ -5,7 +5,7 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
-          <include name="Verify_to_Find_Chart_By_Status"/>
+          <include name="Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider"/>
           <include name="onBefore"/>
           <include name="tearDown"/>
         </methods>

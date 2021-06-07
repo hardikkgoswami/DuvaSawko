@@ -1560,6 +1560,33 @@ public class Testsuit {
         basePage.Verify_to_Calculate_final_Score_Perfectly();
     }
     
+//  Test Case 221 ::    
+    @Test 
+    public void Verify_to_Edit_Feedback_CPT_Provider() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_Feedback_CPT_Provider();
+    }
+    
+//  Test Case 222 ::    
+    @Test 
+    public void Verify_to_status_default_select_by_All() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_status_default_select_by_All();
+    }
+    
+//  Test Case 223 ::    
+    @Test 
+    public void Verify_to_view_Stage_Messages() throws InterruptedException, IOException, AWTException{ 
+        basePage.enterURL();
+        basePage.Verify_to_view_Stage_Messages();
+    }
+    
+//  Test Case 224 ::    
+    @Test 
+    public void Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider() throws InterruptedException, IOException, AWTException{
+        basePage.enterURL();
+        basePage.Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider();
+    }
     
     
     

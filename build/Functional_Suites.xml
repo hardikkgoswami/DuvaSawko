@@ -2660,5 +2660,53 @@
         </classes>
     </test>
     
+       <!-- Test Case 221 :: Student Answer Key :: Verify to Edit Feedback CPT/Provider  -->
+    <test name="Verify to Edit Feedback CPT Provider">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Feedback_CPT_Provider"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 222 :: Chart Loader :: Verify to status default select by All  -->
+    <test name="Verify to status default select by All">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_status_default_select_by_All"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 223 :: Parameter :: Verify to view Stage Messages -->
+    <test name="Verify to view Stage Messages">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Stage_Messages"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 224 :: Student Answer Key :: Verify to Edit FeedbackICD Feedback CPT Provider  -->
+    <test name="Verify to Edit FeedbackICD Feedback CPT Provider">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>
