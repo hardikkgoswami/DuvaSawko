@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
-          <include name="Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider"/>
           <include name="onBefore"/>
+          <include name="Verify_to_reset_fill_data_in_chart_finder"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

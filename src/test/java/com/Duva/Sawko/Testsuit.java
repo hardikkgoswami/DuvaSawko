@@ -2,12 +2,16 @@ package com.Duva.Sawko;
 import java.awt.AWTException;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.*;
+
+
 
 public class Testsuit {
 
     BasePage basePage;
-
+   
     @BeforeClass
     public void onBefore() {
         basePage = new BasePage();
@@ -1182,7 +1186,7 @@ public class Testsuit {
         basePage.Verify_functionality_when_user_left_blank_fields();
     }
     
-//  Test Case 167 ::    
+//  Test Case 167 ::   
     @Test 
     public void Verify_that_submit_button_is_disable() throws InterruptedException, IOException{
         basePage.enterURL();
@@ -1587,6 +1591,95 @@ public class Testsuit {
         basePage.enterURL();
         basePage.Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider();
     }
+    
+//  Test Case 225 ::    
+    @Test 
+    public void Verify_to_select_radio_buttons() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Manage_Users();
+    	 basePage.Manage_Users_PanelBar_OverRide();
+    	 mainmenupage.Verify_to_select_radio_buttons();
+    }
+    
+//  Test Case 226 ::    
+    @Test 
+    public void Verify_to_Edit_Classification() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 basePage.Student_Answer_Key_Classification();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Edit_Classification();
+    }
+    
+//  Test Case 227 ::    
+    @Test 
+    public void Verify_to_select_all_radio_button_in_Add_User() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Manage_Users();
+    	 basePage.Manage_Users_TestTab();
+    	 basePage.Manage_Users_DatesTab();
+    	 basePage.Manage_Users_PanelBar_OverRide();
+    	 basePage.Manage_Users_DataTab();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_select_all_radio_button_in_Add_User();
+    }
+    
+//  Test Case 228 ::    
+    @Test 
+    public void Verify_to_Add_DSGCC_and_verify_once_it_added() throws InterruptedException, IOException, AWTException{
+    	basePage.Verify_to_reset_filter_when_user_go_to_next_chart_in_DSGCC_tab();
+    }
+    
+//  Test Case 229 ::    
+    @Test 
+    public void Verify_lock_and_Unlock_button() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    }
+    
+//  Test Case 230 ::    
+    @Test 
+    public void Verify_to_reset_fill_data_in_chart_finder() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_reset_fill_data_in_chart_finder();
+    }
+    
+//  Test Case 231 ::    
+    @Test 
+    public void Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_load_multiple_chart_and_When_user_click_on_next_button_it_should_also_change_chart_number();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it();
+    }
+    
+//  Test Case 232 ::    
+    @Test 
+    public void Verify_to_view_Test_time() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 233 ::    
+    @Test 
+    public void Verify_to_view_Manage_Email() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Utilities_Manage_Email();
+    }
+    
+    
+    
+
     
     
     

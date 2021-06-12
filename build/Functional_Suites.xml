@@ -2708,5 +2708,114 @@
         </classes>
     </test>
     
+      <!-- Test Case 225 :: Manage Users :: Verify to select radio buttons   -->
+    <test name="Verify_to_select_radio_buttons">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_radio_buttons"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 226 :: Student Answer Key  :: Verify to Edit Classification   -->
+    <test name="Verify to Edit Classification">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Classification"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 227 :: Manage Users  :: Verify to select all radio button in Add User -->
+    <test name="Verify to select all radio button in Add User">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_all_radio_button_in_Add_User"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 228 :: Chart Loader  :: Verify to Add DSGCC and verify once it added -->
+    <test name="Verify to Add DSGCC and verify once it added">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_DSGCC_and_verify_once_it_added"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 229 :: Chart Loader  :: Verify lock and Unlock button-->
+    <test name="Verify lock and Unlock button">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_lock_and_Unlock_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 230 :: Chart Loader  ::Verify to reset fill data in chart finder -->
+    <test name="Verify to reset fill data in chart finder">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_reset_fill_data_in_chart_finder"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 231 :: Chart Loader  :: Verify to load charts and when user add more it increase chat number load it-->
+    <test name="Verify to load charts and when user add more it increase chat number load it">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 232 :: Student Progress :: Verify to view Test time -->
+    <test name="Verify to view Test time">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Test_time"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 233 :: Manage Email :: Verify to view Manage Email -->
+    <test name="Verify to view Manage Email">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Manage_Email"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
     
 </suite>

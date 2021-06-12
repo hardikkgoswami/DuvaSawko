@@ -29,6 +29,7 @@ import org.openqa.selenium.firefox.FirefoxBinary;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -37,9 +38,10 @@ import org.testng.annotations.Test;
 
 public class BasePage {
 
-     static WebDriver driver ;
+      WebDriver driver ;
      Common common = new Common(driver);
      DateFormat dateFormat;
+     
      
  	/**
  	 * Take a ScreenShot
@@ -4200,9 +4202,9 @@ public void Verify_to_reset_filter_when_user_go_to_next_chart_in_DSGCC_tab() thr
 	driver.findElement(By.xpath("//*[@id=\"DSGCCForm\"]/div[3]/div[1]/div/label/span")).click();
 	System.out.println("STEP 11 | Click on Complete Checkbox ");
 	common.log("<br><br>STEP 11 | Click on Complete Checkbox ");
-	common.pause(10);
+	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"result_dsgcc_search\"]/table/tbody/tr[1]/td[6]/a/svg/path")).click();
+	driver.findElement(By.xpath("//a[@class='k-grid-decreaseIndent k-custom-pointer']")).click();
 	System.out.println("STEP 12 | Click on + Button ");
 	common.log("<br><br>STEP 12 | Click on + Button ");
 	common.pause(30);
@@ -5564,8 +5566,6 @@ public void Verify_to_status_default_select_by_All() throws InterruptedException
 	common.pause(10);
 }
 
-
-	
 public void Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider() throws InterruptedException, IOException{
     
 	verify_login_details_of_admin();
@@ -5613,5 +5613,134 @@ public void Verify_to_Edit_FeedbackICD_Feedback_CPT_Provider() throws Interrupte
 	common.log("<br><br>STEP 14 | Click on Done Edit Button ");
 	common.pause(10);
 }
+
+public void Manage_Users() throws InterruptedException, IOException{
+    
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Manage Users button ");
+	common.log("<br><br>STEP 06 | Click on Manage Users button ");
+	common.pause(40);
+}
+
+public void Manage_Users_TestTab() throws InterruptedException, IOException{
+    
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[2]/span[2]"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Test tab ");
+	common.log("<br><br>STEP 06 | Click on Test tab ");
+	common.pause(40);
+}
+
+public void Manage_Users_DatesTab() throws InterruptedException, IOException{
+    
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[3]/span[2]"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Dates Tab ");
+	common.log("<br><br>STEP 06 | Click on Datas Tab ");
+	common.pause(40);
+}
+
+public void Manage_Users_DataTab() throws InterruptedException, IOException{
+    
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[1]/span[2]"));
+	ManageUsers_button.click();
+	System.out.println("STEP 06 | Click on Data Tab ");
+	common.log("<br><br>STEP 06 | Click on Dat Tab ");
+	common.pause(40);
+}
+
+
+public void Manage_Users_PanelBar_OverRide() throws InterruptedException, IOException{
+    
+		WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[4]/span[2]"));
+		ManageUsers_button.click();
+		System.out.println("STEP 07 | Click on Panelbar Override Tab ");
+		common.log("<br><br>STEP 07 | Click on Panelbar Override Tab ");
+		common.pause(10);
+ }
+
+public void Answer_Key() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Answer Key ");
+	common.log("<br><br>STEP 06 | Click on Answer Key ");
+	common.pause(10);
+}
+
+public void Student_Answer_Key() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
+	System.out.println("STEP 07 | Click on Student Answer Key ");
+	common.log("<br><br>STEP 07 | Click on Student Answer Key ");
+	common.pause(40);
+}
+
+public void Student_Answer_Key_Test_Dropdown() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//*[@id=\"search_studentasnwerkey\"]/div[1]/div[2]/div/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='ED_APP_1']")).click();
+	System.out.println("STEP 08 | Click on Test # Dropdown ");
+	common.log("<br><br>STEP 08 | Click on Test # Dropdown ");
+	common.pause(20);
+}
+
+public void Student_Answer_Key_Classification() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//*[@id=\"search_studentasnwerkey\"]/div[1]/div[4]/div/div/div/label[2]")).click();
+	System.out.println("STEP 09 | Select Classification Filter ");
+	common.log("<br><br>STEP 09 | Select Classification Filter ");
+	common.pause(10);
+}
+
+public void Verify_Chart_loader_load_Chart_unlock_chart() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 06 | Select Chart Number ");
+	common.log("<br><br>STEP 06 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 07 | Click on Load Button ");
+	common.log("<br><br>STEP 07 | Click on Load Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[4]/div/div[2]/div/button[3]")).isDisplayed();
+	System.out.println("STEP 08 | Verify Select Chart Display ");
+	common.log("<br><br>STEP 08 | Verify Select Chart Display ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP 09 | Click on Unlock Button ");
+	common.log("<br><br>STEP 09 | Click on Unlock Button ");
+	common.pause(20);
+}
+
+public void verify_Chart_loaderDSGCC_TAB() throws InterruptedException, IOException{
+	  
+	driver.findElement(By.xpath("//*[@id=\"DSGCCPanel\"]/span")).click();
+	System.out.println("STEP 10 | Click on DSGCC ");
+	common.log("<br><br>STEP 10 | Click on DSGCC ");
+	common.pause(10);
+}
+
+public void Verify_to_Utilities() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//div[3]/div[1]/ul/li[6]/div/span[1]")).click();
+	System.out.println("STEP 06 | Click on Utilities ");
+	common.log("<br><br>STEP 06 | Click on Utilities  ");
+	common.pause(10);
+}
+
+
+public void Verify_to_Utilities_Manage_Email() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"menu_manage_email\"]/span")).click();
+	System.out.println("STEP 07 | Click on Manage Emails ");
+	common.log("<br><br>STEP 07 | Click on Manage Emails ");
+	common.pause(10);
+}
+
+
+
 
 }
