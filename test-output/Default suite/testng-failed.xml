@@ -6,7 +6,7 @@
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="onBefore"/>
-          <include name="Verify_to_reset_fill_data_in_chart_finder"/>
+          <include name="Verify_to_upload_video_file_and_it_show_error_message"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

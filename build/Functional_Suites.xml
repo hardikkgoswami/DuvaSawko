@@ -2816,6 +2816,210 @@
         </classes>
     </test>
     
+      <!-- Test Case 234 :: Student Progress :: Verify to select all Date of Last Updates -->
+    <test name="Verify to select all Date of Last Updates">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_select_all_Date_of_Last_Updates"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 235 :: Manage Stage :: Verify to view two different section like Video and Document -->
+    <test name="Verify to view two different section like Video and Document">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_two_different_section_like_Video_and_Document"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 236 :: Parameters :: Verify to View Applicant -->
+    <test name="Verify to View Applicant">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Applicant"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 237 :: Manage Users :: Verify to apply datagrid -->
+    <test name="Verify to apply datagrid">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_apply_datagrid"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 238 :: Chart Loader :: Verify to display Chart Lock message -->
+    <test name="Verify to display Chart Lock message">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Chart_Lock_message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 239 :: Student Progress :: Verify to display Message when user student status is in progress -->
+    <test name="Verify to display Message when user student status is in progress">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Message_when_user_student_status_is_in_progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 240 :: Chart Loader :: Verify to delete lock chart -->
+    <test name="Verify to delete lock chart">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_lock_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 241 :: Chart Loader :: Verify to load all charts when user select one Chart from In Progress and one Chart from Complete status -->
+    <test name="Verify to load all charts when user select one Chart from In Progress and one Chart from Complete status">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_all_charts_when_user_select_one_Chart_from_In_Progress_and_one_Chart_from_Complete_status"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 242 :: Chart Loader :: Verify to enter CPT and Provider 1 -->
+    <test name="Verify to enter CPT and Provider 1">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_enter_CPT_and_Provider1"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 243 :: Chart Loader :: Verify to Lock Message not display on Chart Finder -->
+    <test name="Verify to Lock Message not display on Chart Finder">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Lock_Message_not_display_on_Chart_Finder"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 244 :: Chart Loader :: Verify both tabs like Chart Loader and Chart Finder -->
+    <test name="Verify both tabs like Chart Loader and Chart Finder">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_both_tabs_like_Chart_Loader_and_Chart_Finder"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 245 :: Chart Loader :: Verify that unlock button should not display if chart is not display -->
+    <test name="Verify that unlock button should not display if chart is not display">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_unlock_button_should_not_display_if_chart_is_not_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 246 :: Chart Loader :: Verify to load Medical Decision Making when chart selected -->
+    <test name="Verify to load Medical Decision Making when chart selected">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_Medical_Decision_Making_when_chart_selected"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 247 :: Manage Provider :: Verify to view Manage Provider-->
+    <test name="Verify to view Manage Provider">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Manage_Provider"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 248 :: Manage Provider :: Verify to Search Chart By Status and History source -->
+    <test name="Verify to Search Chart By Status and History source">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_Chart_By_Status_and_History_source"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 249 :: Chart Loader :: Verify to find chart by History of Present illness -->
+    <test name="Verify to find chart by History of Present illness">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_find_chart_by_History_of_Present_illness"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 250 :: Chart Loader :: Verify to Find chart by Review of System -->
+    <test name="Verify to Find chart by Review of System">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_chart_by_Review_of_System"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
     
 </suite>

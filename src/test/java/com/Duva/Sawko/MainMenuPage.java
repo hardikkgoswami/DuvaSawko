@@ -157,9 +157,103 @@ public void Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number
 	System.out.println("STEP 15 | Click on Load Button ");
 	common.log("<br><br>STEP 15 | Click on Load Button ");
 	common.pause(20);
-	
 }
-	
 
+public void Verify_to_select_all_Date_of_Last_Updates() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP 09 | Click on All Time Raio Button ");
+	common.log("<br><br>STEP 09 | Click on All Time Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[4]")).click();
+	System.out.println("STEP 10 | Click on Last Day 7 Raio Button ");
+	common.log("<br><br>STEP 10 | Click on Last Day 7 Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[4]")).click();
+	System.out.println("STEP 11 | Click on Last Day 3 Raio Button ");
+	common.log("<br><br>STEP 11 | Click on Last Day 3 Raio Button ");
+	common.pause(10);
+}
+
+public void Verify_to_apply_datagrid() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div[2]/div[3]/div/div/div[2]/span[1]/span/span/span[1]")).click();
+	common.pause(5);
+//	driver.findElement(By.xpath("//li[text()='10']")).click();
+	System.out.println("STEP 07 | Click on Item Per Page Dropdown ");
+	common.log("<br><br>STEP 07 | Click on Item Per Page Dropdown ");
+	common.pause(20);
+}
+
+public void Verify_to_load_all_charts_when_user_select_one_Chart_from_In_Progress_and_one_Chart_from_Complete_status() throws InterruptedException, IOException{
+	 
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[6]/td[2]")).click();
+	System.out.println("STEP 10 | Select Chart Number ");
+	common.log("<br><br>STEP 10 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 11 | Click on Load Button ");
+	common.log("<br><br>STEP 11 | Click on Load Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"common_submit_btn\"]")).click();
+	System.out.println("STEP 12 | Click on Submit Button ");
+	common.log("<br><br>STEP 12 | Click on Submit Button ");
+	common.pause(20);
+}
+public void Verify_to_enter_CPT_and_Provider1() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"WRPForm\"]/div[3]/div[1]/div/label/span")).click();
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"cpt_1\"]")).sendKeys("99286");
+	System.out.println("STEP  | Enter CPT ");
+	common.log("<br><br>STEP  | Enter CPT ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div[4]/div/div[2]/div/div[4]/ul/li[12]/div/form/div[3]/div[6]/div/div/table/tbody/tr[1]/td[2]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div[38]/div/div[2]/ul/li[22]")).click();
+	System.out.println("STEP  | Select Provider 1 from Dropdown ");
+	common.log("<br><br>STEP  | Select Provider 1 from Dropdown ");
+	common.pause(20);
+}
+
+public void Verify_to_Lock_Message_not_display_on_Chart_Finder() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP  | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP  | Click on Chart Finder Tab ");
+	common.pause(20);
+}
+public void Verify_to_find_chart_by_History_of_Present_illness() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"HPI_FINDForm\"]/div/div/div/div[1]/div[1]/div/div/label/span")).click();
+	System.out.println("STEP  | Select Is there a history caveat? ");
+	common.log("<br><br>STEP  | Select Is there a history caveat? ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"HPI_FINDForm\"]/div/div/div/div[1]/div[2]/div/div/label/span")).click();
+	System.out.println("STEP  | Select Is there a chief complaint documented? ");
+	common.log("<br><br>STEP  | Select Is there a chief complaint documented? ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_Review_of_System() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"ROSPanel_FIND\"]/div/div/div/div[1]/div/div/div/label[2]/span")).click();
+	System.out.println("STEP  | Select Is there a history caveat? ");
+	common.log("<br><br>STEP  | Select Is there a history caveat? ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"ROSPanel_FIND\"]/div/div/div/div[2]/div/div/label[2]/span")).click();
+	System.out.println("STEP  | Select Were all systems reviewed? ");
+	common.log("<br><br>STEP  | Select Were all systems reviewed? ");
+	common.pause(10);
+}
+
+	
 
 }

@@ -1677,6 +1677,157 @@ public class Testsuit {
     	 basePage.Verify_to_Utilities_Manage_Email();
     }
     
+//  Test Case 234 ::    
+    @Test 
+    public void Verify_to_select_all_Date_of_Last_Updates() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Student_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_select_all_Date_of_Last_Updates();
+    }
+    
+//  Test Case 235 ::    
+    @Test 
+    public void Verify_to_view_two_different_section_like_Video_and_Document() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Student_Progress();
+    	 basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 236 ::    
+    @Test 
+    public void Verify_to_View_Applicant() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Parameters();
+    }
+    
+//  Test Case 237 ::    
+    @Test 
+    public void Verify_to_apply_datagrid() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Manage_Users();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_apply_datagrid();
+    }
+    
+//  Test Case 238 ::    
+    @Test 
+    public void Verify_to_display_Chart_Lock_message() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    }
+    
+//  Test Case 239 ::    
+    @Test 
+    public void Verify_to_display_Message_when_user_student_status_is_in_progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 240 ::    
+    @Test 
+    public void Verify_to_delete_lock_chart() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_Delete_Selected_Chart();
+    }
+    
+//  Test Case 241 ::    
+    @Test 
+    public void Verify_to_load_all_charts_when_user_select_one_Chart_from_In_Progress_and_one_Chart_from_Complete_status() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_load_all_charts_when_user_select_one_Chart_from_In_Progress_and_one_Chart_from_Complete_status();
+    }
+    
+//  Test Case 242 ::    
+    @Test 
+    public void Verify_to_enter_CPT_and_Provider1() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 basePage.Chart_Loader_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_enter_CPT_and_Provider1();
+    }
+    
+//  Test Case 243 ::    
+    @Test 
+    public void Verify_to_Lock_Message_not_display_on_Chart_Finder() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Lock_Message_not_display_on_Chart_Finder();
+    }
+    
+//  Test Case 244 ::    
+    @Test 
+    public void Verify_both_tabs_like_Chart_Loader_and_Chart_Finder() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_View_Chart_Loader();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Lock_Message_not_display_on_Chart_Finder();
+    }
+    
+//  Test Case 245 ::    
+    @Test 
+    public void Verify_that_unlock_button_should_not_display_if_chart_is_not_display() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_View_Chart_Loader();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Lock_Message_not_display_on_Chart_Finder();
+    }
+    
+//  Test Case 246 ::    
+    @Test 
+    public void Verify_to_load_Medical_Decision_Making_when_chart_selected() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 basePage.Chart_Loader_Medical_Decision_Making();
+    }
+    
+//  Test Case 247 ::    
+    @Test 
+    public void Verify_to_view_Manage_Provider() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Manage_Providers();
+    }
+    
+//  Test Case 248 ::    
+    @Test 
+    public void Verify_to_Search_Chart_By_Status_and_History_source() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_status_default_select_by_All();
+    	 
+    }
+    
+//  Test Case 249 ::    
+    @Test 
+    public void Verify_to_find_chart_by_History_of_Present_illness() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_History_Of_Present_Illness();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_History_of_Present_illness();
+    }
+
+//  Test Case 250 ::    
+    @Test 
+    public void Verify_to_Find_chart_by_Review_of_System() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_ReviewOf_System();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_Review_of_System();
+    }
     
     
 

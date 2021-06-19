@@ -17,46 +17,49 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+      <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 09 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP   | Select Chart Type ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 10 | Click on Load Button ]]>
+      <![CDATA[<br><br>STEP   | Click on Visit Type ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 11 | Click on Unlock Button ]]>
+      <![CDATA[<br><br>STEP 10 | Select EMR ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 12 | Click on Next Button ]]>
+      <![CDATA[<br><br>STEP 11 | Select Classification ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 13 | Click on Chart Finder Tab ]]>
+      <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 14 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 15 | Click on Load Button ]]>
+      <![CDATA[<br><br>STEP 12 | Click on HPI Option ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 13 | Click on HPI Parser Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="89210" started-at="2021-06-12T10:54:40Z" finished-at="2021-06-12T10:56:10Z">
+  <suite name="Default suite" duration-ms="105265" started-at="2021-06-19T15:29:53Z" finished-at="2021-06-19T15:31:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="89210" started-at="2021-06-12T10:54:40Z" finished-at="2021-06-12T10:56:10Z">
+    <test name="Default test" duration-ms="105265" started-at="2021-06-19T15:29:53Z" finished-at="2021-06-19T15:31:38Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="33" started-at="2021-06-12T16:24:40Z" finished-at="2021-06-12T16:24:40Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="23" started-at="2021-06-19T20:59:53Z" finished-at="2021-06-19T20:59:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it" duration-ms="88989" started-at="2021-06-12T16:24:40Z" finished-at="2021-06-12T16:26:09Z">
+        <test-method status="PASS" signature="Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem" duration-ms="105040" started-at="2021-06-19T20:59:53Z" finished-at="2021-06-19T21:01:38Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -74,38 +77,41 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+              <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 09 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP   | Select Chart Type ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 10 | Click on Load Button ]]>
+              <![CDATA[<br><br>STEP   | Click on Visit Type ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 11 | Click on Unlock Button ]]>
+              <![CDATA[<br><br>STEP 10 | Select EMR ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 12 | Click on Next Button ]]>
+              <![CDATA[<br><br>STEP 11 | Select Classification ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 13 | Click on Chart Finder Tab ]]>
+              <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 14 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 15 | Click on Load Button ]]>
+              <![CDATA[<br><br>STEP 12 | Click on HPI Option ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 13 | Click on HPI Parser Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="171" started-at="2021-06-12T16:26:09Z" finished-at="2021-06-12T16:26:10Z">
+        </test-method> <!-- Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="188" started-at="2021-06-19T21:01:38Z" finished-at="2021-06-19T21:01:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
