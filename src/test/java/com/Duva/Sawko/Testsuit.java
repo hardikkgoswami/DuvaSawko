@@ -1829,6 +1829,104 @@ public class Testsuit {
     	 mainmenupage.Verify_to_find_chart_by_Review_of_System();
     }
     
+//  Test Case 251 ::    
+    @Test 
+    public void Verify_to_Find_Chart_by_Past_Medical_Family_Social_History_and_Impression_Plan() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_Past_Medical_Family();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_Past_Medical_Family();
+    }
+    
+//  Test Case 252 ::    
+    @Test 
+    public void Verify_to_FInd_Chart_by_Physical_Examination() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_Physical_Examination();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_Pysical_Examination();
+    }
+    
+//  Test Case 253 ::    
+    @Test 
+    public void Verify_to_FInd_Chart_by_Orders() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_Orders();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_Orders();
+    }
+    
+//  Test Case 254 ::    
+    @Test 
+    public void Verify_to_Find_Chart_by_Medical_Decision_Making_MCT() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_MDM();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_MDM();
+    }
+    
+//  Test Case 255 ::    
+    @Test 
+    public void Verify_to_Find_Chart_by_Duvasawko_Guidelines_for_Coding_Consistency() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_Duvasawko_Guideline();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_Duvasawko_Guideline();
+    }
+    
+//  Test Case 256 ::    
+    @Test 
+    public void Verify_to_Find_Chart_By_Addenda_Attestation() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_ADDENDA_ATTESTATION();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_Duvasawko_Guideline();
+    }
+    
+//  Test Case 257 ::    
+    @Test 
+    public void Verify_to_Select_Stage_radio_buttons() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 258 ::    
+    @Test 
+    public void Verify_to_Reset_all_apply_Find_data() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_History_Of_Present_Illness();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_History_of_Present_illness();
+    	 basePage.Chart_Finder_Orders();
+    	 mainmenupage.Verify_to_find_chart_by_Orders();
+    	 
+    }
+    
+//  Test Case 259 ::    
+    @Test 
+    public void Verify_to_Select_Show_Hide_Left_and_Right_Panel_Bars() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_view_Parameter();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_History_of_Present_illness();
+    }
+    
+//  Test Case 260 ::    
+    @Test 
+    public void Verify_to_NewChart_Bulk_Upload_and_Submit_button() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    }
     
 
     

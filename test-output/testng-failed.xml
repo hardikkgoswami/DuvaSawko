@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
+          <include name="Verify_to_Find_Chart_by_Duvasawko_Guidelines_for_Coding_Consistency"/>
           <include name="onBefore"/>
-          <include name="Verify_to_upload_video_file_and_it_show_error_message"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

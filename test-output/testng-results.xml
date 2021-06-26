@@ -17,49 +17,43 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
+      <![CDATA[<br><br>STEP  | Click on History Of Present Illness ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
+      <![CDATA[<br><br>STEP  | Select Is there a history caveat? ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
+      <![CDATA[<br><br>STEP  | Select Is there a chief complaint documented? ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Select Chart Type ]]>
+      <![CDATA[<br><br>STEP  | Click on Orders ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Visit Type ]]>
+      <![CDATA[<br><br>STEP  | Select CT Special Studies ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 10 | Select EMR ]]>
+      <![CDATA[<br><br>STEP  | Click on Ancillary Studies Tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 11 | Select Classification ]]>
+      <![CDATA[<br><br>STEP  | Select Lab Ancillary Studies ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
+      <![CDATA[<br><br>STEP  | Select Medication tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 12 | Click on HPI Option ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 13 | Click on HPI Parser Button ]]>
+      <![CDATA[<br><br>STEP  | Select IV fluids ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="105265" started-at="2021-06-19T15:29:53Z" finished-at="2021-06-19T15:31:38Z">
+  <suite name="Default suite" duration-ms="66905" started-at="2021-06-26T13:00:13Z" finished-at="2021-06-26T13:01:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="105265" started-at="2021-06-19T15:29:53Z" finished-at="2021-06-19T15:31:38Z">
+    <test name="Default test" duration-ms="66905" started-at="2021-06-26T13:00:13Z" finished-at="2021-06-26T13:01:20Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="23" started-at="2021-06-19T20:59:53Z" finished-at="2021-06-19T20:59:53Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="20" started-at="2021-06-26T18:30:13Z" finished-at="2021-06-26T18:30:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem" duration-ms="105040" started-at="2021-06-19T20:59:53Z" finished-at="2021-06-19T21:01:38Z">
+        <test-method status="PASS" signature="Verify_to_Reset_all_apply_Find_data()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_Reset_all_apply_Find_data" duration-ms="66751" started-at="2021-06-26T18:30:13Z" finished-at="2021-06-26T18:31:20Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -77,41 +71,35 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Loader Tab ]]>
+              <![CDATA[<br><br>STEP  | Click on History Of Present Illness ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Enter Chart Number ]]>
+              <![CDATA[<br><br>STEP  | Select Is there a history caveat? ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Enter Facility Number ]]>
+              <![CDATA[<br><br>STEP  | Select Is there a chief complaint documented? ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Select Chart Type ]]>
+              <![CDATA[<br><br>STEP  | Click on Orders ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Visit Type ]]>
+              <![CDATA[<br><br>STEP  | Select CT Special Studies ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 10 | Select EMR ]]>
+              <![CDATA[<br><br>STEP  | Click on Ancillary Studies Tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 11 | Select Classification ]]>
+              <![CDATA[<br><br>STEP  | Select Lab Ancillary Studies ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 12 | Select Downcode ]]>
+              <![CDATA[<br><br>STEP  | Select Medication tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 13 | Click on Submit Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 12 | Click on HPI Option ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 13 | Click on HPI Parser Button ]]>
+              <![CDATA[<br><br>STEP  | Select IV fluids ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_HPI_Parser_select_New_by_default_in_Is_this_a_new_or_established_problem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="188" started-at="2021-06-19T21:01:38Z" finished-at="2021-06-19T21:01:38Z">
+        </test-method> <!-- Verify_to_Reset_all_apply_Find_data -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-06-26T18:31:20Z" finished-at="2021-06-26T18:31:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

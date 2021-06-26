@@ -3020,6 +3020,125 @@
         </classes>
     </test>
     
+      <!-- Test Case 251 :: Chart Loader :: Verify to Find Chart by Past Medical Family Social History and Impression Plan -->
+    <test name="Verify to Find Chart by Past Medical Family Social History and Impression Plan">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_by_Past_Medical_Family_Social_History_and_Impression_Plan"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 252 :: Chart Loader :: Verify to FInd Chart by Physical Examination -->
+    <test name="Verify to FInd Chart by Physical Examination">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_FInd_Chart_by_Physical_Examination"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 253 :: Chart Loader :: Verify to FInd Chart by Orders -->
+    <test name="Verify to FInd Chart by Orders">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_FInd_Chart_by_Orders"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 254 :: Chart Loader :: Verify to Find Chart by Medical Decision Making MCT -->
+    <test name="Verify to Find Chart by Medical Decision Making MCT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_by_Medical_Decision_Making_MCT"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 255 :: Chart Loader :: Verify to Find Chart by Duvasawko Guidelines for Coding Consistency -->
+    <test name="Verify to Find Chart by Duvasawko Guidelines for Coding Consistency">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_by_Duvasawko_Guidelines_for_Coding_Consistency"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 256 :: Chart Loader :: Verify to Find Chart By Addenda Attestation -->
+    <test name="Verify to Find Chart By Addenda Attestation">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_By_Addenda_Attestation"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 257 :: Manage Stage :: Verify to Select Stage radio buttons -->
+    <test name="Verify to Select Stage radio buttons">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_Stage_radio_buttons"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 258 :: Chart Loader :: Verify to Reset all apply Find data -->
+    <test name="Verify to Reset all apply Find data">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Reset_all_apply_Find_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 259 :: Parameters :: Verify to Select Show Hide Left and Right Panel Bars -->
+    <test name="Verify to Select Show Hide Left and Right Panel Bars">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_Show_Hide_Left_and_Right_Panel_Bars"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 260 :: Chart Finder :: Verify to NewChart Bulk Upload and Submit button -->
+    <test name="Verify to NewChart Bulk Upload and Submit button">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_NewChart_Bulk_Upload_and_Submit_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
     
     
 </suite>

@@ -254,6 +254,122 @@ public void Verify_to_find_chart_by_Review_of_System() throws InterruptedExcepti
 	common.pause(10);
 }
 
+public void Verify_to_find_chart_by_Past_Medical_Family() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"PFSHPanel_FIND\"]/div/div/div/div[1]/div/div/label[2]/span")).click();
+	System.out.println("STEP  | Select Past Medical/Surgical History Documented ");
+	common.log("<br><br>STEP  | Select Past Medical/Surgical History Documented ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"PFSHPanel_FIND\"]/div/div/div/div[2]/div/div/label[1]/span")).click();
+	System.out.println("STEP  | Select Family History Documented? ");
+	common.log("<br><br>STEP  | Select Family History Documented? ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_Pysical_Examination() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"PEPanel_FIND\"]/div/div/div/div[1]/div/div/div/label[2]/span")).click();
+	System.out.println("STEP  | Select Fever ≥ 100.5°F or 38.0°C documented in the ED");
+	common.log("<br><br>STEP  | Select Fever ≥ 100.5°F or 38.0°C documented in the ED ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"PEPanel_FIND\"]/div/div/div/div[3]/div/label/span")).click();
+	System.out.println("STEP  | Select Gastrointestinal ");
+	common.log("<br><br>STEP  | Select Gastrointestinal ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_Orders() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"orders-tabs-find-1\"]/div/div[1]/div[1]/div/div/div/label[2]/span")).click();
+	System.out.println("STEP  | Select CT Special Studies ");
+	common.log("<br><br>STEP  | Select CT Special Studies ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"orders-tabs-find\"]/ul/li[2]/span[2]")).click();
+	System.out.println("STEP  | Click on Ancillary Studies Tab ");
+	common.log("<br><br>STEP  | Click on Ancillary Studies Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"orders-tabs-find-2\"]/div/div[3]/div/div/label[3]/span")).click();
+	System.out.println("STEP  | Select Lab Ancillary Studies ");
+	common.log("<br><br>STEP  | Select Lab Ancillary Studies ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"orders-tabs-find\"]/ul/li[3]/span[2]")).click();
+	System.out.println("STEP  | Select Medication tab ");
+	common.log("<br><br>STEP  | Select Medication tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"orders-tabs-find-3\"]/div/div[1]/div/div/label[1]")).click();
+	System.out.println("STEP  | Select IV fluids ");
+	common.log("<br><br>STEP  | Select IV fluids ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_MDM() throws InterruptedException, IOException{
+	
+//	driver.findElement(By.xpath("//*[@id=\"PEPanel_FIND\"]/div/div/div/div[1]/div/div/div/label[2]/span")).click();
+	System.out.println("STEP  | Select Self limited/minor ");
+	common.log("<br><br>STEP  | Select Self limited/minor ");
+	common.pause(10);
+	
+//	driver.findElement(By.xpath("//*[@id=\"PEPanel_FIND\"]/div/div/div/div[3]/div/label/span")).click();
+	System.out.println("STEP  | Select Established problem, stable; improved ");
+	common.log("<br><br>STEP  | Select Established problem, stable; improved ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_Duvasawko_Guideline() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div[4]/div/div[2]/div/div[3]/ul/li[9]/div/div/div[3]/table/tbody/tr[3]/td[5]")).click();
+	System.out.println("STEP  | Select Risk Level ");
+	common.log("<br><br>STEP  | Select Risk Level ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_Addenda_Attestation() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"AAPanel_FIND\"]/div/div/div/div[1]/div/div/label[2]")).click();
+	System.out.println("STEP  | Select Is there an addenda? ");
+	common.log("<br><br>STEP  | Select Is there an addenda? ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"AAPanel_FIND\"]/div/div/div/div[2]/div/div/label[2]")).click();
+	System.out.println("STEP  | Select Is this a split/shared visit? ");
+	common.log("<br><br>STEP  | Select Is this a split/shared visit? ");
+	common.pause(10);
+}
+
+public void Verify_to_find_chart_by_Reset_Button() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"reset_filter\"]")).click();
+	System.out.println("STEP  | Click on Reset Button ");
+	common.log("<br><br>STEP  | Click on Reset Button ");
+	common.pause(10);
+}
+
+
+public void Verify_to_Parameters_Show_hide_Left_options() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"APPLICANT_stage5_values\"]/div[1]/div[2]/div/label[1]")).click();
+	System.out.println("STEP  | Select Basic Information ");
+	common.log("<br><br>STEP  | Select Basic Information ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"APPLICANT_stage5_values\"]/div[2]/div[2]/div/label[1]")).click();
+	System.out.println("STEP  | Select Diagnosis And Management Option ");
+	common.log("<br><br>STEP  | Select Diagnosis And Management Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"APPLICANT_stage5_values\"]/div[5]/div[2]/div/label[1]")).click();
+	System.out.println("STEP  | Select E/M Summary For Coders ");
+	common.log("<br><br>STEP  | Select E/M Summary For Coders ");
+	common.pause(10);
+}
+
+
 	
 
 }

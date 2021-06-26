@@ -5787,6 +5787,55 @@ public void Chart_Finder_ReviewOf_System() throws InterruptedException, IOExcept
 	common.pause(10);
 }
 
+public void Chart_Finder_Past_Medical_Family() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"PFSHPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on Past Medical Family ");
+	common.log("<br><br>STEP  | Click on Past Medical Family ");
+	common.pause(10);
+}
+
+public void Chart_Finder_Physical_Examination() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"PEPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on Pysical_Examination ");
+	common.log("<br><br>STEP  | Click on Pysical_Examination ");
+	common.pause(10);
+}
+
+public void Chart_Finder_Orders() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"ORDPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on Orders ");
+	common.log("<br><br>STEP  | Click on Orders ");
+	common.pause(10);
+}
+
+public void Chart_Finder_MDM() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"MDMPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on MDM ");
+	common.log("<br><br>STEP  | Click on MDM ");
+	common.pause(10);
+}
+
+public void Chart_Finder_Duvasawko_Guideline() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"DSGCCPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on Duvasawko_Guideline ");
+	common.log("<br><br>STEP  | Click on Duvasawko_Guideline ");
+	common.pause(10);
+}
+
+public void Chart_Finder_ADDENDA_ATTESTATION() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"AAPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on Addenda Attestation ");
+	common.log("<br><br>STEP  | Click on Addenda Attestation ");
+	common.pause(10);
+}
+
+
 
 
 }
