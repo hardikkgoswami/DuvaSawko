@@ -5663,16 +5663,24 @@ public void Manage_Users_PanelBar_OverRide() throws InterruptedException, IOExce
 public void Answer_Key() throws InterruptedException, IOException{
     
 	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
-	System.out.println("STEP 06 | Click on Answer Key ");
-	common.log("<br><br>STEP 06 | Click on Answer Key ");
+	System.out.println("STEP  | Click on Answer Key ");
+	common.log("<br><br>STEP  | Click on Answer Key ");
 	common.pause(10);
 }
 
 public void Student_Answer_Key() throws InterruptedException, IOException{
     
 	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
-	System.out.println("STEP 07 | Click on Student Answer Key ");
-	common.log("<br><br>STEP 07 | Click on Student Answer Key ");
+	System.out.println("STEP  | Click on Student Answer Key ");
+	common.log("<br><br>STEP  | Click on Student Answer Key ");
+	common.pause(40);
+}
+
+public void Manage_Provider() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//*[@id=\"menu_manage_providers\"]/span")).click();
+	System.out.println("STEP  | Click on Manage Provider ");
+	common.log("<br><br>STEP  | Click on Manage Provider ");
 	common.pause(40);
 }
 

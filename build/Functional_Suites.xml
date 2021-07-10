@@ -3140,5 +3140,126 @@
         </classes>
     </test>
     
+      <!-- Test Case 261 :: Student Answer Key :: Verify to Edit feedback CPT -->
+    <test name="Verify to Edit feedback CPT">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_feedback_CPT"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 262 :: Student Progress :: Verify to display NULL value if student doesnt give answer -->
+    <test name="Verify to display NULL value if student doesnt give answer">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_NULL_value_if_student_doesnt_give_answer"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 263 :: Chart Loader :: Verify to If chart is not loaded then In Progress not display -->
+    <test name="Verify to If chart is not loaded then In Progress not display">
+        <classes> 
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_If_chart_is_not_loaded_then_In_Progress_not_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 264 :: Manage Provider :: Verify to Clear search fields -->
+    <test name="Verify to Clear search fields">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Clear_search_fields"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 265 :: Student Progress :: Verify to Finalize Student Score -->
+    <test name="Verify to Finalize Student Score">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Finalize_Student_Score"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 266 :: Student Progress :: Verify to load Question when any student in progress -->
+    <test name="Verify to load Question when any student in progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_Question_when_any_student_in_progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 267 :: Student Answer Key :: Verify to Display test by #Test -->
+    <test name="Verify to Display test by #Test">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_test_by_Test"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 268 :: Manage Stage :: Verify to rearrange Grid Dragging -->
+    <test name="Verify to rearrange Grid Dragging">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_rearrange_Grid_Dragging"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 269 :: Student Answer Key :: Verify to Find Chart and Edit that chart -->
+    <test name="Verify to Find Chart and Edit that chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_Chart_and_Edit_that_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
+      <!-- Test Case 270 :: Student Progress :: Verify to give Score so user can finalize -->
+    <test name=" Verify to give Score so user can finalize">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_give_Score_so_user_can_finalize"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>

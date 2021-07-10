@@ -17,43 +17,25 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on History Of Present Illness ]]>
+      <![CDATA[<br><br>STEP  | Click on Answer Key ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Select Is there a history caveat? ]]>
+      <![CDATA[<br><br>STEP  | Click on Student Answer Key ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Select Is there a chief complaint documented? ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Click on Orders ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Select CT Special Studies ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Click on Ancillary Studies Tab ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Select Lab Ancillary Studies ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Select Medication tab ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Select IV fluids ]]>
+      <![CDATA[<br><br>STEP  | Select # Test]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66905" started-at="2021-06-26T13:00:13Z" finished-at="2021-06-26T13:01:20Z">
+  <suite name="Default suite" duration-ms="52749" started-at="2021-07-10T06:43:37Z" finished-at="2021-07-10T06:44:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66905" started-at="2021-06-26T13:00:13Z" finished-at="2021-06-26T13:01:20Z">
+    <test name="Default test" duration-ms="52749" started-at="2021-07-10T06:43:37Z" finished-at="2021-07-10T06:44:30Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="20" started-at="2021-06-26T18:30:13Z" finished-at="2021-06-26T18:30:13Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="18" started-at="2021-07-10T12:13:37Z" finished-at="2021-07-10T12:13:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Reset_all_apply_Find_data()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_Reset_all_apply_Find_data" duration-ms="66751" started-at="2021-06-26T18:30:13Z" finished-at="2021-06-26T18:31:20Z">
+        <test-method status="PASS" signature="Verify_to_Display_test_by_Test()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_Display_test_by_Test" duration-ms="52604" started-at="2021-07-10T12:13:37Z" finished-at="2021-07-10T12:14:29Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -71,35 +53,17 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on History Of Present Illness ]]>
+              <![CDATA[<br><br>STEP  | Click on Answer Key ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Select Is there a history caveat? ]]>
+              <![CDATA[<br><br>STEP  | Click on Student Answer Key ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Select Is there a chief complaint documented? ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Click on Orders ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Select CT Special Studies ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Click on Ancillary Studies Tab ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Select Lab Ancillary Studies ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Select Medication tab ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Select IV fluids ]]>
+              <![CDATA[<br><br>STEP  | Select # Test]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Reset_all_apply_Find_data -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-06-26T18:31:20Z" finished-at="2021-06-26T18:31:20Z">
+        </test-method> <!-- Verify_to_Display_test_by_Test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="115" started-at="2021-07-10T12:14:29Z" finished-at="2021-07-10T12:14:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

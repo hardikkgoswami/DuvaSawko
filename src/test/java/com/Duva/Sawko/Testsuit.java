@@ -1928,7 +1928,98 @@ public class Testsuit {
     	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
     }
     
-
+//  Test Case 261 ::    
+    @Test 
+    public void Verify_to_Edit_feedback_CPT() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Find_Chart_Edit_Chart();
+    }
+    
+//  Test Case 262 ::    
+    @Test 
+    public void Verify_to_display_NULL_value_if_student_doesnt_give_answer() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 263 ::    
+    @Test 
+    public void Verify_to_If_chart_is_not_loaded_then_In_Progress_not_display() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it();
+    }
+    
+//  Test Case 264 ::    
+    @Test 
+    public void Verify_to_Clear_search_fields() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Manage_Provider();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_load_charts_and_when_user_add_more_it_increase_chat_number_load_it();
+    }
+    
+//  Test Case 265 ::    
+    @Test 
+    public void Verify_to_Finalize_Student_Score() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 266 ::    
+    @Test 
+    public void Verify_to_load_Question_when_any_student_in_progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 267 ::    
+    @Test 
+    public void Verify_to_Display_test_by_Test() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Display_test_by_Test();
+    }
+    
+//  Test Case 268 ::    
+    @Test 
+    public void Verify_to_rearrange_Grid_Dragging() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 269 ::    
+    @Test 
+    public void Verify_to_Find_Chart_and_Edit_that_chart() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+	   	 basePage.verify_login_details_of_admin();
+	   	 basePage.Answer_Key();
+	   	 basePage.Student_Answer_Key();
+	   	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+	   	 mainmenupage.Verify_to_Find_Chart_Edit_Chart();
+    }
+    
+//  Test Case 270 ::    
+    @Test 
+    public void Verify_to_give_Score_so_user_can_finalize() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
     
     
     
