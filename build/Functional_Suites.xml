@@ -3261,5 +3261,17 @@
         </classes>
     </test>
     
+     <!-- Test Case 270 :: Student Progress :: Verify to give Score so user can finalize -->
+    <test name=" Verify to give Score so user can finalize">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_give_Score_so_user_can_finalize"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>
