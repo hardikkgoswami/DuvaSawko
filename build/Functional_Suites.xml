@@ -19,8 +19,7 @@
     value="https://www.google.com/" />
    
    
-       
-     <!-- Test Case 1 :: Verify Login details of Student -->
+     <!-- Test Case 1 :: Verify Login details of Student  -->
     <test name="Verify Login details of Student">
         <classes>
             <class name="com.Duva.Sawko.Testsuit">
