@@ -3250,7 +3250,7 @@
     
     
       <!-- Test Case 270 :: Student Progress :: Verify to give Score so user can finalize -->
-    <test name=" Verify to give Score so user can finalize">
+    <test name="Verify to give Score so user can finalize">
         <classes> 	
             <class name="com.Duva.Sawko.Testsuit">
                 <methods>
@@ -3261,12 +3261,120 @@
         </classes>
     </test>
     
-     <!-- Test Case 270 :: Student Progress :: Verify to give Score so user can finalize -->
-    <test name=" Verify to give Score so user can finalize">
+     <!-- Test Case 271 :: Student Answer Key :: Verify to view 2 row option display in dropdown -->
+    <test name="Verify to view 2 row option display in dropdown">
         <classes> 	
             <class name="com.Duva.Sawko.Testsuit">
                 <methods>
-                    <include name="Verify_to_give_Score_so_user_can_finalize"> 
+                    <include name="Verify_to_view_2_row_option_display_in_dropdown"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 272 :: Chart Finder :: Verify to Change Page number -->
+    <test name="Verify to Change Page number">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Change_Page_number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 273 :: Chart Loader :: Verify to Updating Chart -->
+    <test name="Verify to Updating Chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Updating_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 274 :: Student Answer Key :: Verify to Enter only String not Number -->
+    <test name="Verify to Enter only String not Number">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Enter_only_String_not_Number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 275 :: Student Answer Key :: Verify to display Proper message when user has Incomplete  -->
+    <test name="Verify to display Proper message when user has Incomplete">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Proper_message_when_user_has_Incomplete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 276 :: Student Answer Key :: Verify to delete chart  -->
+    <test name="Verify to delete chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 277 :: Student Progress :: Verify to display Proper message when user has Incomplete  -->
+    <test name="Verify to display Proper message when user has Incompleteone">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Proper_message_when_user_has_IncompleteOne"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 278 :: Manage Users :: Verify to Change Application to Pre Hire of Student  -->
+    <test name="Verify to Change Application to Pre Hire of Student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Change_Application_to_Pre_Hire_of_Student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 279 :: Student Progress :: Verify to display Score and display correct and wrong Answer -->
+    <test name="Verify to display Score and display correct and wrong Answer">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Score_and_display_correct_and_wrong_Answer"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 280 :: Student Progress :: Verify that if Student has not started it shouldn't display Failed message -->
+    <test name="Verify that if Student has not started it shouldnt display Failed message">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_if_Student_has_not_started_it_shouldnt_display_Failed_message"> 
                     </include>
                 </methods>
             </class>

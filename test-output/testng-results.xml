@@ -17,25 +17,28 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Answer Key ]]>
+      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Student Answer Key ]]>
+      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Select # Test]]>
+      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Click on Data Gride to Select other option ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52749" started-at="2021-07-10T06:43:37Z" finished-at="2021-07-10T06:44:30Z">
+  <suite name="Default suite" duration-ms="62642" started-at="2021-07-17T08:57:04Z" finished-at="2021-07-17T08:58:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52749" started-at="2021-07-10T06:43:37Z" finished-at="2021-07-10T06:44:30Z">
+    <test name="Default test" duration-ms="62642" started-at="2021-07-17T08:57:04Z" finished-at="2021-07-17T08:58:06Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="18" started-at="2021-07-10T12:13:37Z" finished-at="2021-07-10T12:13:37Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="18" started-at="2021-07-17T14:27:04Z" finished-at="2021-07-17T14:27:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Display_test_by_Test()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_Display_test_by_Test" duration-ms="52604" started-at="2021-07-10T12:13:37Z" finished-at="2021-07-10T12:14:29Z">
+        <test-method status="PASS" signature="Verify_to_display_data_as_per_Select_Data_Grid()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_display_data_as_per_Select_Data_Grid" duration-ms="62482" started-at="2021-07-17T14:27:04Z" finished-at="2021-07-17T14:28:06Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -53,17 +56,20 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Answer Key ]]>
+              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Student Answer Key ]]>
+              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Select # Test]]>
+              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Click on Data Gride to Select other option ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Display_test_by_Test -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="115" started-at="2021-07-10T12:14:29Z" finished-at="2021-07-10T12:14:30Z">
+        </test-method> <!-- Verify_to_display_data_as_per_Select_Data_Grid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="130" started-at="2021-07-17T14:28:06Z" finished-at="2021-07-17T14:28:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

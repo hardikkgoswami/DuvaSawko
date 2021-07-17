@@ -3088,18 +3088,18 @@ public void Verify_to_Edit_Pages_and_no_unwanted_flash_message_display() throws 
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"chart_loader_tabstrip\"]/ul/li[1]/span[2]")).click();
-	System.out.println("STEP 06 | Click on Chart Finder Tab ");
-	common.log("<br><br>STEP 06 | Click on Chart Finder Tab ");
+	System.out.println("STEP  | Click on Chart Finder Tab ");
+	common.log("<br><br>STEP  | Click on Chart Finder Tab ");
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
-	System.out.println("STEP 07 | Select Chart Number ");
-	common.log("<br><br>STEP 07 | Select Chart Number ");
+	System.out.println("STEP  | Select Chart Number ");
+	common.log("<br><br>STEP  | Select Chart Number ");
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
-	System.out.println("STEP 08 | Click on Load Button ");
-	common.log("<br><br>STEP 08 | Click on Load Button ");
+	System.out.println("STEP  | Click on Load Button ");
+	common.log("<br><br>STEP  | Click on Load Button ");
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"tabcontent\"]/div/div/div/div[4]/div/div[1]/span/span[2]/span/span[2]")).click();
@@ -4411,7 +4411,7 @@ public void Verify_to_delete_and_add_DSGCC() throws InterruptedException, IOExce
 	common.log("<br><br>STEP 12 | Click on + Button ");
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"current_dsgcc_result\"]/table/tbody/tr[3]/td[6]")).click();
+	driver.findElement(By.xpath("//a[text()='Delete']")).click();
 	System.out.println("STEP 13 | Click on delete Button");
 	common.log("<br><br>STEP 13 | Click on delete Button ");
 	common.pause(20);
@@ -4856,13 +4856,13 @@ public void Verify_to_display_data_as_per_Select_Data_Grid() throws InterruptedE
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
-	System.out.println("STEP 07 | Click on Student Progress ");
-	common.log("<br><br>STEP 07 | Click on Student Progress ");
+	System.out.println("STEP  | Click on Student Progress ");
+	common.log("<br><br>STEP  | Click on Student Progress ");
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
-	System.out.println("STEP 08 | Verify It display Student Progress!!! ");
-	common.log("<br><br>STEP 08 | Verify It display Student Progress!!! ");
+	System.out.println("STEP  | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP  | Verify It display Student Progress!!! ");
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
@@ -4871,8 +4871,8 @@ public void Verify_to_display_data_as_per_Select_Data_Grid() throws InterruptedE
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"studentgrid\"]/div/span[1]/span/span/span[2]")).click();
-	System.out.println("STEP 10 | Click on Data Gride to Select other option ");
-	common.log("<br><br>STEP 10 | Click on Data Gride to Select other option ");
+	System.out.println("STEP  | Click on Data Gride to Select other option ");
+	common.log("<br><br>STEP  | Click on Data Gride to Select other option ");
 	common.pause(10);
 	
 	 Actions builder = new Actions(driver);

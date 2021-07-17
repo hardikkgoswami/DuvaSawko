@@ -431,11 +431,51 @@ public void Verify_to_Display_test_by_Test() throws InterruptedException, IOExce
 	
 	driver.findElement(By.xpath("//*[@id=\"search_studentasnwerkey\"]/div[1]/div[2]/div/span/span")).click();
 	common.pause(5);
-	driver.findElement(By.xpath("//li[text()='ED_APP_1']"));
+	driver.findElement(By.xpath("//li[text()='ED_APP_1']")).click();
 	System.out.println("STEP  | Select # Test ");
 	common.log("<br><br>STEP  | Select # Test");
 	common.pause(10);
 }
+
+public void Verify_to_view_2_row_option_display_in_dropdown() throws InterruptedException, IOException{
+	common.pause(10);
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div[1]/div/div[4]/div/span[1]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div[44]/div/div[2]/ul/li[2]")).click();
+	System.out.println("STEP  | Click on Dropdown ");
+	common.log("<br><br>STEP  | Click on Dropdown ");
+	common.pause(10);
+}
+
+public void Verify_to_Enter_only_String_not_Number() throws InterruptedException, IOException {
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[1]/div/div/form/div[1]/div[1]/div/span")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='43']")).click();
+	System.out.println("STEP  | Select Chart # ");
+	common.log("<br><br>STEP  | Select Chart # ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"student_answer_key_grid\"]/table/tbody/tr/td[4]")).click();
+	System.out.println("STEP  | Select Chart ");
+	common.log("<br><br>STEP  | Select Chart ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//input[@id='add_Chart']")).isDisplayed();
+	common.pause(5);
+	System.out.println("STEP  | Edit Chart ");
+	common.log("<br><br>STEP  | Edit Chart ");
+	common.pause(10);
+}
+
+
+
+
+
+
+
+
+
 	
 
 }

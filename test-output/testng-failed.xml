@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
-          <include name="Verify_to_Find_Chart_by_Duvasawko_Guidelines_for_Coding_Consistency"/>
           <include name="onBefore"/>
+          <include name="Verify_to_Display_Message_when_user_add_or_delete_DSGCC"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

@@ -2021,7 +2021,85 @@ public class Testsuit {
     	 mainmenupage.Verify_to_Finalize_Student_Score();
     }
     
+//  Test Case 271 ::    
+    @Test 
+    public void Verify_to_view_2_row_option_display_in_dropdown() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Utilities_Manage_Email();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_2_row_option_display_in_dropdown();
+    }
     
+//  Test Case 272 ::    
+    @Test 
+    public void Verify_to_Change_Page_number() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_load_multiple_chart_and_When_user_click_on_next_button_it_should_also_change_chart_number();
+    }
+    
+//  Test Case 273 ::    
+    @Test 
+    public void Verify_to_Updating_Chart() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_New_Chart_button();
+    }
+    
+//  Test Case 274 ::    
+    @Test 
+    public void Verify_to_Enter_only_String_not_Number() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Enter_only_String_not_Number();
+    }
+    
+//  Test Case 275 ::    
+    @Test 
+    public void Verify_to_display_Proper_message_when_user_has_Incomplete() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 276 ::    
+    @Test 
+    public void Verify_to_delete_chart() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_Delete_Selected_Chart();
+    }
+    
+//  Test Case 277 ::    
+    @Test 
+    public void Verify_to_display_Proper_message_when_user_has_IncompleteOne() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 278 ::    
+    @Test
+    public void Verify_to_Change_Application_to_Pre_Hire_of_Student() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_edited_data_should_save();
+    }
+    
+//  Test Case 279 ::    
+    @Test
+    public void Verify_to_display_Score_and_display_correct_and_wrong_Answer() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 280 ::    
+    @Test
+    public void Verify_that_if_Student_has_not_started_it_shouldnt_display_Failed_message() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
     
     
     
