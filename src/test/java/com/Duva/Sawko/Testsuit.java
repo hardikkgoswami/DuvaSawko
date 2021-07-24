@@ -2101,6 +2101,92 @@ public class Testsuit {
     	 basePage.Verify_to_view_user_Progress();
     }
     
+//  Test Case 281 ::    
+    @Test
+    public void Verify_to_Final_score_problem() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 282 ::    
+    @Test
+    public void Verify_to_load_all_questions_in_list() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_load_all_questions_in_list();
+    }
+    
+//  Test Case 283 ::    
+    @Test
+    public void Verify_to_that_if_user_add_score_it_should_jump_to_top() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_load_all_questions_in_list();
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 284 ::    
+    @Test
+    public void Verify_that_when_user_hover_it_change_message() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 285 ::    
+    @Test
+    public void Verify_to_View_Last_Submission_full_date_time() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 286 ::    
+    @Test
+    public void Verify_to_view_Pre_Score_and_Final_Score() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 287 ::    
+    @Test
+    public void Verify_that_By_Default_Last_3_days_should_selected() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Student_Progress();
+    }
+    
+//  Test Case 288 ::    
+    @Test
+    public void Verify_to_check_HPI_Filter_to_search() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Chart_Finder_History_Of_Present_Illness();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_find_chart_by_History_of_Present_illness();
+    }
+    
+//  Test Case 289 ::    
+    @Test
+    public void Verify_to_Add_Key_two_times() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Add_Key_two_times();
+    }
+    
+//  Test Case 290 ::    
+    @Test
+    public void Verify_to_Add_Long_ICD_String() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Add_Key_two_times();
+    }
+    
     
     
     

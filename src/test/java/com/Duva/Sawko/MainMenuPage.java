@@ -2,6 +2,7 @@ package com.Duva.Sawko;
 
 import java.io.IOException;
 import java.text.DateFormat;
+import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -468,6 +469,79 @@ public void Verify_to_Enter_only_String_not_Number() throws InterruptedException
 	common.pause(10);
 }
 
+public void Verify_to_load_all_questions_in_list() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	driver.findElement(By.xpath("//*[@id=\"panel3\"]/div/div/div[1]/div[4]/div/label[3]")).click();
+	System.out.println("STEP  | Click on All Radio Button ");
+	common.log("<br><br>STEP  | Click on All Radio Button ");
+	common.pause(20);
+}
+
+public void Verify_to_that_if_user_add_score_it_should_jump_to_top() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	driver.findElement(By.xpath("//*[@id=\"panel3\"]/div/div/div[1]/div[4]/div/label[3]")).click();
+	System.out.println("STEP  | Click on All Radio Button ");
+	common.log("<br><br>STEP  | Click on All Radio Button ");
+	common.pause(20);
+	
+}
+
+public void Verify_to_Add_Key_two_times() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"panel2\"]/span")).click();
+	System.out.println("STEP   | Click on Add Key ");
+	common.log("<br><br>STEP   | Click on Add Key ");
+	common.pause(10);
+	
+	Random incdate = new Random();
+	int incdateLow = 50;
+	int incdateHigh = 250;
+	int incdateResult = incdate.nextInt(incdateHigh-incdateLow) + incdateLow;	
+	String startvaluedate = "0";
+	String Incrementdatevalue =  Integer.toString(incdateResult);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_Chart\"]")).sendKeys("140");
+	System.out.println("STEP   | Enter Chart Number ");
+	common.log("<br><br>STEP   | Enter Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div[1]/div/div[2]/div")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div/div/div[2]/ul/li[4]")).click();
+	System.out.println("STEP   | Enter Test# ");
+	common.log("<br><br>STEP   | Enter Test# ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_CPTSTRING\"]")).sendKeys("99205");
+	System.out.println("STEP   | Enter CPT ");
+	common.log("<br><br>STEP   | Enter CPT ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/div[1]/div[1]/div/div[5]/div[1]/label[2]")).click();
+	System.out.println("STEP   | Select Classification ");
+	common.log("<br><br>STEP   | Select Classification ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_ICDString\"]")).sendKeys("R10.9");
+	System.out.println("STEP   | Enter ICD String ");
+	common.log("<br><br>STEP   | Enter ICD String ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div[2]/div/span/span")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div/div/div[2]/ul/li[4]")).click();
+	System.out.println("STEP   | Select Provider 1 ");
+	common.log("<br><br>STEP   | Select Provider 1 ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP  | Click on Submit Button ");
+	common.log("<br><br>STEP  | Click on Submit Button ");
+	common.pause(10);
+	
+}
 
 
 

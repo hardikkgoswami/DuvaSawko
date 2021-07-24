@@ -4222,18 +4222,18 @@ public void Verify_functionality_when_user_left_blank_fields() throws Interrupte
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//html/body/div[3]/div[1]/ul/li[4]/div/span[1]")).click();
-	System.out.println("STEP 06 | Click on Answer Key ");
-	common.log("<br><br>STEP 06 | Click on Answer Key ");
+	System.out.println("STEP  | Click on Answer Key ");
+	common.log("<br><br>STEP  | Click on Answer Key ");
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
-	System.out.println("STEP 07 | Click on Student Answer Key ");
-	common.log("<br><br>STEP 07 | Click on Student Answer Key ");
+	System.out.println("STEP  | Click on Student Answer Key ");
+	common.log("<br><br>STEP  | Click on Student Answer Key ");
 	common.pause(40);
 	
 	driver.findElement(By.xpath("//*[@id=\"menu_student_answer_key\"]/span")).click();
-	System.out.println("STEP 08 | Click on Student Answer Key ");
-	common.log("<br><br>STEP 08 | Click on Student Answer Key ");
+	System.out.println("STEP  | Click on Student Answer Key ");
+	common.log("<br><br>STEP  | Click on Student Answer Key ");
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"panel2\"]/span")).click();
@@ -4242,13 +4242,13 @@ public void Verify_functionality_when_user_left_blank_fields() throws Interrupte
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
-	System.out.println("STEP 10 | Click on Submit Button ");
-	common.log("<br><br>STEP 10 | Click on Submit Button ");
+	System.out.println("STEP  | Click on Submit Button ");
+	common.log("<br><br>STEP  | Click on Submit Button ");
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"panel1\"]/div[1]/div[1]/div/div[1]/span")).isDisplayed();
-	System.out.println("STEP 11 | Verify It Display Error Message ");
-	common.log("<br><br>STEP 11 | Verify It Display Error Message ");
+	System.out.println("STEP  | Verify It Display Error Message ");
+	common.log("<br><br>STEP  | Verify It Display Error Message ");
 	common.pause(10);
 }
 
@@ -4569,13 +4569,13 @@ public void Verify_to_view_user_Progress() throws InterruptedException, IOExcept
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
-	System.out.println("STEP 07 | Click on Student Progress ");
-	common.log("<br><br>STEP 07 | Click on Student Progress ");
+	System.out.println("STEP  | Click on Student Progress ");
+	common.log("<br><br>STEP  | Click on Student Progress ");
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
-	System.out.println("STEP 08 | Verify It display Student Progress!!! ");
-	common.log("<br><br>STEP 08 | Verify It display Student Progress!!! ");
+	System.out.println("STEP  | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP  | Verify It display Student Progress!!! ");
 	common.pause(20);
 	
 	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
@@ -4584,18 +4584,18 @@ public void Verify_to_view_user_Progress() throws InterruptedException, IOExcept
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"studentgrid\"]/table/tbody/tr[4]/td[3]")).click();
-	System.out.println("STEP 10 | Select User from List ");
-	common.log("<br><br>STEP 10 | Select User from List ");
+	System.out.println("STEP  | Select User from List ");
+	common.log("<br><br>STEP  | Select User from List ");
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"testhistory\"]/table/tbody/tr/td[2]")).click();
-	System.out.println("STEP 11 | Click on Test History By Day ");
-	common.log("<br><br>STEP 11 | Click on Test History By Day ");
+	System.out.println("STEP  | Click on Test History By Day ");
+	common.log("<br><br>STEP  | Click on Test History By Day ");
 	common.pause(10);
 	
 	driver.findElement(By.xpath("//*[@id=\"question\"]/table/tbody/tr[1]/td[3]")).isDisplayed();
-	System.out.println("STEP 12 | Verify It Display User Progress ");
-	common.log("<br><br>STEP 12 | Verify It Display User Progress ");
+	System.out.println("STEP  | Verify It Display User Progress ");
+	common.log("<br><br>STEP  | Verify It Display User Progress ");
 	common.pause(10);
 	
 }

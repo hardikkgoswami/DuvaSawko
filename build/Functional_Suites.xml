@@ -3380,5 +3380,125 @@
         </classes>
     </test>
     
+     <!-- Test Case 281 :: Student Progress :: Verify to Final score problem -->
+    <test name="Verify to Final score problem">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Final_score_problem"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 282 :: Student Progress :: Verify to load all questions in list -->
+    <test name="Verify to load all questions in list">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_load_all_questions_in_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 283 :: Student Progress :: Verify to that if user add score it should jump to top -->
+    <test name="Verify to that if user add score it should jump to top">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_that_if_user_add_score_it_should_jump_to_top"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 284 :: Student Progress :: Verify that when user hover it change message -->
+    <test name="Verify that when user hover it change message">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_when_user_hover_it_change_message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 285 :: Student Progress :: Verify to View Last Submission full date & time -->
+    <test name="Verify to View Last Submission full date time">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Last_Submission_full_date_time"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 286 :: Student Progress :: Verify to view Pre Score and Final Score -->
+    <test name="Verify to view Pre Score and Final Score">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Pre_Score_and_Final_Score"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 287 :: Student Progress :: Verify that By Default Last 3 days should selected -->
+    <test name="Verify that By Default Last 3 days should selected">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_By_Default_Last_3_days_should_selected"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 288 :: Chart Finder :: Verify to check HPI Filter to search -->
+    <test name="Verify to check HPI Filter to search">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_check_HPI_Filter_to_search"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 289 :: Student Answer Key :: Verify to Add Key two times -->
+    <test name="Verify to Add Key two times">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_Key_two_times"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 290 :: Student Answer Key :: Verify to Add Long ICD String -->
+    <test name="Verify to Add Long ICD String">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_Long_ICD_String"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>

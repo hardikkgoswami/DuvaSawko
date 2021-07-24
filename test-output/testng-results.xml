@@ -17,28 +17,31 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
+      <![CDATA[<br><br>STEP 06 | Click on Coding Tools  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
+      <![CDATA[<br><br>STEP 07 | Click on Manage DSGCC ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+      <![CDATA[<br><br>STEP 08 | Select any Risk Level ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Data Gride to Select other option ]]>
+      <![CDATA[<br><br>STEP   | Click on Level Ascending Level ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP   | Click on Level Descending Level ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62642" started-at="2021-07-17T08:57:04Z" finished-at="2021-07-17T08:58:06Z">
+  <suite name="Default suite" duration-ms="62140" started-at="2021-07-24T06:22:55Z" finished-at="2021-07-24T06:23:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62642" started-at="2021-07-17T08:57:04Z" finished-at="2021-07-17T08:58:06Z">
+    <test name="Default test" duration-ms="62140" started-at="2021-07-24T06:22:55Z" finished-at="2021-07-24T06:23:57Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="onBefore" is-config="true" duration-ms="18" started-at="2021-07-17T14:27:04Z" finished-at="2021-07-17T14:27:04Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="20" started-at="2021-07-24T11:52:55Z" finished-at="2021-07-24T11:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_display_data_as_per_Select_Data_Grid()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="Verify_to_display_data_as_per_Select_Data_Grid" duration-ms="62482" started-at="2021-07-17T14:27:04Z" finished-at="2021-07-17T14:28:06Z">
+        <test-method status="PASS" signature="Verify_to_Check_Sorting()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_Check_Sorting" duration-ms="61991" started-at="2021-07-24T11:52:55Z" finished-at="2021-07-24T11:53:57Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -56,20 +59,23 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
+              <![CDATA[<br><br>STEP 06 | Click on Coding Tools  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
+              <![CDATA[<br><br>STEP 07 | Click on Manage DSGCC ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+              <![CDATA[<br><br>STEP 08 | Select any Risk Level ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Data Gride to Select other option ]]>
+              <![CDATA[<br><br>STEP   | Click on Level Ascending Level ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP   | Click on Level Descending Level ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_display_data_as_per_Select_Data_Grid -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@2f112965]" name="tearDown" is-config="true" duration-ms="130" started-at="2021-07-17T14:28:06Z" finished-at="2021-07-17T14:28:06Z">
+        </test-method> <!-- Verify_to_Check_Sorting -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="116" started-at="2021-07-24T11:53:57Z" finished-at="2021-07-24T11:53:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
