@@ -2187,6 +2187,94 @@ public class Testsuit {
     	 mainmenupage.Verify_to_Add_Key_two_times();
     }
     
+//  Test Case 291 ::    
+    @Test
+    public void Verify_to_apply_different_filters() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_apply_different_filters();
+    }
+    
+//  Test Case 292 ::    
+    @Test
+    public void Verify_to_View_Auto_Promotion_when_Student_Score_Finalize() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_View_Auto_Promotion_when_Student_Score_Finalize();
+    }
+    
+//  Test Case 293 ::    
+    @Test
+    public void Verify_to_if_Student_Score_is_than_it_should_display_as_Passed() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_View_Auto_Promotion_when_Student_Score_Finalize();
+    }
+    
+//  Test Case 294 ::    
+    @Test
+    public void Verify_if_user_enter_valid_ICD_String_it_should_display_any_error_message() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_if_user_enter_valid_ICD_String_it_should_display_any_error_message();
+    }
+    
+//  Test Case 295 ::    
+    @Test
+    public void Verify_if_user_enter_existing_email_it_should_show_error_message() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 296 ::    
+    @Test
+    public void Verify_that_Finalize_button_shouldnt_display_if_Student_Exam_is_In_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 297 ::    
+    @Test
+    public void Verify_to_Display_Exact_data_when_Student_gives_Test() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 298 ::    
+    @Test
+    public void Verify_to_Add_and_Edit_Video_and_PDF() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 299 ::    
+    @Test
+    public void Verify_to_Update_EMail_Template() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_functionality_of_Email();
+    }
+    
+//  Test Case 300 ::    
+    @Test
+    public void Verify_to_Edit_ICD_String() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_if_user_enter_valid_ICD_String_it_should_display_any_error_message();
+    }
+    
+    
+    
     
     
     

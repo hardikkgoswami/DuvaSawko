@@ -17,31 +17,25 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Coding Tools  ]]>
+      <![CDATA[<br><br>STEP 06 | Click on Training Tools ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Click on Manage DSGCC ]]>
+      <![CDATA[<br><br>STEP 07 | Click on Manage Test ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Select any Risk Level ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP   | Click on Level Ascending Level ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP   | Click on Level Descending Level ]]>
+      <![CDATA[<br><br>STEP 08 | Click on Visit Type ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62140" started-at="2021-07-24T06:22:55Z" finished-at="2021-07-24T06:23:57Z">
+  <suite name="Default suite" duration-ms="61241" started-at="2021-07-31T06:36:20Z" finished-at="2021-07-31T06:37:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62140" started-at="2021-07-24T06:22:55Z" finished-at="2021-07-24T06:23:57Z">
+    <test name="Default test" duration-ms="61241" started-at="2021-07-31T06:36:20Z" finished-at="2021-07-31T06:37:21Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="20" started-at="2021-07-24T11:52:55Z" finished-at="2021-07-24T11:52:55Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="17" started-at="2021-07-31T12:06:20Z" finished-at="2021-07-31T12:06:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Check_Sorting()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_Check_Sorting" duration-ms="61991" started-at="2021-07-24T11:52:55Z" finished-at="2021-07-24T11:53:57Z">
+        <test-method status="PASS" signature="Verify_if_user_enter_existing_email_it_should_show_error_message()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_if_user_enter_existing_email_it_should_show_error_message" duration-ms="61101" started-at="2021-07-31T12:06:20Z" finished-at="2021-07-31T12:07:21Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -59,23 +53,17 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Coding Tools  ]]>
+              <![CDATA[<br><br>STEP 06 | Click on Training Tools ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Click on Manage DSGCC ]]>
+              <![CDATA[<br><br>STEP 07 | Click on Manage Test ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Select any Risk Level ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP   | Click on Level Ascending Level ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP   | Click on Level Descending Level ]]>
+              <![CDATA[<br><br>STEP 08 | Click on Visit Type ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Check_Sorting -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="116" started-at="2021-07-24T11:53:57Z" finished-at="2021-07-24T11:53:57Z">
+        </test-method> <!-- Verify_if_user_enter_existing_email_it_should_show_error_message -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="112" started-at="2021-07-31T12:07:21Z" finished-at="2021-07-31T12:07:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

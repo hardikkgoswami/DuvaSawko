@@ -6,7 +6,7 @@
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="onBefore"/>
-          <include name="Verify_to_click_on_Statistics"/>
+          <include name="Verify_to_View_Auto_Promotion_when_Student_Score_Finalize"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

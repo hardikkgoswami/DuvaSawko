@@ -540,10 +540,65 @@ public void Verify_to_Add_Key_two_times() throws InterruptedException, IOExcepti
 	System.out.println("STEP  | Click on Submit Button ");
 	common.log("<br><br>STEP  | Click on Submit Button ");
 	common.pause(10);
-	
 }
 
+public void Verify_to_apply_different_filters() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"search_Modifier\"]")).sendKeys("2");
+	System.out.println("STEP   | Enter Mod ");
+	common.log("<br><br>STEP   | Enter Mod ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"search_studentasnwerkey\"]/div[1]/div[4]/div/div/div/label[2]")).click();
+	System.out.println("STEP   | Select Classification ");
+	common.log("<br><br>STEP   | Select Classification ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[1]/div/div/form/div[1]/div[5]/div/span/span")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div/div/div[2]/ul/li[3]")).click();
+	System.out.println("STEP   | Select Provider 1 ");
+	common.log("<br><br>STEP   | Select Provider 1 ");
+	common.pause(10);
+}
 
+public void Verify_to_View_Auto_Promotion_when_Student_Score_Finalize() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"finalized\"]")).click();
+	System.out.println("STEP   | Click on Finlize Button ");
+	common.log("<br><br>STEP   | Click on Finlize Button ");
+	common.pause(10);
+}
+
+public void Verify_if_user_enter_valid_ICD_String_it_should_display_any_error_message() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"panel2\"]/span")).click();
+	System.out.println("STEP   | Click on Add Option ");
+	common.log("<br><br>STEP   | Click on Add Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_ICDString\"]")).sendKeys("S39.012A");
+	System.out.println("STEP   | Enter ICD String ");
+	common.log("<br><br>STEP   | Enter ICD String ");
+	common.pause(10);
+}
+
+public void Verify_to_Update_EMail_Template() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"email_grid\"]/table/tbody/tr[1]/td[7]/a[1]")).click();
+	System.out.println("STEP   | Click on Edit Button ");
+	common.log("<br><br>STEP   | Click on Edit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body")).sendKeys("qa");
+	System.out.println("STEP   | Edit Body ");
+	common.log("<br><br>STEP   | Edit Body ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"email_grid\"]/table/tbody/tr[1]/td[7]/a[1]")).click();
+	System.out.println("STEP   | Click on Update Button ");
+	common.log("<br><br>STEP   | Click on Update Button ");
+	common.pause(10);
+}
 
 
 

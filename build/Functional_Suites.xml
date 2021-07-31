@@ -3500,5 +3500,124 @@
         </classes>
     </test>
     
+     <!-- Test Case 291 :: Student Answer Key :: Verify to apply different filters -->
+    <test name="Verify to apply different filters">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_apply_different_filters"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 292 :: Student Progress :: Verify to View Auto Promotion when Student Score Finalize -->
+    <test name="Verify to View Auto Promotion when Student Score Finalize">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Auto_Promotion_when_Student_Score_Finalize"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 293 :: Student Progress :: Verify to if Student Score is than it should display as Passed -->
+    <test name="Verify to if Student Score is than it should display as Passed">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_if_Student_Score_is_than_it_should_display_as_Passed"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 294 :: Student Progress :: Verify if user enter valid ICD String it should display any error message -->
+    <test name="Verify if user enter valid ICD String it should display any error message">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_if_user_enter_valid_ICD_String_it_should_display_any_error_message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 295 :: Manage Users:: Verify if user enter existing email it should show error message -->
+    <test name="Verify if user enter existing email it should show error message">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_if_user_enter_existing_email_it_should_show_error_message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 296 :: Student Progress :: Verify that Finalize button shouldn't display if Student Exam is In Progress -->
+    <test name="Verify that Finalize button shouldnt display if Student Exam is In Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_Finalize_button_shouldnt_display_if_Student_Exam_is_In_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 297 :: Student Progress :: Verify to Display Exact data when Student gives Test -->
+    <test name="Verify to Display Exact data when Student gives Test">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_Exact_data_when_Student_gives_Test"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 298 :: Student Progress :: Verify to Add and Edit Video and PDF -->
+    <test name="Verify to Add and Edit Video and PDF">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_and_Edit_Video_and_PDF"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 299 :: Student Progress :: Verify to Update EMail Template -->
+    <test name="Verify to Update EMail Template">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Update_EMail_Template"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 300 :: Student Answer Key :: Verify to Edit ICD String -->
+    <test name="Verify to Edit ICD String">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_ICD_String"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
     
 </suite>
