@@ -600,6 +600,72 @@ public void Verify_to_Update_EMail_Template() throws InterruptedException, IOExc
 	common.pause(10);
 }
 
+public void Verify_to_Check_ICD_String_of_Particular_Chart() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div/div/div[1]/ul/li[1]/div/div/form/div[1]/div[1]/div/span/span/span[2]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='382']")).click();
+	System.out.println("STEP   | Select Chart Number ");
+	common.log("<br><br>STEP   | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"student_answer_key_grid\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP   | Click on 382 Chart ");
+	common.log("<br><br>STEP   | Click on 382 Chart ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_ICDString\"]")).click();
+	System.out.println("STEP   | Edit ICD String ");
+	common.log("<br><br>STEP   | Edit ICD String ");
+	common.pause(10);
+}
+
+public void Verify_to_View_By_Select_Data_By_Date_of_Last_Update() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP   | Click on All Time Raio Button ");
+	common.log("<br><br>STEP   | Click on All Time Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[3]")).click();
+	System.out.println("STEP   | Click on Last 3 Days ");
+	common.log("<br><br>STEP   | Click on Last 3 Days ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[4]")).click();
+	System.out.println("STEP   | Click on Last 7 Days ");
+	common.log("<br><br>STEP   | Click on Last 7 Days ");
+	common.pause(10);
+}
+
+public void Verify_to_display_Error_Message_When_user_not_fill_email() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//input[@id='add_user']")).click();
+	System.out.println("STEP   | Click on Add Button ");
+	common.log("<br><br>STEP   | Click on Add Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"message_box\"]/span")).isDisplayed();
+	System.out.println("STEP   | Verify It Displayed Error Message When Fields are Blank ");
+	common.log("<br><br>STEP   | Verify It Displayed Error Message When Fields are Blank ");
+	common.pause(10);
+}
+
+public void Verify_Display_Notes_option() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div[2]/div[3]/div/div/table/tbody/tr[1]/td[3]")).click();
+	System.out.println("STEP   | Select User From List ");
+	common.log("<br><br>STEP   | Select User From List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[3]")).click();
+	System.out.println("STEP   | Click on Dates tabs ");
+	common.log("<br><br>STEP   | Click on Dates tabs ");
+	common.pause(10);
+}
+
+
+
 
 
 

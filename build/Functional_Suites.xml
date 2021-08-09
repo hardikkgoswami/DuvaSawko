@@ -3620,4 +3620,125 @@
         </classes>
     </test>
     
+     <!-- Test Case 301 :: Chart Loader :: Verify to Reload and Refresh HPI when user load multiple chart -->
+    <test name="Verify to Reload and Refresh HPI when user load multiple chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Reload_and_Refresh_HPI_when_user_load_multiple_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 302 :: Student Answer Key :: Verify to Check ICD String of Particular Chart -->
+    <test name="Verify to Check ICD String of Particular Chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Check_ICD_String_of_Particular_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 303 :: Student Answer Key :: Verify to Edit all Student Answer Key -->
+    <test name="Verify to Edit all Student Answer Key">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_all_Student_Answer_Key"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 304 :: Student Progress :: Verify to Edit Final Score so It enable Finalize button and Also display Message -->
+    <test name="Verify to Edit Final Score so It enable Finalize button and Also display Message">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Final_Score_so_It_enable_Finalize_button_and_Also_display_Message"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 305 :: Student Progress :: Verify to Auto Promote Student when Test Passed -->
+    <test name="Verify to Auto Promote Student when Test Passed">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Auto_Promote_Student_when_Test_Passed"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 306 :: Student Progress :: Verify to Display User Progress and The Test History for Stage 2 to 3 -->
+    <test name="Verify to Display User Progress and The Test History for Stage 2 to 3">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_User_Progress_and_The_Test_History_for_Stage_2_to_3"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 307 :: Student Answer Key :: Verify to refresh grid quickly when User Add and Delete -->
+    <test name="Verify to refresh grid quickly when User Add and Delete">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_refresh_grid_quickly_when_User_Add_and_Delete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 308 :: Student Progress :: Verify to View By Select Data By Date of Last Update -->
+    <test name="Verify to View By Select Data By Date of Last Update">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_By_Select_Data_By_Date_of_Last_Update"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 309 :: Manage Users :: Verify to display Error Message When user not fill email -->
+    <test name="Verify to display Error Message When user not fill email">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Error_Message_When_user_not_fill_email"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 310 :: Manage Users :: Verify Display Notes option -->
+    <test name="Verify Display Notes option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_Display_Notes_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
 </suite>

@@ -17,25 +17,34 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Training Tools ]]>
+      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Click on Manage Test ]]>
+      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Click on Visit Type ]]>
+      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Select User from List ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="61241" started-at="2021-07-31T06:36:20Z" finished-at="2021-07-31T06:37:21Z">
+  <suite name="Default suite" duration-ms="75312" started-at="2021-08-07T11:15:40Z" finished-at="2021-08-07T11:16:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="61241" started-at="2021-07-31T06:36:20Z" finished-at="2021-07-31T06:37:21Z">
+    <test name="Default test" duration-ms="75312" started-at="2021-08-07T11:15:40Z" finished-at="2021-08-07T11:16:56Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="17" started-at="2021-07-31T12:06:20Z" finished-at="2021-07-31T12:06:20Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="17" started-at="2021-08-07T16:45:40Z" finished-at="2021-08-07T16:45:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_if_user_enter_existing_email_it_should_show_error_message()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_if_user_enter_existing_email_it_should_show_error_message" duration-ms="61101" started-at="2021-07-31T12:06:20Z" finished-at="2021-07-31T12:07:21Z">
+        <test-method status="PASS" signature="Verify_to_Display_any_message_in_extra_space_area()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_Display_any_message_in_extra_space_area" duration-ms="75097" started-at="2021-08-07T16:45:40Z" finished-at="2021-08-07T16:46:55Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -53,17 +62,26 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Training Tools ]]>
+              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Click on Manage Test ]]>
+              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Click on Visit Type ]]>
+              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Select User from List ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_if_user_enter_existing_email_it_should_show_error_message -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="112" started-at="2021-07-31T12:07:21Z" finished-at="2021-07-31T12:07:21Z">
+        </test-method> <!-- Verify_to_Display_any_message_in_extra_space_area -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="185" started-at="2021-08-07T16:46:55Z" finished-at="2021-08-07T16:46:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
