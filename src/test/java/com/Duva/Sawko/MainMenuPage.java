@@ -216,7 +216,7 @@ public void Verify_to_enter_CPT_and_Provider1() throws InterruptedException, IOE
 	
 	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div/div[4]/div/div[2]/div/div[4]/ul/li[12]/div/form/div[3]/div[6]/div/div/table/tbody/tr[1]/td[2]/span/span/span[1]")).click();
 	common.pause(5);
-	driver.findElement(By.xpath("//html/body/div[38]/div/div[2]/ul/li[22]")).click();
+	driver.findElement(By.xpath("//html/body/div/div/div[2]/ul/li[6]")).click();
 	System.out.println("STEP  | Select Provider 1 from Dropdown ");
 	common.log("<br><br>STEP  | Select Provider 1 from Dropdown ");
 	common.pause(20);
@@ -665,6 +665,112 @@ public void Verify_Display_Notes_option() throws InterruptedException, IOExcepti
 }
 
 
+public void Verify_to_Student_Move_Applicant_to_PreHire() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr/td[1]")).click();
+	System.out.println("STEP   | Select User From List ");
+	common.log("<br><br>STEP   | Select User From List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[2]/span[2]")).click();
+	System.out.println("STEP   | Click on Test tabs ");
+	common.log("<br><br>STEP   | Click on Test tabs ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"dynamic_content\"]/div[1]/div[2]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div/div/div[2]/ul/li[4]")).click();
+	System.out.println("STEP   | Select User Type ");
+	common.log("<br><br>STEP   | Select User Type ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//input[@id='add_user']")).click();
+	System.out.println("STEP   | Click on Submit Button ");
+	common.log("<br><br>STEP   | Click on Submit Button ");
+	common.pause(10);
+}
+
+public void Verify_to_View_Total_Chart_Coded() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//label[contains(text(),'Last 7 days')]")).click();
+	System.out.println("STEP   | Select 7 days Radio Option ");
+	common.log("<br><br>STEP   | Select 7 days Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//label[contains(text(),'Last 3 days')]")).click();
+	System.out.println("STEP   | Select 3 days Radio Option ");
+	common.log("<br><br>STEP   | Select 3 days Radio Option ");
+	common.pause(10);
+}
+
+public void Verify_to_Not_Hide_History_PI_DATA_when_BI_option_selected() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"BIPanel\"]/span")).click();
+	System.out.println("STEP  | Click on Basic Information ");
+	common.log("<br><br>STEP  | Click on Basic Information ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"HPIPanel\"]/span")).click();
+	System.out.println("STEP  | Click on History Of Present Illness ");
+	common.log("<br><br>STEP  | Click on History Of Present Illness ");
+	common.pause(10);
+}
+
+public void Verify_to_Calculate_Score_on_basics_of_select_option() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"MDMPanel\"]/span")).click();
+	System.out.println("STEP  | Click on Medical Decision Making ");
+	common.log("<br><br>STEP  | Click on Medical Decision Making ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"MDMForm\"]/div[2]/div[1]/div[1]/label")).click();
+	System.out.println("STEP  | Click on Complete Chekcbox ");
+	common.log("<br><br>STEP  | Click on Complete Chekcbox ");
+	common.pause(20);
+}
+
+public void Verify_to_Select_Provider_2_and_Clear_it() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"panel2\"]/span")).click();
+	System.out.println("STEP   | Click on Add Key ");
+	common.log("<br><br>STEP   | Click on Add Key ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/div[3]/div[2]/div/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//html/body/div/div/div[2]/ul/li[6]")).click();
+	System.out.println("STEP   | Select Provider 2 ");
+	common.log("<br><br>STEP   | Select Provider 2 ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//input[@id='clear_user']")).click();
+	System.out.println("STEP   | Click on Clear Button ");
+	common.log("<br><br>STEP   | Click on Clear Button ");
+	common.pause(10);
+}
+
+public void Verify_to_view_Guideline_in_PanelBar_Override() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr/td[1]")).click();
+	System.out.println("STEP   | Select User From List ");
+	common.log("<br><br>STEP   | Select User From List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//span[contains(text(),'Panelbar Override')]")).click();
+	System.out.println("STEP   | Click on Panelbar Overriden ");
+	common.log("<br><br>STEP   | Click on Panelbar Overriden ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//span[contains(text(),'Right Side')]")).click();
+	System.out.println("STEP   | Click on Right Side ");
+	common.log("<br><br>STEP   | Click on Right Side ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//input[@id='add_user']")).click();
+	System.out.println("STEP   | Click on Submit Button ");
+	common.log("<br><br>STEP   | Click on Submit Button ");
+	common.pause(10);
+}
 
 
 

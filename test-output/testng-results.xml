@@ -17,34 +17,25 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
+      <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
+      <![CDATA[<br><br>STEP 07 | Click on Delete Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Select User from List ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
+      <![CDATA[<br><br>STEP 08 | Click on Yes Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="75312" started-at="2021-08-07T11:15:40Z" finished-at="2021-08-07T11:16:56Z">
+  <suite name="Default suite" duration-ms="62827" started-at="2021-08-28T09:05:59Z" finished-at="2021-08-28T09:07:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="75312" started-at="2021-08-07T11:15:40Z" finished-at="2021-08-07T11:16:56Z">
+    <test name="Default test" duration-ms="62827" started-at="2021-08-28T09:05:59Z" finished-at="2021-08-28T09:07:02Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="17" started-at="2021-08-07T16:45:40Z" finished-at="2021-08-07T16:45:40Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="72" started-at="2021-08-28T14:35:59Z" finished-at="2021-08-28T14:35:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Display_any_message_in_extra_space_area()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_Display_any_message_in_extra_space_area" duration-ms="75097" started-at="2021-08-07T16:45:40Z" finished-at="2021-08-07T16:46:55Z">
+        <test-method status="PASS" signature="Verify_to_delete_lock_chart()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_delete_lock_chart" duration-ms="62574" started-at="2021-08-28T14:35:59Z" finished-at="2021-08-28T14:37:01Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -62,26 +53,17 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
+              <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
+              <![CDATA[<br><br>STEP 07 | Click on Delete Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Select User from List ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
+              <![CDATA[<br><br>STEP 08 | Click on Yes Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Display_any_message_in_extra_space_area -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="185" started-at="2021-08-07T16:46:55Z" finished-at="2021-08-07T16:46:56Z">
+        </test-method> <!-- Verify_to_delete_lock_chart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="151" started-at="2021-08-28T14:37:01Z" finished-at="2021-08-28T14:37:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

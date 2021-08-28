@@ -3643,7 +3643,7 @@
             </class>
         </classes>
     </test>
-    
+     
      <!-- Test Case 303 :: Student Answer Key :: Verify to Edit all Student Answer Key -->
     <test name="Verify to Edit all Student Answer Key">
         <classes> 	
@@ -3740,5 +3740,124 @@
         </classes>
     </test>
     
+     <!-- Test Case 311 :: Manage Users :: Verify to Student Move Applicant to PreHire -->
+    <test name="Verify to Student Move Applicant to PreHire">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Student_Move_Applicant_to_PreHire"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 312 :: Student Progress :: Verify to View Total Chart Coded -->
+    <test name="Verify to View Total Chart Coded">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Total_Chart_Coded"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 313 :: Chart Loader :: Verify to Not Hide History PI DATA when BI option selected -->
+    <test name="Verify to Not Hide History PI DATA when BI option selected">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Not_Hide_History_PI_DATA_when_BI_option_selected"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 314 :: Chart Loader :: Verify to Calculate Score on basics of select option -->
+    <test name="Verify to Calculate Score on basics of select option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Calculate_Score_on_basics_of_select_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 315 :: Student Progress :: Verify to view Student Overall Status -->
+    <test name="Verify to view Student Overall Status">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Student_Overall_Status"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 316 :: Manage Users :: Verify to View Remedial Progress -->
+    <test name="Verify to View Remedial Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Remedial_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 317 :: Manage Users :: Verify to Finalize Button should Enable  -->
+    <test name="Verify to Finalize Button should Enable">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Finalize_Button_should_Enable"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 318 :: Student Answer Key :: Verify to Select Provider 2 and Clear it  -->
+    <test name="Verify to Select Provider 2 and Clear it">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_Provider_2_and_Clear_it"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 319 :: Student Answer Key :: Verify to Edit Feedback ICD  -->
+    <test name="Verify to Edit Feedback ICD">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Feedback_ICD"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 320 :: Manage Users :: Verify to view Guideline in PanelBar Override -->
+    <test name="Verify to view Guideline in PanelBar Override">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Guideline_in_PanelBar_Override"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
     
 </suite>

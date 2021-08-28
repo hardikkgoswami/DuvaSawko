@@ -1632,6 +1632,7 @@ public class Testsuit {
 //  Test Case 228 ::    
     @Test 
     public void Verify_to_Add_DSGCC_and_verify_once_it_added() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
     	basePage.Verify_to_reset_filter_when_user_go_to_next_chart_in_DSGCC_tab();
     }
     
@@ -2361,8 +2362,101 @@ public class Testsuit {
     	 mainmenupage.Verify_Display_Notes_option();
     }
     
+//  Test Case 311 ::    
+    @Test
+    public void Verify_to_Student_Move_Applicant_to_PreHire() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_apply_filter_from_first_letter();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Student_Move_Applicant_to_PreHire();
+    }
     
-
+//  Test Case 312 ::    
+    @Test
+    public void Verify_to_View_Total_Chart_Coded() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Student_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_View_Total_Chart_Coded();
+    }
+    
+//  Test Case 313 ::    
+    @Test
+    public void Verify_to_Not_Hide_History_PI_DATA_when_BI_option_selected() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Not_Hide_History_PI_DATA_when_BI_option_selected();
+    }
+    
+//  Test Case 314 ::    
+    @Test
+    public void Verify_to_Calculate_Score_on_basics_of_select_option() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Calculate_Score_on_basics_of_select_option();
+    }
+    
+//  Test Case 315 ::    
+    @Test
+    public void Verify_to_view_Student_Overall_Status() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 316 ::    
+    @Test
+    public void Verify_to_View_Remedial_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_apply_filter_from_first_letter();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Student_Move_Applicant_to_PreHire();
+    }
+    
+//  Test Case 317 ::    
+    @Test
+    public void Verify_to_Finalize_Button_should_Enable() throws InterruptedException, IOException, AWTException{
+    	  basePage.enterURL();
+          basePage.Verify_to_view_user_Progress();
+          MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+       	  mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 318 ::    
+    @Test
+    public void Verify_to_Select_Provider_2_and_Clear_it() throws InterruptedException, IOException, AWTException{
+    	  basePage.enterURL();
+    	  basePage.verify_login_details_of_admin();
+    	  basePage.Answer_Key();
+    	  basePage.Student_Answer_Key();
+          MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+       	  mainmenupage.Verify_to_Select_Provider_2_and_Clear_it();
+    }
+    
+//  Test Case 319 ::    
+    @Test
+    public void Verify_to_Edit_Feedback_ICD() throws InterruptedException, IOException, AWTException{
+    	  basePage.enterURL();
+    	  basePage.Verify_to_Edit_Feedback_CPT_Provider();
+    }
+    
+//  Test Case 320 ::    
+    @Test
+    public void Verify_to_view_Guideline_in_PanelBar_Override() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_apply_filter_from_first_letter();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Guideline_in_PanelBar_Override();
+    }
+    
+    
+    
+    
+    
+    
     
     
 }
