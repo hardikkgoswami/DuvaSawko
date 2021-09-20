@@ -17,25 +17,34 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Click on Delete Button ]]>
+      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Click on Yes Button ]]>
+      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Select User from List ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62827" started-at="2021-08-28T09:05:59Z" finished-at="2021-08-28T09:07:02Z">
+  <suite name="Default suite" duration-ms="65308" started-at="2021-09-18T14:58:04Z" finished-at="2021-09-18T14:59:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62827" started-at="2021-08-28T09:05:59Z" finished-at="2021-08-28T09:07:02Z">
+    <test name="Default test" duration-ms="65308" started-at="2021-09-18T14:58:04Z" finished-at="2021-09-18T14:59:09Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="72" started-at="2021-08-28T14:35:59Z" finished-at="2021-08-28T14:35:59Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="22" started-at="2021-09-18T20:28:04Z" finished-at="2021-09-18T20:28:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_delete_lock_chart()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_delete_lock_chart" duration-ms="62574" started-at="2021-08-28T14:35:59Z" finished-at="2021-08-28T14:37:01Z">
+        <test-method status="PASS" signature="Verify_that_if_Student_has_not_started_it_shouldnt_display_Failed_message()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_that_if_Student_has_not_started_it_shouldnt_display_Failed_message" duration-ms="65145" started-at="2021-09-18T20:28:04Z" finished-at="2021-09-18T20:29:09Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -53,17 +62,26 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Click on Delete Button ]]>
+              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Click on Yes Button ]]>
+              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Select User from List ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_delete_lock_chart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="151" started-at="2021-08-28T14:37:01Z" finished-at="2021-08-28T14:37:02Z">
+        </test-method> <!-- Verify_that_if_Student_has_not_started_it_shouldnt_display_Failed_message -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="130" started-at="2021-09-18T20:29:09Z" finished-at="2021-09-18T20:29:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -3860,4 +3860,16 @@
         </classes>
     </test>
     
+     <!-- Test Case 321 :: Manage Users :: Verify to Dates tab enabled by clicking on the Done Edit button -->
+    <test name="Verify to view Guideline in PanelBar Override">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Guideline_in_PanelBar_Override"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
 </suite>

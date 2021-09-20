@@ -6,7 +6,7 @@
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="onBefore"/>
-          <include name="Verify_to_view_two_different_section_like_Video_and_Document"/>
+          <include name="Verify_to_Clear_search_fields"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
