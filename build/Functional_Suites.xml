@@ -3861,11 +3861,47 @@
     </test>
     
      <!-- Test Case 321 :: Manage Users :: Verify to Dates tab enabled by clicking on the Done Edit button -->
-    <test name="Verify to view Guideline in PanelBar Override">
+    <test name="Verify to Dates tab enabled by clicking on the Done Edit button">
         <classes> 	
             <class name="com.Duva.Sawko.Testsuit">
                 <methods>
-                    <include name="Verify_to_view_Guideline_in_PanelBar_Override"> 
+                    <include name="Verify_to_Dates_tab_enabled_by_clicking_on_the_Done_Edit_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 322 :: Utilities :: Verify to View Stage Messages By Role -->
+    <test name="Verify to View Stage Messages By Role">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Stage_Messages_By_Role"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 323 :: Student Progress :: Verify to display Failed Min display when student failed -->
+    <test name="Verify to display Failed Min display when student failed">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Failed_Min_display_when_student_failed"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 324 :: Student Progress :: Verify to Add New Row than Make deactivate it -->
+    <test name="Verify_to_Add_New_Row_than_Make_deactivate_it">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_New_Row_than_Make_eactivate_it"> 
                     </include>
                 </methods>
             </class>

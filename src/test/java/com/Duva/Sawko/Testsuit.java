@@ -2452,6 +2452,45 @@ public class Testsuit {
     	 mainmenupage.Verify_to_view_Guideline_in_PanelBar_Override();
     }
     
+//  Test Case 321 ::    
+    @Test
+    public void Verify_to_Dates_tab_enabled_by_clicking_on_the_Done_Edit_button() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Manage_Users();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Dates_tab_enabled_by_clicking_on_the_Done_Edit_button();
+    }
+    
+//  Test Case 322 ::    
+    @Test
+    public void Verify_to_View_Stage_Messages_By_Role() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Parameters();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_View_Stage_Messages_By_Role();
+    }
+    
+//  Test Case 323 ::    
+    @Test
+    public void Verify_to_display_Failed_Min_display_when_student_failed() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 324 ::    
+    @Test
+    public void Verify_to_Add_New_Row_than_Make_eactivate_it() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Utilities_Utilities();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Add_New_Row_than_Make_eactivate_it();
+    }
+    
     
     
     

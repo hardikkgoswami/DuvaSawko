@@ -5755,6 +5755,13 @@ public void Verify_to_Utilities_Manage_Email() throws InterruptedException, IOEx
 	common.pause(10);
 }
 
+public void Verify_to_Utilities_Utilities() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"menu_manage_email\"]/span")).click();
+	System.out.println("STEP  | Click on Utilities ");
+	common.log("<br><br>STEP  | Click on Utilities ");
+	common.pause(10);
+}
+
 public void Chart_Loader_Answer_Key() throws InterruptedException, IOException{
 
 	driver.findElement(By.xpath("//*[@id=\"WRPPanel\"]/span")).click();

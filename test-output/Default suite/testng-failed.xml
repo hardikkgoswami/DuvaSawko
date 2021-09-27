@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
+          <include name="Verify_to_Add_New_Row_than_Make_eactivate_it"/>
           <include name="onBefore"/>
-          <include name="Verify_to_Clear_search_fields"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

@@ -5,6 +5,7 @@ import java.text.DateFormat;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.xerces.xni.parser.XMLDTDContentModelSource;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -772,6 +773,72 @@ public void Verify_to_view_Guideline_in_PanelBar_Override() throws InterruptedEx
 	common.pause(10);
 }
 
+public void Verify_to_Dates_tab_enabled_by_clicking_on_the_Done_Edit_button() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all\"]/li[1]/div/div/div[2]/div/div/label[4]")).click();
+	System.out.println("STEP   | Select Trainer Radio Option ");
+	common.log("<br><br>STEP   | Select Trainer Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div[2]/div[3]/div/div/table/tbody/tr[1]/td[3]")).click();
+	System.out.println("STEP   | Select User From List ");
+	common.log("<br><br>STEP   | Select User From List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[3]/span[2]")).click();
+	System.out.println("STEP   | Dates tabs is Disable ");
+	common.log("<br><br>STEP   | Dates tabs is Disable ");
+	common.pause(10);
+}
+
+public void Verify_to_View_Stage_Messages_By_Role() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"parameter_tab_section-1\"]/div/div/div[1]/div[1]/label[2]")).click();
+	System.out.println("STEP   | Select Trainee Radio Option ");
+	common.log("<br><br>STEP   | Select Trainee Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"parameter_tab_section-1\"]/div/div/div[1]/div[1]/label[3]")).click();
+	System.out.println("STEP   | Select Academy Radio Option ");
+	common.log("<br><br>STEP   | Select Academy Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"parameter_tab_section-1\"]/div/div/div[1]/div[1]/label[4]")).click();
+	System.out.println("STEP   | Select Inter Radio Option ");
+	common.log("<br><br>STEP   | Select Inter Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"parameter_tab_section-1\"]/div/div/div[1]/div[1]/label[5]")).click();
+	System.out.println("STEP   | Select Remedial Radio Option ");
+	common.log("<br><br>STEP   | Select Remedial Radio Option ");
+	common.pause(10);
+}
+
+public void Verify_to_Add_New_Row_than_Make_eactivate_it() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"utilities_tab-1\"]/div[3]/div[2]/div[3]/a")).click();
+	System.out.println("STEP   | Click on Add New Row Button ");
+	common.log("<br><br>STEP   | Click on Add New Row Button ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//*[@id=\"feedbackvideos\"]/table/tbody/tr[1]/td[1]/span/span")).click();
+	common.pause(10);
+	driver.findElement(By.xpath("//li[text()='Critical Care RBs']")).click();
+	System.out.println("STEP   | Select Widget Group Dropdown ");
+	common.log("<br><br>STEP   | Select Widget Group Dropdown ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"feedbackvideos\"]/table/tbody/tr[1]/td[2]/input")).sendKeys("Testing Data Here");
+	System.out.println("STEP   | Click on Add New Row Button ");
+	common.log("<br><br>STEP   | Click on Add New Row Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"feedbackvideos\"]/table/tbody/tr[1]/td[4]/a[1]")).click();
+	System.out.println("STEP   | Click on Upload Button ");
+	common.log("<br><br>STEP   | Click on Upload Button ");
+	common.pause(20);
+	
+}
 
 
 
