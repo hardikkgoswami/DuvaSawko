@@ -5756,7 +5756,7 @@ public void Verify_to_Utilities_Manage_Email() throws InterruptedException, IOEx
 }
 
 public void Verify_to_Utilities_Utilities() throws InterruptedException, IOException{
-	driver.findElement(By.xpath("//*[@id=\"menu_manage_email\"]/span")).click();
+	driver.findElement(By.xpath("//*[@id=\"menu_utilities\"]/span")).click();
 	System.out.println("STEP  | Click on Utilities ");
 	common.log("<br><br>STEP  | Click on Utilities ");
 	common.pause(10);

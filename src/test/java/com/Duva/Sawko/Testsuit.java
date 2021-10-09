@@ -2491,6 +2491,59 @@ public class Testsuit {
     	 mainmenupage.Verify_to_Add_New_Row_than_Make_eactivate_it();
     }
     
+//  Test Case 325 ::    
+    @Test
+    public void Verify_to_Create_a_Test_5_of_user() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_View_Panel_Bars();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Create_a_Test_5_of_user();
+    }
+    
+//  Test Case 326 ::    
+    @Test
+    public void Verify_to_download_User_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_download_User_Progress();
+    }
+    
+//  Test Case 327 ::    
+    @Test
+    public void Verify_to_upload_video_and_it_should_not_hanged() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Manage_Stage();
+    	
+    }
+    
+//  Test Case 328 ::    
+    @Test
+    public void Verify_to_Add_an_Allow_Answer_Change_radio_groups() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_View_Panel_Bars();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Create_a_Test_5_of_user();
+    	 mainmenupage.Verify_to_Add_an_Allow_Answer_Change_radio_groups();
+    }
+    
+//  Test Case 330 ::    
+    @Test
+    public void Verify_to_Search_Chart_By_ADDENDA_ATTESTATION() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Search_Chart_By_ADDENDA_ATTESTATION();
+    }
+    
+//  Test Case 329 ::    
+    @Test
+    public void Verify_To_Find_Chart_by_Answer_Key() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Search_Chart_By_ADDENDA_ATTESTATION();
+    }
     
     
     

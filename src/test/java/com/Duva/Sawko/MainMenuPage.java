@@ -840,6 +840,102 @@ public void Verify_to_Add_New_Row_than_Make_eactivate_it() throws InterruptedExc
 	
 }
 
+public void Verify_to_Create_a_Test_5_of_user() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys("qa");
+	System.out.println("STEP   | Enter Email Address ");
+	common.log("<br><br>STEP   | Enter Email Address ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//html/body/div[3]/div[2]/div/div/div[2]/div[3]/div/div/table/tbody/tr[1]/td[4]")).click();
+	System.out.println("STEP   | Select User From List ");
+	common.log("<br><br>STEP   | Select User From List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[2]/span[2]")).click();
+	System.out.println("STEP   | Click on Test Tab ");
+	common.log("<br><br>STEP   | Click on Test Tab ");
+	common.pause(10);
+}
+
+public void Verify_to_download_User_Progress() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"downloadanswer\"]")).click();
+	System.out.println("STEP   | Click on Download Button ");
+	common.log("<br><br>STEP   | Click on Download Button ");
+	common.pause(20);
+}
+
+public void Verify_to_Add_an_Allow_Answer_Change_radio_groups() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[4]/span[2]")).click();
+	System.out.println("STEP  | Click on PanelBar Tab ");
+	common.log("<br><br>STEP  | Click on PanelBar Tab ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2-4\"]/div[1]/div[2]/div/label[1]")).click();
+	System.out.println("STEP  | Select Yes Radio Option ");
+	common.log("<br><br>STEP  | Select Yes Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"showhidetabstrip-1\"]/div[1]/div[1]/div[2]/div/label[2]")).click();
+	System.out.println("STEP  | Select Basic Infromation Option ");
+	common.log("<br><br>STEP  | Select Basic Infromation Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"showhidetabstrip-1\"]/div[1]/div[4]/div[2]/div/label[2]")).click();
+	System.out.println("STEP  | Select OverAll Riks Option ");
+	common.log("<br><br>STEP  | Select OverAll Riks Option ");
+	common.pause(10);
+}
+
+public void Verify_to_Search_Chart_By_ADDENDA_ATTESTATION() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"AAPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on ADDENDA_ATTESTATION ");
+	common.log("<br><br>STEP  | Click on ADDENDA_ATTESTATION ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"AAPanel_FIND\"]/div/div/div/div[1]/div/div/label[2]")).click();
+	System.out.println("STEP  | Click on Is there an addenda ");
+	common.log("<br><br>STEP  | Click on Is there an addenda ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"AAPanel_FIND\"]/div/div/div/div[2]/div/div/label[2]")).click();
+	System.out.println("STEP  | Click on Is this a split/shared visit ");
+	common.log("<br><br>STEP  | Click on Is this a split/shared visit ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[6]/div[4]/div[2]/table/tbody/tr[8]/td[2]")).click();
+	System.out.println("STEP 06 | Select Chart Number ");
+	common.log("<br><br>STEP 06 | Select Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"goloadcharts\"]")).click();
+	System.out.println("STEP 07 | Click on Load Button ");
+	common.log("<br><br>STEP 07 | Click on Load Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//div[3]/div[2]/div/div/div/div[4]/div/div[2]/div/button[3]")).isDisplayed();
+	System.out.println("STEP 08 | Verify Select Chart Display ");
+	common.log("<br><br>STEP 08 | Verify Select Chart Display ");
+	common.pause(10);
+}
+
+public void Verify_To_Find_Chart_by_Answer_Key() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"WRPPanel_FIND\"]/span")).click();
+	System.out.println("STEP  | Click on Answer Key ");
+	common.log("<br><br>STEP  | Click on Answer Key ");
+	common.pause(10);
+
+
+	driver.findElement(By.xpath("//*[@id=\"cpt_find\"]")).sendKeys("99222");
+	System.out.println("STEP  | Click on CPT ");
+	common.log("<br><br>STEP  | Click on CPT ");
+	common.pause(10);
+}
+
 
 
 

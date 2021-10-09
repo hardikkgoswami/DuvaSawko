@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+              <span class="suite-name border-passed">Default suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Default_suite">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Duva.Sawko.Testsuit" hash-for-method="Verify_to_Add_New_Row_than_Make_eactivate_it">Verify_to_Add_New_Row_than_Make_eactivate_it</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Duva.Sawko.Testsuit" hash-for-method="Verify_Display_Notes_option">Verify_Display_Notes_option</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,75 +116,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+          <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.Duva.Sawko.Testsuit</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Verify_to_Add_New_Row_than_Make_eactivate_it">
-                  </a> <!-- Verify_to_Add_New_Row_than_Make_eactivate_it -->
-                  <span class="method-name">Verify_to_Add_New_Row_than_Make_eactivate_it</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;utilities_tab-1&quot;]/div[3]/div[2]/div[3]/a&quot;}
-  (Session info: chrome=94.0.4606.61)
-  (Driver info: chromedriver=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}),platform=Mac OS X 11.5.1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 20.06 seconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
-System info: host: &apos;androids-MacBook-Pro.local&apos;, ip: &apos;192.168.29.145&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=MAC, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:51456}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=94.0.4606.41 (333e85df3c9b656b518b5f1add5ff246365b6c24-refs/branch-heads/4606@{#845}), userDataDir=/var/folders/z5/q14hq9jx07s1fdv95plxxch40000gn/T/.com.google.Chrome.MseRxT}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=94.0.4606.61, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
-Session ID: 6f0474a7622f38d7756e639630495a89
-*** Element info: {Using=xpath, value=//*[@id=&quot;utilities_tab-1&quot;]/div[3]/div[2]/div[3]/a}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:500)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at com.Duva.Sawko.MainMenuPage.Verify_to_Add_New_Row_than_Make_eactivate_it(MainMenuPage.java:819)
-	at com.Duva.Sawko.Testsuit.Verify_to_Add_New_Row_than_Make_eactivate_it(Testsuit.java:2491)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.run(TestNG.java:1048)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
+                  <a name="Verify_Display_Notes_option">
+                  </a> <!-- Verify_Display_Notes_option -->
+                  <span class="method-name">Verify_Display_Notes_option</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/z5/q14hq9jx07s1fdv95plxxch40000gn/T/testng-eclipse--1289413616/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/z5/q14hq9jx07s1fdv95plxxch40000gn/T/testng-eclipse-952031688/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,7 +145,7 @@ Session ID: 6f0474a7622f38d7756e639630495a89
     &lt;classes&gt;
       &lt;class name=&quot;com.Duva.Sawko.Testsuit&quot;&gt;
         &lt;methods&gt;
-          &lt;include name=&quot;Verify_to_Add_New_Row_than_Make_eactivate_it&quot;/&gt;
+          &lt;include name=&quot;Verify_Display_Notes_option&quot;/&gt;
         &lt;/methods&gt;
       &lt;/class&gt; &lt;!-- com.Duva.Sawko.Testsuit --&gt;
     &lt;/classes&gt;
@@ -239,9 +189,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Verify_to_Add_New_Row_than_Make_eactivate_it')
+data.setCell(0, 1, 'Verify_Display_Notes_option')
 data.setCell(0, 2, 'com.Duva.Sawko.Testsuit')
-data.setCell(0, 3, 71761);
+data.setCell(0, 3, 62466);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -258,22 +208,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">Verify_to_Add_New_Row_than_Make_eactivate_it</span>
+              <span class="reporter-method-name">Verify_Display_Notes_option</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><br><br>STEP 01 | Open URL </span>
                 <span class="reporter-method-output"><br><br>STEP 02 | Enter Email address of Admin  </span>
                 <span class="reporter-method-output"><br><br>STEP 03 | Enter Password of Admin  </span>
                 <span class="reporter-method-output"><br><br>STEP 04 | Click on Sign In button  </span>
                 <span class="reporter-method-output"><br><br>STEP 05 | Admin Logged In  Successfully  </span>
-                <span class="reporter-method-output"><br><br>STEP  | Click on Utilities  </span>
-                <span class="reporter-method-output"><br><br>STEP  | Click on Utilities </span>
+                <span class="reporter-method-output"><br><br>STEP 06 | Click on Manage Users button </span>
+                <span class="reporter-method-output"><br><br>STEP   | Select User From List </span>
+                <span class="reporter-method-output"><br><br>STEP   | Click on Dates tabs </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">323 ignored methods</span>
+            <span class="header-content">329 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -372,6 +323,8 @@ return data;
                 <span class="ignored-method-name">Verify_to_Find_Chart_by_Answer_Key</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_search_Student_by_name_and_no_record_found_display_message</span>
+                <br/>
+                <span class="ignored-method-name">Verify_To_Find_Chart_by_Answer_Key</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_Add_DSGCC_and_verify_once_it_added</span>
                 <br/>
@@ -605,6 +558,8 @@ return data;
                 <br/>
                 <span class="ignored-method-name">Verify_that_By_Default_Last_3_days_should_selected</span>
                 <br/>
+                <span class="ignored-method-name">Verify_to_Search_Chart_By_ADDENDA_ATTESTATION</span>
+                <br/>
                 <span class="ignored-method-name">Verify_to_Search_User</span>
                 <br/>
                 <span class="ignored-method-name">Verify_To_View_Applicant_Introduction_Video</span>
@@ -632,6 +587,8 @@ return data;
                 <span class="ignored-method-name">Verify_to_view_Guideline_in_PanelBar_Override</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_check_My_Profile_and_Logout_options</span>
+                <br/>
+                <span class="ignored-method-name">Verify_to_Create_a_Test_5_of_user</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_upload_bulk_images</span>
                 <br/>
@@ -733,6 +690,8 @@ return data;
                 <br/>
                 <span class="ignored-method-name">Verify_to_remove_error_message_when_radio_button_selected</span>
                 <br/>
+                <span class="ignored-method-name">Verify_to_download_User_Progress</span>
+                <br/>
                 <span class="ignored-method-name">Verify_to_rearrange_Grid_Dragging</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_display_error_message_when_required_fields_are_empty</span>
@@ -795,6 +754,8 @@ return data;
                 <br/>
                 <span class="ignored-method-name">Verify_to_dont_load_chart_data_when_no_data_selected</span>
                 <br/>
+                <span class="ignored-method-name">Verify_to_Add_an_Allow_Answer_Change_radio_groups</span>
+                <br/>
                 <span class="ignored-method-name">Verify_to_View_Chart_Loader</span>
                 <br/>
                 <span class="ignored-method-name">Verify_that_if_chart_is_locked_then_HPI_Parser_tab_should_be_disabled</span>
@@ -804,6 +765,10 @@ return data;
                 <span class="ignored-method-name">Verify_to_Add_New_Row</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_Add_Key_two_times</span>
+                <br/>
+                <span class="ignored-method-name">Verify_to_upload_video_and_it_should_not_hanged</span>
+                <br/>
+                <span class="ignored-method-name">Verify_to_Add_New_Row_than_Make_eactivate_it</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_view_Notes</span>
                 <br/>
@@ -822,8 +787,6 @@ return data;
                 <span class="ignored-method-name">Verify_to_select_incorrect_chart_and_that_chart_shouldnt_save</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_Change_Application_to_Pre_Hire_of_Student</span>
-                <br/>
-                <span class="ignored-method-name">Verify_Display_Notes_option</span>
                 <br/>
                 <span class="ignored-method-name">Verify_to_Select_checkbox_in_Review_of_Systems</span>
                 <br/>
@@ -941,14 +904,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">Verify_to_Add_New_Row_than_Make_eactivate_it</span>
-                <span class="method-start">21 ms</span>
+                <span class="method-name">Verify_Display_Notes_option</span>
+                <span class="method-start">26 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">81795 ms</span>
+                <span class="method-start">62494 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

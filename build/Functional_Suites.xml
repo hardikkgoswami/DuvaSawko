@@ -3896,12 +3896,84 @@
         </classes>
     </test>
     
-      <!-- Test Case 324 :: Student Progress :: Verify to Add New Row than Make deactivate it -->
+      <!-- Test Case 324 :: Utilities :: Verify to Add New Row than Make deactivate it -->
     <test name="Verify_to_Add_New_Row_than_Make_deactivate_it">
         <classes> 	
             <class name="com.Duva.Sawko.Testsuit">
                 <methods>
                     <include name="Verify_to_Add_New_Row_than_Make_eactivate_it"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 325 :: Manage Users :: Verify to Create a Test 5 of user -->
+    <test name="Verify to Create a Test 5 of user">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Create_a_Test_5_of_user"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 326 :: Student Progress :: Verify to download User Progress -->
+    <test name="Verify to download User Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_download_User_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        <!-- Test Case 327 :: Student Progress :: Verify to upload video and it should not hanged  -->
+    <test name="Verify to upload video and it should not hanged">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_upload_video_and_it_should_not_hanged"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 328 :: Manage Users :: Verify to Add an Allow Answer Change radio groups   -->
+    <test name="Verify to Add an Allow Answer Change radio groups">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_an_Allow_Answer_Change_radio_groups"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 329 :: Chart Loader :: Verify to Search Chart By ADDENDA_ATTESTATION  -->
+    <test name="Verify to Search Chart By ADDENDA ATTESTATION">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_Chart_By_ADDENDA_ATTESTATION"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 329 :: Chart Loader :: Verify To Find Chart by Answer Key  -->
+    <test name="Verify To Find Chart by Answer Key">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_To_Find_Chart_by_Answer_Key"> 
                     </include>
                 </methods>
             </class>
