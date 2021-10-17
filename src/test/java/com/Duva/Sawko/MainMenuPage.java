@@ -936,8 +936,73 @@ public void Verify_To_Find_Chart_by_Answer_Key() throws InterruptedException, IO
 	common.pause(10);
 }
 
+public void Verify_to_display_error_message_when_text_boxes_are_blank() throws InterruptedException, IOException{
 
+	driver.findElement(By.xpath("//*[@id=\"panel2\"]/span")).click();
+	System.out.println("STEP   | Click on Add Key ");
+	common.log("<br><br>STEP   | Click on Add Key ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_Chart\"]")).sendKeys("234");
+	System.out.println("STEP   | Enter Chart Number ");
+	common.log("<br><br>STEP   | Enter Chart Number ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"clear_user\"]")).click();
+	System.out.println("STEP   | Click on Clear Button ");
+	common.log("<br><br>STEP   | Click on Clear Button ");
+	common.pause(10);
+}
 
+public void Verify_to_Display_Error_Message_when_fields_are_blank() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"btn_add_provider\"]")).click();
+	System.out.println("STEP   | Click on Submit Button ");
+	common.log("<br><br>STEP   | Click on Submit Button ");
+	common.pause(10);
+}
+
+public void Verify_to_Edit_Parameters_and_Submit_changes_to_save() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"APPLICANT_stage5_values\"]/div[1]/div[2]/div/label[1]")).click();
+	System.out.println("STEP   | Select Basic Information Radio Option ");
+	common.log("<br><br>STEP   | Select Basic Information Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"APPLICANT_stage5_values\"]/div[2]/div[2]/div/label[1]")).click();
+	System.out.println("STEP   | Select Diagnosis And Management Radio Option ");
+	common.log("<br><br>STEP   | Select Diagnosis And Management Radio Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"APPLICANT_stage5_values\"]/div[3]/div[2]/div/label[1]")).click();
+	System.out.println("STEP   | Select Amount And Complexity Of Data Radio Option ");
+	common.log("<br><br>STEP   | Select Amount And Complexity Of Data Radio Option ");
+	common.pause(10);
+}
+
+public void Verify_to_Display_in_Sequence_like_Test_and_Stage_in_test_tab() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip\"]/ul/li[2]/span[2]")).click();
+	System.out.println("STEP   | Click on Test Tab ");
+	common.log("<br><br>STEP   | Click on Test Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"find_dynamic\"]/div[1]/div[2]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='TRAINEE']")).click();
+	System.out.println("STEP   | Click on Test TYPE ");
+	common.log("<br><br>STEP   | Click on Test TYPE ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr/td[4]")).click();
+	System.out.println("STEP   | Select Any User from List ");
+	common.log("<br><br>STEP   | Select Any User from List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_tabstrip2\"]/ul/li[2]/span[2]")).click();
+	System.out.println("STEP   | Click on Test Tab ");
+	common.log("<br><br>STEP   | Click on Test Tab ");
+	common.pause(10);
+}
 
 
 	

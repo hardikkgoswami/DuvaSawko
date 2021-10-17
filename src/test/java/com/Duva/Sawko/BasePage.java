@@ -379,7 +379,6 @@ public class BasePage {
 		Actions actions = new Actions(driver);
 		common.pause(20);
 		
-		
 		driver.findElement(By.xpath("//*[@id='browserYesButton']")).click();
 		common.pause(20);
 		

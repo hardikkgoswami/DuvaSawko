@@ -20,22 +20,34 @@
       <![CDATA[<br><br>STEP 06 | Click on Manage Users button ]]>
     </line>
     <line>
+      <![CDATA[<br><br>STEP 07 | Enter First Name to Search ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 08 | It search and Display Manage User List!!! ]]>
+    </line>
+    <line>
       <![CDATA[<br><br>STEP   | Select User From List ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Dates tabs ]]>
+      <![CDATA[<br><br>STEP   | Click on Panelbar Overriden ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP   | Click on Right Side ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP   | Click on Submit Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="62642" started-at="2021-10-09T08:51:23Z" finished-at="2021-10-09T08:52:26Z">
+  <suite name="Default suite" duration-ms="65567" started-at="2021-10-17T09:08:59Z" finished-at="2021-10-17T09:10:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="62642" started-at="2021-10-09T08:51:23Z" finished-at="2021-10-09T08:52:26Z">
+    <test name="Default test" duration-ms="65567" started-at="2021-10-17T09:08:59Z" finished-at="2021-10-17T09:10:05Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="24" started-at="2021-10-09T14:21:23Z" finished-at="2021-10-09T14:21:23Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="20" started-at="2021-10-17T14:38:59Z" finished-at="2021-10-17T14:38:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_Display_Notes_option()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_Display_Notes_option" duration-ms="62466" started-at="2021-10-09T14:21:23Z" finished-at="2021-10-09T14:22:26Z">
+        <test-method status="PASS" signature="Verify_to_view_Guideline_in_PanelBar_Override()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_view_Guideline_in_PanelBar_Override" duration-ms="65380" started-at="2021-10-17T14:38:59Z" finished-at="2021-10-17T14:40:05Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -56,14 +68,26 @@
               <![CDATA[<br><br>STEP 06 | Click on Manage Users button ]]>
             </line>
             <line>
+              <![CDATA[<br><br>STEP 07 | Enter First Name to Search ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 08 | It search and Display Manage User List!!! ]]>
+            </line>
+            <line>
               <![CDATA[<br><br>STEP   | Select User From List ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Dates tabs ]]>
+              <![CDATA[<br><br>STEP   | Click on Panelbar Overriden ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP   | Click on Right Side ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP   | Click on Submit Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_Display_Notes_option -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="136" started-at="2021-10-09T14:22:26Z" finished-at="2021-10-09T14:22:26Z">
+        </test-method> <!-- Verify_to_view_Guideline_in_PanelBar_Override -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="154" started-at="2021-10-17T14:40:05Z" finished-at="2021-10-17T14:40:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

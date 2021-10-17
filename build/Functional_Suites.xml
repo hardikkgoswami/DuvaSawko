@@ -3956,7 +3956,7 @@
         </classes>
     </test>
     
-       <!-- Test Case 329 :: Chart Loader :: Verify to Search Chart By ADDENDA_ATTESTATION  -->
+       <!-- Test Case 330 :: Chart Loader :: Verify to Search Chart By ADDENDA_ATTESTATION  -->
     <test name="Verify to Search Chart By ADDENDA ATTESTATION">
         <classes> 	
             <class name="com.Duva.Sawko.Testsuit">
@@ -3979,5 +3979,126 @@
             </class>
         </classes>
     </test>
+    
+      <!-- Test Case 331 :: Student Answer Key :: Verify to display error message when text boxes are blank  -->
+    <test name="Verify to display error message when text boxes are blank">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_text_boxes_are_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 332 :: Student Progress :: Verify to Finalize Score of Student  -->
+    <test name="Verify to Finalize Score of Student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Finalize_Score_of_Student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 333 :: Chart Loader :: Verify to delete chart and User cant use delete chart ID  -->
+    <test name="Verify_to_delete_chart_and_User_cant_use_delete_chart_ID">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_chart_and_User_cant_use_delete_chart_ID"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 334 :: Manage Providers :: Verify to Display Error Message when fields are blank  -->
+    <test name="Verify to Display Error Message when fields are blank">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_Error_Message_when_fields_are_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 335 :: Parameters :: Verify to Edit Parameters and Submit changes to save  -->
+    <test name="Verify to Edit Parameters and Submit changes to save">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Parameters_and_Submit_changes_to_save"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 336 :: Manage Users :: Verify to Display in Sequence like Test and Stage in test tab  -->
+    <test name="Verify to Display in Sequence like Test and Stage in test tab">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_in_Sequence_like_Test_and_Stage_in_test_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 337 :: Utilities  :: Verify to display Upload video button in General Feedback  -->
+    <test name="Verify to display Upload video button in General Feedback">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Upload_video_button_in_General_Feedback"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 338 :: Student Progress  :: Verify to Test and Test History display data is date in descending order   -->
+    <test name="Verify to Test and Test History display data is date in descending order">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Test_and_Test_History_display_data_is_date_in_descending_order"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 339 :: Student Progress  :: Verify to display Text below Sign IN button   -->
+    <test name="Verify to display Text below Sign IN button">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Text_below_Sign_IN_button"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test Case 340 :: Student Progress  :: Verify to display Current Status of Student  -->
+    <test name="Verify to display Current Status of Student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Current_Status_of_Student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>
