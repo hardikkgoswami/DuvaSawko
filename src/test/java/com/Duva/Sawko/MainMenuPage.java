@@ -1004,6 +1004,18 @@ public void Verify_to_Display_in_Sequence_like_Test_and_Stage_in_test_tab() thro
 	common.pause(10);
 }
 
+public void Verify_to_display_Other_Messages_tab() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"squretabstrip\"]/ul/li[4]/span[2]")).click();
+	System.out.println("STEP   | Click on Other Message Tab ");
+	common.log("<br><br>STEP   | Click on Other Message Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"squretabstrip\"]/ul/li[1]/span[2]")).click();
+	System.out.println("STEP   | Click on Stage Message Tab ");
+	common.log("<br><br>STEP   | Click on Stage Message Tab ");
+	common.pause(10);
+}
 
 	
 

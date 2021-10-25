@@ -17,37 +17,34 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Manage Users button ]]>
+      <![CDATA[<br><br>STEP  | Click on ADDENDA_ATTESTATION ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Enter First Name to Search ]]>
+      <![CDATA[<br><br>STEP  | Click on Is there an addenda ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | It search and Display Manage User List!!! ]]>
+      <![CDATA[<br><br>STEP  | Click on Is this a split/shared visit ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Select User From List ]]>
+      <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Panelbar Overriden ]]>
+      <![CDATA[<br><br>STEP 07 | Click on Load Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Right Side ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP   | Click on Submit Button ]]>
+      <![CDATA[<br><br>STEP 08 | Verify Select Chart Display ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65567" started-at="2021-10-17T09:08:59Z" finished-at="2021-10-17T09:10:05Z">
+  <suite name="Default suite" duration-ms="56844" started-at="2021-10-23T08:23:50Z" finished-at="2021-10-23T08:24:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65567" started-at="2021-10-17T09:08:59Z" finished-at="2021-10-17T09:10:05Z">
+    <test name="Default test" duration-ms="56844" started-at="2021-10-23T08:23:50Z" finished-at="2021-10-23T08:24:47Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="20" started-at="2021-10-17T14:38:59Z" finished-at="2021-10-17T14:38:59Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="35" started-at="2021-10-23T13:53:50Z" finished-at="2021-10-23T13:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_view_Guideline_in_PanelBar_Override()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_view_Guideline_in_PanelBar_Override" duration-ms="65380" started-at="2021-10-17T14:38:59Z" finished-at="2021-10-17T14:40:05Z">
+        <test-method status="PASS" signature="Verify_to_Search_Chart_By_ADDENDA_ATTESTATION()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_Search_Chart_By_ADDENDA_ATTESTATION" duration-ms="56645" started-at="2021-10-23T13:53:50Z" finished-at="2021-10-23T13:54:46Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -65,29 +62,26 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Manage Users button ]]>
+              <![CDATA[<br><br>STEP  | Click on ADDENDA_ATTESTATION ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Enter First Name to Search ]]>
+              <![CDATA[<br><br>STEP  | Click on Is there an addenda ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | It search and Display Manage User List!!! ]]>
+              <![CDATA[<br><br>STEP  | Click on Is this a split/shared visit ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Select User From List ]]>
+              <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Panelbar Overriden ]]>
+              <![CDATA[<br><br>STEP 07 | Click on Load Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Right Side ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP   | Click on Submit Button ]]>
+              <![CDATA[<br><br>STEP 08 | Verify Select Chart Display ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_view_Guideline_in_PanelBar_Override -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="154" started-at="2021-10-17T14:40:05Z" finished-at="2021-10-17T14:40:05Z">
+        </test-method> <!-- Verify_to_Search_Chart_By_ADDENDA_ATTESTATION -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="148" started-at="2021-10-23T13:54:46Z" finished-at="2021-10-23T13:54:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

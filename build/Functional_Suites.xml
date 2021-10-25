@@ -4100,5 +4100,138 @@
         </classes>
     </test>
     
+     <!-- Test Case 341 :: Student Progress  :: Verify to Shows all as editable and had to refresh  -->
+    <test name="Verify to Shows all as editable and had to refresh">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Shows_all_as_editable_and_had_to_refresh"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 341 :: Student Progress  :: Verify to Shows all as editable and had to refresh  -->
+    <test name="Verify to Shows all as editable and had to refresh">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Shows_all_as_editable_and_had_to_refresh"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 342 :: Parameters  :: Verify to display Other Messages tab  -->
+    <test name="Verify to display Other Messages tab">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Other_Messages_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 343 :: Student Progress Manage Users  :: Verify to display Same Status in Student Progress and Edit data in Manage Users  -->
+    <test name="Verify to display Same Status in Student Progress and Edit data in Manage Users">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Same_Status_in_Student_Progress_and_Edit_data_in_Manage_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 344 :: Student Progress Manage Users  :: Verify to Search Student by Name  -->
+    <test name="Verify to Search Student by Name">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_Student_by_Name"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 345 :: Student Progress  :: Verify to Search by name and also Select user type   -->
+    <test name="Verify to Search by name and also Select user type">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_by_name_and_also_Select_user_type"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Test Case 346 :: Chart Loader  :: Verify to Load chart and make changes in IMPRESSION PLAN   -->
+    <test name="Verify to Load chart and make changes in IMPRESSION PLAN">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Load_chart_and_make_changes_in_IMPRESSION_PLAN"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 347 :: Manage Stage  :: Verify to delete video   -->
+    <test name="Verify to delete video">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_delete_video"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 348 :: Manage Stage  :: Verify to upload video on low internet speed -->
+    <test name="Verify to upload video on low internet speed">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_upload_video_on_low_internet_speed"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 349 :: Student Progress  :: Verify to Search Student by Status -->
+    <test name="Verify to Search Student by Status">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_Student_by_Status"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 350 :: Student Progress  :: Verify to display Student list as per selected Date of Last updated -->
+    <test name="Verify to display Student list as per selected Date of Last updated">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Student_list_as_per_selected_Date_of_Last_updated"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
     
 </suite>

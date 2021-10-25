@@ -2633,8 +2633,83 @@ public class Testsuit {
     	basePage.Verify_to_view_user_Progress();
     }
     
+//  Test Case 341 ::    
+    @Test
+    public void Verify_to_Shows_all_as_editable_and_had_to_refresh() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_view_user_Progress();
+    	MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+	    mainmenupage.Verify_to_Finalize_Student_Score();
+    }
     
+//  Test Case 342 ::    
+    @Test
+    public void Verify_to_display_Other_Messages_tab() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_view_Stage_Messages();
+    	MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+	    mainmenupage.Verify_to_display_Other_Messages_tab();
+    }
     
+//  Test Case 343 ::    
+    @Test
+    public void Verify_to_display_Same_Status_in_Student_Progress_and_Edit_data_in_Manage_Users() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_view_user_Progress();
+    	MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+	    mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 344 ::    
+    @Test
+    public void Verify_to_Search_Student_by_Name() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_search_Student_by_name_and_no_record_found_display_message();
+    }
+    
+//  Test Case 345 ::    
+    @Test
+    public void Verify_to_Search_by_name_and_also_Select_user_type() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_search_Student_by_name_and_no_record_found_display_message();
+    }
+    
+//  Test Case 346 ::    
+    @Test
+    public void Verify_to_Load_chart_and_make_changes_in_IMPRESSION_PLAN() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_edit_Impression_Plan();
+    }
+    
+//  Test Case 347 ::    
+    @Test
+    public void Verify_to_delete_video() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 348 ::    
+    @Test
+    public void Verify_to_upload_video_on_low_internet_speed() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 349 ::    
+    @Test
+    public void Verify_to_Search_Student_by_Status() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+    	basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 350 ::    
+    @Test
+    public void Verify_to_display_Student_list_as_per_selected_Date_of_Last_updated() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Student_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_View_By_Select_Data_By_Date_of_Last_Update ();
+    }
     
     
     
