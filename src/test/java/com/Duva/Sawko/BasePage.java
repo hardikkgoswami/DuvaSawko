@@ -5761,6 +5761,13 @@ public void Verify_to_Utilities_Utilities() throws InterruptedException, IOExcep
 	common.pause(10);
 }
 
+public void Verify_to_Analytiics() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"menu_analytics\"]/span")).click();
+	System.out.println("STEP  | Click on Analytiics ");
+	common.log("<br><br>STEP  | Click on Analytiics  ");
+	common.pause(10);
+}
+
 public void Chart_Loader_Answer_Key() throws InterruptedException, IOException{
 
 	driver.findElement(By.xpath("//*[@id=\"WRPPanel\"]/span")).click();

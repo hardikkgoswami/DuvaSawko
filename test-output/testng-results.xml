@@ -17,34 +17,43 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on ADDENDA_ATTESTATION ]]>
+      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Is there an addenda ]]>
+      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Is this a split/shared visit ]]>
+      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP  | Select User from List ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Click on Load Button ]]>
+      <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Verify Select Chart Display ]]>
+      <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Click on Edit Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Enter Score ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Click on Save Button ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="56844" started-at="2021-10-23T08:23:50Z" finished-at="2021-10-23T08:24:47Z">
+  <suite name="Default suite" duration-ms="75944" started-at="2021-12-05T14:28:21Z" finished-at="2021-12-05T14:29:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="56844" started-at="2021-10-23T08:23:50Z" finished-at="2021-10-23T08:24:47Z">
+    <test name="Default test" duration-ms="75944" started-at="2021-12-05T14:28:21Z" finished-at="2021-12-05T14:29:37Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="35" started-at="2021-10-23T13:53:50Z" finished-at="2021-10-23T13:53:50Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="35" started-at="2021-12-05T19:58:21Z" finished-at="2021-12-05T19:58:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Search_Chart_By_ADDENDA_ATTESTATION()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_Search_Chart_By_ADDENDA_ATTESTATION" duration-ms="56645" started-at="2021-10-23T13:53:50Z" finished-at="2021-10-23T13:54:46Z">
+        <test-method status="PASS" signature="Verify_to_update_Score_perfectly_when_student_score_edited()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_update_Score_perfectly_when_student_score_edited" duration-ms="75759" started-at="2021-12-05T19:58:21Z" finished-at="2021-12-05T19:59:37Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -62,26 +71,35 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on ADDENDA_ATTESTATION ]]>
+              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Is there an addenda ]]>
+              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Is this a split/shared visit ]]>
+              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP  | Select User from List ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Click on Load Button ]]>
+              <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Verify Select Chart Display ]]>
+              <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Click on Edit Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Enter Score ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Click on Save Button ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Search_Chart_By_ADDENDA_ATTESTATION -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="148" started-at="2021-10-23T13:54:46Z" finished-at="2021-10-23T13:54:47Z">
+        </test-method> <!-- Verify_to_update_Score_perfectly_when_student_score_edited -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="136" started-at="2021-12-05T19:59:37Z" finished-at="2021-12-05T19:59:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

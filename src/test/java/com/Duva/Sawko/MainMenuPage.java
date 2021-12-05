@@ -1017,6 +1017,181 @@ public void Verify_to_display_Other_Messages_tab() throws InterruptedException, 
 	common.pause(10);
 }
 
+public void Verify_to_add_hyperlink_into_EM_Summary_for_coders() throws InterruptedException, IOException{
 	
+	driver.findElement(By.xpath("//*[@id=\"utilities_tab-1\"]/div[1]/div[1]/span/span")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='E/M Summary for Coders']")).click();
+	System.out.println("STEP   | Select EM Summary for Coders ");
+	common.log("<br><br>STEP   | Select EM Summary for Coders ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"EM-summary\"]/ul/li[4]/span[2]")).click();
+	System.out.println("STEP   | Click on PE Tab");
+	common.log("<br><br>STEP   | Click on PE Tab");
+	common.pause(10);
+}
+
+public void Verify_to_write_response_in_User_Progress() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"question\"]/table/tbody/tr[1]/td[18]/a")).click();
+	System.out.println("STEP   | Click on Edit Button");
+	common.log("<br><br>STEP   | Click on Edit Button");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"response\"]")).click();
+	System.out.println("STEP   | Enter Some Data in Response");
+	common.log("<br><br>STEP   | Enter Some Data in Response");
+	common.pause(10);
+}
+
+public void Verify_to_Apply_multiple_filter() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[2]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='TRAINEE']")).click();
+	System.out.println("STEP   | Select User Type");
+	common.log("<br><br>STEP   | Select User Type");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[4]/div/label[3]")).click();
+	System.out.println("STEP   | Click on Test Type");
+	common.log("<br><br>STEP   | Click on Test Type");
+	common.pause(10);
+}
+
+public void Verify_to_display_data_like_6_in_Must_Start_By_Business_Days() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"paramform\"]/div/div[1]/fieldset[3]/div/div/div[1]/div/div/div[1]/label")).isDisplayed();
+	System.out.println("STEP   | Verify It Display Must Start By (Business Days) ");
+	common.log("<br><br>STEP   | Verify It Display Must Start By (Business Days) ");
+	common.pause(10);
+}
+
+public void Verify_to_view_user_Progress_PreHire() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
+	System.out.println("STEP  | Click on Student Progress ");
+	common.log("<br><br>STEP  | Click on Student Progress ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
+	System.out.println("STEP  | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP  | Verify It display Student Progress!!! ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP   | Click on All Time Raio Button ");
+	common.log("<br><br>STEP   | Click on All Time Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[2]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='PREHIRE']")).click();
+	System.out.println("STEP   | Select PreHire User Type ");
+	common.log("<br><br>STEP   | Select PreHire User Type ");
+	common.pause(30);
+	
+	driver.findElement(By.xpath("//*[@id=\"studentgrid\"]/table/tbody/tr[3]/td[3]")).click();
+	System.out.println("STEP  | Select User from List ");
+	common.log("<br><br>STEP  | Select User from List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"testhistory\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP  | Click on Test History By Day ");
+	common.log("<br><br>STEP  | Click on Test History By Day ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"question\"]/table/tbody/tr[1]/td[3]")).isDisplayed();
+	System.out.println("STEP  | Verify It Display User Progress ");
+	common.log("<br><br>STEP  | Verify It Display User Progress ");
+	common.pause(10);
+}
+public void Verify_to_view_By_Last_Student_Update_and_Last_Admin_Update_and_also_in_time_0_shouldnt_display() throws InterruptedException, IOException{
+	 
+	driver.findElement(By.xpath("//*[@id=\"panel5\"]/span")).click();
+	System.out.println("STEP  | Click on Static Test Ovreview ");
+	common.log("<br><br>STEP  | Click on Static Test Ovreview ");
+	common.pause(10);
+		
+	driver.findElement(By.xpath("//*[@id=\"testhistory\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP  | Click on Test History By Day ");
+	common.log("<br><br>STEP  | Click on Test History By Day ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"question\"]/table/tbody/tr[1]/td[3]")).isDisplayed();
+	System.out.println("STEP  | Verify It Display User Progress ");
+	common.log("<br><br>STEP  | Verify It Display User Progress ");
+	common.pause(10);
+}
+
+public void Verify_to_download_User_Progress_and_view_data() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"downloadanswer\"]")).click();
+	System.out.println("STEP  | Click on Dowload Button ");
+	common.log("<br><br>STEP  | Click on Dowload Button ");
+	common.pause(10);
+}
+
+public void Verify_to_Promoting_a_student_from_PREHIRE_to_TRAINEE_is_only_available_if_there_is_a_Finalized_and_Passed_test() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[2]/td[4]")).click();
+	System.out.println("STEP  | Select User from list ");
+	common.log("<br><br>STEP  | Select User from list ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP  | Click on Submit Button ");
+	common.log("<br><br>STEP  | Click on Submit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"done_user\"]")).click();
+	System.out.println("STEP  | Click on Done Edit Button ");
+	common.log("<br><br>STEP  | Click on Done Edit Button ");
+	common.pause(10);
+}
+public void Verify_to_Add_Other_radio_button_into_User_Progress() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"panel3\"]/div/div/div[1]/div[5]/div/label[3]")).click();
+	System.out.println("STEP  | Click on Other Radio Button ");
+	common.log("<br><br>STEP  | Click on Other Radio Button ");
+	common.pause(10);
+	
+}
+
+public void Verify_to_view_Test_of_Student_which_has_Not_Started() throws InterruptedException, IOException{
+    
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
+	System.out.println("STEP  | Click on Student Progress ");
+	common.log("<br><br>STEP  | Click on Student Progress ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
+	System.out.println("STEP  | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP  | Verify It display Student Progress!!! ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP   | Click on All Time Raio Button ");
+	common.log("<br><br>STEP   | Click on All Time Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"studentgrid\"]/table/tbody/tr[4]/td[3]")).click();
+	System.out.println("STEP  | Select User from List ");
+	common.log("<br><br>STEP  | Select User from List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"second\"]/label")).click();
+	System.out.println("STEP  | Click on Show Started Checkbox ");
+	common.log("<br><br>STEP  | Click on Show Started Checkbox ");
+	common.pause(10);
+}
+
+
 
 }

@@ -4232,6 +4232,497 @@
         </classes>
     </test>
     
+     <!-- Test Case 351 :: Utilities  :: Verify to add hyperlink into EM Summary for coders -->
+    <test name="Verify to add hyperlink into EM Summary for coders">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_add_hyperlink_into_EM_Summary_for_coders"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 352 :: Student Progress  :: Verify to write response in User Progress -->
+    <test name="Verify to write response in User Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_write_response_in_User_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 353 :: Student Progress  :: Verify to Apply multiple filter -->
+    <test name="Verify to Apply multiple filter">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Apply_multiple_filter"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 354 :: Student Progress  :: Verify that Status should display Something -->
+    <test name="Verify that Status should display Something">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_Status_should_display_Something"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 355 :: Student Progress  :: Verify to edit Score and it also display last admin update of particular student -->
+    <test name="Verify to edit Score and it also display last admin update of particular student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Score_and_it_also_display_last_admin_update_of_particular_student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 356 :: Manage User  :: Verify to Edit Mobile number and Role -->
+    <test name="Verify to Edit Mobile number and Role">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Mobile_number_and_Role"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 357 :: Student Progress  :: Verify to that when user hover mouse it should display highlighted -->
+    <test name="Verify to that when user hover mouse it should display highlighted">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_that_when_user_hover_mouse_it_should_display_highlighted"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 358 :: Manage Users :: Verify to edit Must Start by Date of student -->
+    <test name="Verify to edit Must Start by Date of student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Must_Start_by_Date_of_student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 359 :: Student Progress :: Verify to Last Student update and MR Finalized Time Per Chart -->
+    <test name="Verify to Last Student update and MR Finalized Time Per Chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Last_Student_update_and_MR_Finalized_Time_Per_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 360 :: Student Progress :: Verify to update Score perfectly when student score edited -->
+    <test name="Verify to update Score perfectly when student score edited">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_update_Score_perfectly_when_student_score_edited"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 361 :: Student Progress :: Verify to Apply Date Filter to view Student Progress -->
+    <test name="Verify to Apply Date Filter to view Student Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Apply_Date_Filter_to_view_Student_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 362 :: Student Progress :: Verify to that If student score more than then it passed below failed display -->
+    <test name="Verify to that If student score more than then it passed below failed display">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_that_If_student_score_more_than_then_it_passed_below_failed_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 363 :: Student Answer Key :: Verify to Edit Feedback CPT Provider -->
+    <test name="Verify to Edit Feedback CPT Provider one">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Feedback_CPT_Provider_one"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 364 :: Student Progress :: Verify to Apply Date Filter to view Student Progress and verify data display into list -->
+    <test name="Verify to Apply Date Filter to view Student Progress and verify data display into list">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Apply_Date_Filter_to_view_Student_Progress_and_verify_data_display_into_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 365 :: Parameters :: Verify to display data like 6 in Must Start By Business Days -->
+    <test name="Verify to display data like 6 in Must Start By Business Days">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_data_like_6_in_Must_Start_By_Business_Days"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 366 :: Student Progress :: Verify that if student dont test history by day than in User progress Finalize button should display disable -->
+    <test name="Verify that if student dont test history by day than in User progress Finalize button should display disable">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_if_student_dont_test_history_by_day_than_in_User_progress_Finalize_button_should_display_disable"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 367 :: Student Progress :: Verify to view Progress of PreHire User -->
+    <test name="Verify to view Progress of PreHire User">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Progress_of_PreHire_User"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 368 :: Student Progress :: Verify to view By Last Student Update and Last Admin Update and also in time 0 shouldnt display -->
+    <test name="Verify to view By Last Student Update and Last Admin Update and also in time 0 shouldnt display">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_By_Last_Student_Update_and_Last_Admin_Update_and_also_in_time_0_shouldnt_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 369 :: Chart Loader :: Verify to edit ADDENDA ATTESTATION and save changes  -->
+    <test name="Verify to edit ADDENDA ATTESTATION and save changes">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_ADDENDA_ATTESTATION_and_save_changes"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 370 :: Chart Loader :: Verify to that edit final score and No error message display  -->
+    <test name="Verify to that edit final score and No error message display">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_that_edit_final_score_and_No_error_message_display"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 371 :: Student Progress :: Verify to display data by Sorting in Student Progress  -->
+    <test name="Verify to display data by Sorting in Student Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_data_by_Sorting_in_Student_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 372 :: Manage Users :: Verify to set password for new Users -->
+    <test name="Verify to set password for new Users">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_set_password_for_new_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 373 :: Student Progress :: Verify to display Last Student Update and Last Admin Update -->
+    <test name="Verify to display Last Student Update and Last Admin Update">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Last_Student_Update_and_Last_Admin_Update"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 374 :: Manage Users :: Verify to Click on Create Password link and it should open -->
+    <test name="Verify to Click on Create Password link and it should open">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Click_on_Create_Password_link_and_it_should_open"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 375 :: Student Progress :: Verify to view MR Finalize same in for date Test History by Day -->
+    <test name="Verify to view MR Finalize same in for date Test History by Day">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_MR_Finalize_same_in_for_date_Test_History_by_Day"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 375 :: Student Progress :: Verify to view MR Finalize same in for date Test History by Day -->
+    <test name="Verify to view MR Finalize same in for date Test History by Day">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_MR_Finalize_same_in_for_date_Test_History_by_Day"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 376 :: Student Progress :: Verify to download User Progress and view data -->
+    <test name="Verify to download User Progress and view data">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_download_User_Progress_and_view_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 377 :: Student Progress :: Verify to apply filter and view Student -->
+    <test name="Verify to apply filter and view Student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_apply_filter_and_view_Student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 378 :: Student Progress :: Verify to Edit Final Score and also edit Final score in another page -->
+    <test name="Verify to Edit Final Score and also edit Final score in another page">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Final_Score_and_also_edit_Final_score_in_another_page"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 379 :: Admin :: Verify to Login with Admin Users -->
+    <test name="Verify to Login with Admin Users">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Login_with_Admin_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 380 :: Manage User :: Verify to Promoting a student from PREHIRE to TRAINEE is only available if there is a Finalized ad Passed test -->
+    <test name="Verify to Promoting a student from PREHIRE to TRAINEE is only available if there is a Finalized ad Passed test">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Promoting_a_student_from_PREHIRE_to_TRAINEE_is_only_available_if_there_is_a_Finalized_and_Passed_test"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 381 :: Student Progress :: Verify to Add Other radio button into User Progress -->
+    <test name="Verify to Add Other radio button into User Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_Other_radio_button_into_User_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 382 :: Student Progress :: Verify to view Stage and For Date in Test History By Day-->
+    <test name="Verify to view Stage and For Date in Test History By Day">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Stage_and_For_Date_in_Test_History_By_Day"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 383 :: Student Progress :: Verify to view Test of Student which has Not Started -->
+    <test name="Verify to view Test of Student which has Not Started">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Test_of_Student_which_has_Not_Started"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 384 :: Manage Users :: Verify that when user Add User it should received only one Email -->
+    <test name="Verify that when user Add User it should received only one Email">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_that_when_user_Add_User_it_should_received_only_one_Email"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+     <!-- Test Case 385 :: Student Answer Key :: Verify to Add Answer key with same Chart ID -->
+    <test name="Verify to Add Answer key with same Chart ID">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_Answer_key_with_same_Chart_ID"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+     <!-- Test Case 386 :: Student Progress :: Verify to view Chart Coded Today to display today's chart number -->
+    <test name="Verify to view Chart Coded Today to display today's chart number">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_sto_view_Chart_Coded_Today_to_display_todays_chart_number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+     <!-- Test Case 387 :: Student Progress :: Verify to View Total Test Time column to display total time -->
+    <test name="Verify to View Total Test Time column to display total time">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Total_Test_Time_column_to_display_total_time"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test> 
+    
+      <!-- Test Case 388 :: Student Progress :: Verify to view total coded chart 0 number -->
+    <test name="Verify to view total coded chart 0 number One">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Test_of_Student_which_has_Not_Started_One"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 389 :: Manage Stage :: Verify to View Upload Video and PDF files -->
+    <test name="Verify to View Upload Video and PDF files">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Upload_Video_and_PDF_files"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 390 :: Analytics :: Verify to view Analytics -->
+    <test name="Verify to view Analytics">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Analytics"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
     
     
 </suite>

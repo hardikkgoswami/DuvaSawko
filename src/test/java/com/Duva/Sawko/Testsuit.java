@@ -2711,7 +2711,324 @@ public class Testsuit {
     	 mainmenupage.Verify_to_View_By_Select_Data_By_Date_of_Last_Update ();
     }
     
+//  Test Case 351 ::    
+    @Test
+    public void Verify_to_add_hyperlink_into_EM_Summary_for_coders() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+ 	 	 basePage.Verify_to_Utilities();
+ 	 	 basePage.Verify_to_Utilities_Utilities();
+ 	 	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_add_hyperlink_into_EM_Summary_for_coders();
+    }
     
+//  Test Case 352 ::    
+    @Test
+    public void Verify_to_write_response_in_User_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_write_response_in_User_Progress();
+    }
+    
+//  Test Case 353 ::    
+    @Test
+    public void Verify_to_Apply_multiple_filter() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_Select_Next_and_Back_button_for_Data_Grid();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Apply_multiple_filter();
+    }
+    
+//  Test Case 354 ::    
+    @Test
+    public void Verify_that_Status_should_display_Something() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_Select_Next_and_Back_button_for_Data_Grid();
+    }
+    
+//  Test Case 355 ::    
+    @Test
+    public void Verify_to_edit_Score_and_it_also_display_last_admin_update_of_particular_student() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 356 ::    
+    @Test
+    public void Verify_to_Edit_Mobile_number_and_Role() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_Edit_Manage_Users();
+    }
+    
+//  Test Case 357 ::    
+    @Test
+    public void Verify_to_that_when_user_hover_mouse_it_should_display_highlighted() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 358 ::    
+    @Test
+    public void Verify_to_edit_Must_Start_by_Date_of_student() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_View_Panel_Bars();
+    }
+    
+//  Test Case 359 ::    
+    @Test
+    public void Verify_to_Last_Student_update_and_MR_Finalized_Time_Per_Chart() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 360 ::    
+    @Test
+    public void Verify_to_update_Score_perfectly_when_student_score_edited() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 361 ::    
+    @Test
+    public void Verify_to_Apply_Date_Filter_to_view_Student_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+
+//  Test Case 362 ::    
+    @Test
+    public void Verify_to_that_If_student_score_more_than_then_it_passed_below_failed_display() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 363 ::    
+    @Test
+    public void Verify_to_Edit_Feedback_CPT_Provider_one() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_Edit_Feedback_CPT_Provider();
+    }
+    
+//  Test Case 364 ::    
+    @Test
+    public void Verify_to_Apply_Date_Filter_to_view_Student_Progress_and_verify_data_display_into_list() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 365 ::    
+    @Test
+    public void Verify_to_display_data_like_6_in_Must_Start_By_Business_Days() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Parameter();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_display_data_like_6_in_Must_Start_By_Business_Days();
+    }
+    
+//  Test Case 366 ::    
+    @Test
+    public void Verify_that_if_student_dont_test_history_by_day_than_in_User_progress_Finalize_button_should_display_disable() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 367 ::    
+    @Test
+    public void Verify_to_view_Progress_of_PreHire_User() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_user_Progress_PreHire();
+    }
+    
+//  Test Case 368  ::    
+    @Test
+    public void Verify_to_view_By_Last_Student_Update_and_Last_Admin_Update_and_also_in_time_0_shouldnt_display() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_By_Last_Student_Update_and_Last_Admin_Update_and_also_in_time_0_shouldnt_display();
+    }
+    
+//  Test Case 369  ::    
+    @Test
+    public void Verify_to_edit_ADDENDA_ATTESTATION_and_save_changes() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_edit_dropdown_in_Addenda_Attestation();
+    }
+    
+//  Test Case 370  ::    
+    @Test
+    public void Verify_to_that_edit_final_score_and_No_error_message_display() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 371  ::    
+    @Test
+    public void Verify_to_display_data_by_Sorting_in_Student_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 372  ::    
+    @Test
+    public void Verify_to_set_password_for_new_Users() throws InterruptedException, IOException, AWTException{
+    	  basePage.enterURL();
+          basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 373  ::    
+    @Test
+    public void Verify_to_display_Last_Student_Update_and_Last_Admin_Update() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 374  ::    
+    @Test
+    public void Verify_to_Click_on_Create_Password_link_and_it_should_open() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	  basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 375  ::    
+    @Test
+    public void Verify_to_view_MR_Finalize_same_in_for_date_Test_History_by_Day() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 376  ::    
+    @Test
+    public void Verify_to_download_User_Progress_and_view_data() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_download_User_Progress_and_view_data();
+    }
+    
+//  Test Case 377  ::    
+    @Test
+    public void Verify_to_apply_filter_and_view_Student() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL(); 
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_user_Progress_PreHire();
+    }
+    
+//  Test Case 378  ::    
+    @Test
+    public void Verify_to_Edit_Final_Score_and_also_edit_Final_score_in_another_page() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Finalize_Student_Score();
+    }
+    
+//  Test Case 379  ::    
+    @Test
+    public void Verify_to_Login_with_Admin_Users() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_loing_details();
+    }
+    
+//  Test Case 380  ::    
+    @Test
+    public void Verify_to_Promoting_a_student_from_PREHIRE_to_TRAINEE_is_only_available_if_there_is_a_Finalized_and_Passed_test() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Manage_Users();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Promoting_a_student_from_PREHIRE_to_TRAINEE_is_only_available_if_there_is_a_Finalized_and_Passed_test();
+    }
+    
+//  Test Case 381  ::    
+    @Test
+    public void Verify_to_Add_Other_radio_button_into_User_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Add_Other_radio_button_into_User_Progress();
+    }
+    
+//  Test Case 382  ::    
+    @Test
+    public void Verify_to_view_Stage_and_For_Date_in_Test_History_By_Day() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 383  ::    
+    @Test
+    public void Verify_to_view_Test_of_Student_which_has_Not_Started() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Test_of_Student_which_has_Not_Started();
+    }
+    
+//  Test Case 384  ::    
+    @Test
+    public void Verify_that_when_user_Add_User_it_should_received_only_one_Email() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Test_of_Student_which_has_Not_Started();
+    }
+    
+//  Test Case 385  ::    
+    @Test
+    public void Verify_to_Add_Answer_key_with_same_Chart_ID() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Student_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Add_Key_two_times();
+    }
+    
+//  Test Case 386  ::    
+    @Test
+    public void Verify_sto_view_Chart_Coded_Today_to_display_todays_chart_number() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 387  ::    
+    @Test
+    public void Verify_to_View_Total_Test_Time_column_to_display_total_time() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.Verify_to_view_user_Progress();
+    }
+
+//  Test Case 388  ::    
+    @Test
+    public void Verify_to_view_Test_of_Student_which_has_Not_Started_One() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Test_of_Student_which_has_Not_Started();
+    }
+    
+//  Test Case 389  ::    
+    @Test
+    public void Verify_to_View_Upload_Video_and_PDF_files() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Manage_Stage();
+    }
+    
+//  Test Case 390  ::    
+    @Test
+    public void Verify_to_view_Analytics() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Analytiics();
+    }
+
     
     
     
