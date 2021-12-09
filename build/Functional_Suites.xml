@@ -4724,5 +4724,126 @@
         </classes>
     </test>
     
+     <!-- Test Case 391 :: Student Progress :: Verify to Display Finalize button when student status display complete  -->
+    <test name="Verify to Display Finalize button when student status display complete">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Display_Finalize_button_when_student_status_display_complete"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 392 :: Manage Users :: Verify to Search for particular Users -->
+    <test name="Verify to Search for particular Users">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Search_for_particular_Users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 393 :: Login :: Verify to view DUVASAWKO CODE text -->
+    <test name="Verify to view DUVASAWKO CODE text">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_DUVASAWKO_CODE_text"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 394 :: Student Progress :: Verify to view Total/Record in User Progress -->
+    <test name="Verify to view Total Record in User Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Total_Record_in_User_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 395 :: Student Progress :: Verify to view Invalid User in Student Progress and Manage User -->
+    <test name="Verify to view Invalid User in Student Progress and Manage User">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Invalid_User_in_Student_Progress_and_Manage_User"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 396 :: Manage User :: Verify to Update Email and Phone Number -->
+    <test name="Verify to Update Email and Phone Number">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Update_Email_and_Phone_Number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 397 :: Manage User :: Verify to view Notification -->
+    <test name="Verify to view Notification">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Notification"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 398 :: Student PROGRESS :: Verify to Add Response when user select Other option -->
+    <test name="Verify to Add Response when user select Other option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Add_Response_when_user_select_Other_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 399 :: Manage Users :: Verify to Edit Role and Save details -->
+    <test name="Verify to Edit Role and Save details">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Role_and_Save_details"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    
+      <!-- Test Case 400 :: Student Progress :: Verify to Edit Response and It should Retain page state -->
+    <test name="Verify to Edit Response and It should Retain page state">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Response_and_It_should_Retain_page_state"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
     
 </suite>

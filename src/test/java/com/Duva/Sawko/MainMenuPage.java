@@ -1192,6 +1192,63 @@ public void Verify_to_view_Test_of_Student_which_has_Not_Started() throws Interr
 	common.pause(10);
 }
 
+public void Verify_to_view_Invalid_User_in_Student_Progress_and_Manage_User() throws InterruptedException, IOException{
+    
+	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
+	System.out.println("STEP 07 | Click on Student Progress ");
+	common.log("<br><br>STEP 07 | Click on Student Progress ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
+	System.out.println("STEP 08 | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP 08 | Verify It display Student Progress!!! ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP   | Click on All Time Raio Button ");
+	common.log("<br><br>STEP   | Click on All Time Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"invalid_user\"]/label")).click();
+	System.out.println("STEP   | Select Invalid Checkbox ");
+	common.log("<br><br>STEP   | Select Invalid Checkbox ");
+	common.pause(10);
+}
+
+public void Verify_to_view_Invalid_Manage_User() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"find_invalid_user\"]/label")).click();
+	System.out.println("STEP   | Select Invalid Checkbox ");
+	common.log("<br><br>STEP   | Select Invalid Checkbox ");
+	common.pause(10);
+}
+
+public void Verify_to_Edit_Role_and_Save_details() throws InterruptedException, IOException{
+    
+	common.pause(20);
+	verify_login_details_of_admin();
+	common.pause(20);
+	
+	WebElement ManageUsers_button = driver.findElement(By.xpath("//*[@id='menu_manage_users']/span"));
+	ManageUsers_button.click();
+	System.out.println("STEP  | Click on Manage Users button ");
+	common.log("<br><br>STEP  | Click on Manage Users button ");
+	common.pause(40);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[4]")).click();
+	System.out.println("STEP  | Select User From List ");
+	common.log("<br><br>STEP  | Select User From List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[2]/div[1]/div/label[5]")).click();
+	System.out.println("STEP  | Edit Role ");
+	common.log("<br><br>STEP  | Edit Role ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"done_user\"]")).click();
+	System.out.println("STEP  | Click on Done Edit Button ");
+	common.log("<br><br>STEP  | Edit Done Edit Button ");
+	common.pause(10);
+}
 
 
 }
