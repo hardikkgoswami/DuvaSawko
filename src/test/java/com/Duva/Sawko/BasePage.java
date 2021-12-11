@@ -4767,10 +4767,10 @@ public void Verify_to_load_charts() throws InterruptedException, IOException{
 	common.log("<br><br>STEP 08 | Click on Unlock Button ");
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//*[@id=\"load_next_chart\"]")).click();
-	System.out.println("STEP   | Click on Next Button ");
-	common.log("<br><br>STEP   | Click on Next Button ");
-	common.pause(10);
+//	driver.findElement(By.xpath("//*[@id=\"load_next_chart\"]")).click();
+//	System.out.println("STEP   | Click on Next Button ");
+//	common.log("<br><br>STEP   | Click on Next Button ");
+//	common.pause(10);
 }
 
 public void Verify_to_functionality_of_Email() throws InterruptedException, IOException{

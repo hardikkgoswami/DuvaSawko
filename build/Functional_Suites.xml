@@ -4832,7 +4832,6 @@
         </classes>
     </test>
     
-    
       <!-- Test Case 400 :: Student Progress :: Verify to Edit Response and It should Retain page state -->
     <test name="Verify to Edit Response and It should Retain page state">
         <classes> 	
@@ -4844,6 +4843,150 @@
             </class>
         </classes>
     </test>
+    
+      <!-- Test Case 401 :: Manage Users :: Verify to  Role Promotion Prevention -->
+    <test name="Verify to  Role Promotion Prevention">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Role_Promotion_Prevention"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 402 :: Student Progress :: Verify to view Percentage of Student and it should passed -->
+    <test name="Verify to  Role Promotion Prevention">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Percentage_of_Student_and_it_should_passed"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 403 :: Chart Loader :: Verify to edit Downloaded in any chart -->
+    <test name="Verify to Role Promotion Prevention">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_edit_Downloaded_in_any_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 404 :: Manage Users :: Verify to view Total number of Valid and Invalid Users list -->
+    <test name="Verify to view Total number of Valid and Invalid Users listn">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Total_number_of_Valid_and_Invalid_Users_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 405 :: Student Progress :: Verify to view Stage Charts Test Time OC UC Other and Status in Test History By Day-->
+    <test name="Verify to view Stage Charts Test Time OC UC Other and Status in Test History By Day">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Stage_Charts_Test_Time_OC_UC_Other_and_Status_in_Test_History_By_Day"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 406 :: Utilities  :: Verify to View text Fever PE tab -->
+    <test name="Verify to View text Fever PE tab">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_text_Fever_PE_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 407 :: Analytics  :: Verify to download excel file of Active User and Coded chart -->
+    <test name="Verify to download excel file of Active User and Coded chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_download_excel_file_of_Active_User_and_Coded_chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 408 :: Logins  :: Verify to view Login details of Particular user -->
+    <test name="Verify to view Login details of Particular user">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Login_details_of_Particular_user"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 409 :: Manage Users  :: Verify to Modifications to Supervisor Role -->
+    <test name="Verify to Modifications to Supervisor Role">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Modifications_to_Supervisor_Role"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 410 :: Manage Users  :: Verify to display error message when all fields are blank and also already used email address -->
+    <test name="Verify to display error message when all fields are blank and also already used email address">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 411 :: Manage Users  :: Verify to View Summary of any User -->
+    <test name="Verify to View Summary of any User">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_View_Summary_of_any_User"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 412 :: Student Progress  :: Verify to download Excel file and view data of Student Progress -->
+    <test name="Verify to download Excel file and view data of Student Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_download_Excel_file_and_view_data_of_Student_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>s
     
     
 </suite>

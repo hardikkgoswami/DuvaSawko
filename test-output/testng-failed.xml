@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
-          <include name="Verify_to_Click_on_Create_Password_link_and_it_should_open"/>
           <include name="onBefore"/>
+          <include name="Verify_to_edit_Downloaded_in_any_chart"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

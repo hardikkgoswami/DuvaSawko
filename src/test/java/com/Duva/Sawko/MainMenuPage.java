@@ -668,7 +668,7 @@ public void Verify_Display_Notes_option() throws InterruptedException, IOExcepti
 
 public void Verify_to_Student_Move_Applicant_to_PreHire() throws InterruptedException, IOException{
 
-	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr/td[1]")).click();
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[2]/td[1]")).click();
 	System.out.println("STEP   | Select User From List ");
 	common.log("<br><br>STEP   | Select User From List ");
 	common.pause(10);
@@ -1249,6 +1249,102 @@ public void Verify_to_Edit_Role_and_Save_details() throws InterruptedException, 
 	common.log("<br><br>STEP  | Edit Done Edit Button ");
 	common.pause(10);
 }
+
+public void Verify_to_edit_Downloaded_in_any_chart() throws InterruptedException, IOException{
+    common.pause(20);
+	driver.findElement(By.xpath("//*[@id=\"MDForm\"]/div[2]/div[1]/div[2]/div[1]/div[1]/label/span")).click();
+	System.out.println("STEP  | Click on Complete Checkbox ");
+	common.log("<br><br>STEP  | Click on Complete Checkbox ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"MDForm\"]/div[2]/div[2]/div/div[2]/div/div/div/label[1]/span")).click();
+	System.out.println("STEP  | Click on Downcoded Other Option ");
+	common.log("<br><br>STEP  | Click on Downcoded Other Option ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"common_submit_btn\"]")).click();
+	System.out.println("STEP  | Click on Submit Button ");
+	common.log("<br><br>STEP  | Click on Submit Button ");
+	common.pause(10);
+}
+
+public void Verify_to_View_text_Fever_PE_tab() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"utilities_tab-1\"]/div[1]/div[1]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='E/M Summary for Coders']")).click();
+	System.out.println("STEP  | Click on Submit Button ");
+	common.log("<br><br>STEP  | Click on Submit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"EM-summary\"]/ul/li[4]/span[2]")).click();
+	System.out.println("STEP  | Click on PE Tab ");
+	common.log("<br><br>STEP  | Click on PE Tab ");
+	common.pause(10);
+}
+
+public void Verify_to_download_excel_file_of_Active_User_and_Coded_chart() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"download_codedlist\"]")).click();
+	System.out.println("STEP  | Click on Dowload Button ");
+	common.log("<br><br>STEP  | Click on Dowload Button ");
+	common.pause(10);
+}
+
+public void Verify_to_view_Login_details_of_Particular_user() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP  | Click on All Time Radio ");
+	common.log("<br><br>STEP  | Click on All Time Radio ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"timesheet_overview\"]/table/tbody/tr[2]/td[3]")).click();
+	System.out.println("STEP  | Verify First Login Date ");
+	common.log("<br><br>STEP  | Verify First Login Date ");
+	common.pause(10);
+}
+
+public void Verify_to_Modifications_to_Supervisor_Role() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all\"]/li[1]/div/div/div[2]/div/div/label[3]")).click();
+	System.out.println("STEP  | Select Supervisor ");
+	common.log("<br><br>STEP  | Select Supervisor ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[3]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[2]/div[1]/div/label[4]")).click();
+	System.out.println("STEP  | Select Trainer ");
+	common.log("<br><br>STEP  | Select Trainer ");
+	common.pause(10);
+}
+
+public void Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"add_email\"]")).sendKeys("qa2@mailiator.com");
+	System.out.println("STEP  | Enter Email Address ");
+	common.log("<br><br>STEP  | Enter Email Address ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//input[@id='add_user']")).click();
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[1]/div[3]/div/span")).isDisplayed();
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[1]/div[6]/div/span")).isDisplayed();
+	System.out.println("STEP  |  Hmmm, this email already exists. Please try a different one. ");
+	common.log("<br><br>STEP  |  Hmmm, this email already exists. Please try a different one. ");
+	common.pause(10);
+}
+
+public void Verify_to_View_Summary_of_any_User() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[16]/a")).click();
+	System.out.println("STEP  | Click on Show Summary ");
+	common.log("<br><br>STEP  | Click on Show Summary ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"summary_template_container_wnd_title\"]")).isDisplayed();
+	System.out.println("STEP  | Verify User Summary Displayed!!! ");
+	common.log("<br><br>STEP  | Verify User Summary Displayed!!! ");
+	common.pause(10);
+}
+
+
 
 
 }

@@ -3108,6 +3108,117 @@ public class Testsuit {
     	 mainmenupage.Verify_to_write_response_in_User_Progress();
     }
     
+//  Test Case 401 ::    
+    @Test
+    public void Verify_to_Role_Promotion_Prevention() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_apply_filter_from_first_letter();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Student_Move_Applicant_to_PreHire();
+    }
+    
+//  Test Case 402 ::    
+    @Test
+    public void Verify_to_view_Percentage_of_Student_and_it_should_passed() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+        basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 403 ::    
+    @Test
+    public void Verify_to_edit_Downloaded_in_any_chart() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+        basePage.Verify_to_load_charts();
+        MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+        mainmenupage.Verify_to_edit_Downloaded_in_any_chart();
+    }
+    
+//  Test Case 404 ::    
+    @Test
+    public void Verify_to_view_Total_number_of_Valid_and_Invalid_Users_list() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Manage_Users();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_view_Invalid_Manage_User();
+    }
+    
+//  Test Case 405 ::    
+    @Test
+    public void Verify_to_view_Stage_Charts_Test_Time_OC_UC_Other_and_Status_in_Test_History_By_Day() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+        basePage.Verify_to_view_user_Progress();
+    }
+    
+//  Test Case 406 ::    
+    @Test
+    public void Verify_to_View_text_Fever_PE_tab() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Utilities_Utilities();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_View_text_Fever_PE_tab();
+    }
+    
+//  Test Case 407 ::    
+    @Test
+    public void Verify_to_download_excel_file_of_Active_User_and_Coded_chart() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Analytiics();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_View_text_Fever_PE_tab();
+    }
+    
+//  Test Case 408 ::    
+    @Test
+    public void Verify_to_view_Login_details_of_Particular_user() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.Verify_to_check_dates_functionality();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_view_Login_details_of_Particular_user();
+    }
+    
+//  Test Case 409 ::    
+    @Test
+    public void Verify_to_Modifications_to_Supervisor_Role() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+         basePage.Manage_Users();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_view_Login_details_of_Particular_user();
+    }
+
+//  Test Case 410 ::    
+    @Test
+    public void Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+         basePage.Manage_Users();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address();
+    }
+    
+//  Test Case 411 ::    
+    @Test
+    public void Verify_to_View_Summary_of_any_User() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+         basePage.Manage_Users();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_View_Summary_of_any_User();
+    }
+    
+//  Test Case 412 ::    
+    @Test
+    public void Verify_to_download_Excel_file_and_view_data_of_Student_Progress() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_user_Progress();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_download_User_Progress();
+    }
     
     
 }
