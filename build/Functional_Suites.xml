@@ -4986,7 +4986,150 @@
                 </methods>
             </class>
         </classes>
-    </test>s
+    </test>
     
+      <!-- Test Case 413 :: Analytiics :: Verify to view Additional Analytics Charts -->
+    <test name="Verify to view Additional Analytics Charts">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Additional_Analytics_Charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 414 :: Utilities :: Verify sto Display Error Message when fields are blank -->
+    <test name="Verify sto Display Error Message when fields are blank">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_sto_Display_Error_Message_when_fields_are_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 415 :: Utilities :: Verify to Edit Addenda Attestation for two charts and save changes -->
+    <test name="Verify sto Display Error Message when fields are blank">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Edit_Addenda_Attestation_for_two_charts_and_save_changes"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 416 :: Utilities :: Verify to create a Invalid User and Find that user into list -->
+    <test name="Verify to create a Invalid User and Find that user into list">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_create_a_Invalid_User_and_Find_that_user_into_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 417 :: Utilities :: Verify to view Active and Inactive in Charts -->
+    <test name="Verify to view Active and Inactive in Charts">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Active_and_Inactive_in_Charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 418 :: Analytics :: Verify to Select All Time and also Select Academy -->
+    <test name="Verify to Select All Time and also Select Academy">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_sto_Select_All_Time_and_also_Select_Academy"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 419 :: Manage Users :: Verify to Student received Test Email on enter Email Address -->
+    <test name="Verify to Student received Test Email on enter Email Address">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Student_received_Test_Email_on_enter_Email_Address"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 420 :: Analytics :: Verify to view Average line on Active User only Daily Time Per Chart Daily Accuracy -->
+    <test name="Verify to view Average line on Active User only Daily Time Per Chart Daily Accuracy">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Average_line_on_Active_User_only_Daily_Time_Per_Chart_Daily_Accuracy"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 421 :: Student Progress :: Verify to view 10 option in dropdown and Select it so User can see more list -->
+    <test name="Verify to view 10 option in dropdown and Select it so User can see more list">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_10_option_in_dropdown_and_Select_it_so_User_can_see_more_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 422 :: Analytics :: Verify to view Student DAILY  -->
+    <test name="Verify to view Student DAILY">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Student_DAILY"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 423 :: Manage Providers  :: Verify to Deactivate Provider and also reactivate Provider  -->
+    <test name="Verify to Deactivate Provider and also reactivate Provider">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Deactivate_Provider_and_also_reactivate_Provider"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 424 :: Manage Users :: Verify to send Email of Academy Email and Applicant Email to InActive users  -->
+    <test name="Verify to send Email of Academy Email and Applicant Email to InActive users">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_send_Email_of_Academy_Email_and_Applicant_Email_to_InActive_users"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
     
 </suite>

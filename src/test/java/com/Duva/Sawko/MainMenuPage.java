@@ -1344,6 +1344,77 @@ public void Verify_to_View_Summary_of_any_User() throws InterruptedException, IO
 	common.pause(10);
 }
 
+public void Verify_to_view_Additional_Analytics_Charts() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"dashboard_panel2\"]/span")).click();
+	System.out.println("STEP   | Click on Daily Time Per Chart ");
+	common.log("<br><br>STEP   | Click on Daily Time Per Chart ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"dashboard_panel3\"]/span")).click();
+	System.out.println("STEP   | Click on Daily Accuracy ");
+	common.log("<br><br>STEP   | Click on Daily Accuracy ");
+	common.pause(20);
+}
+
+public void Verify_sto_Display_Error_Message_when_fields_are_blank() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"email_grid\"]/table/tbody/tr[1]/td[7]/a[1]")).click();
+	System.out.println("STEP   | Click on Edit Button ");
+	common.log("<br><br>STEP   | Click on Edit Button ");
+	common.pause(10);
+
+	driver.findElement(By.xpath("//*[@id=\"edit_subject\"]")).clear();
+	System.out.println("STEP   | Click on Clear Subject ");
+	common.log("<br><br>STEP   | Click on Clear Subject ");
+	common.pause(10);
+}
+
+public void Verify_to_view_Active_and_Inactive_in_Charts() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"TopRightBarChart_controller\"]/div[1]/div[3]/div/div/label[2]")).click();
+	System.out.println("STEP   | Click on Active Radio ");
+	common.log("<br><br>STEP   | Click on Active Radio ");
+	common.pause(30);
+	
+	driver.findElement(By.xpath("//*[@id=\"TopRightBarChart_controller\"]/div[1]/div[3]/div/div/label[3]")).click();
+	System.out.println("STEP   | Click on InActive Radio ");
+	common.log("<br><br>STEP   | Click on InActive Radio ");
+	common.pause(10);
+}
+
+public void Verify_sto_Select_All_Time_and_also_Select_Academy() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"TopRightBarChart_controller2\"]/div[2]/div[1]/label[7]")).click();
+	System.out.println("STEP   | Click on Academy Radio ");
+	common.log("<br><br>STEP   | Click on Academy Radio ");
+	common.pause(10);
+}
+
+public void Verify_to_view_10_option_in_dropdown_and_Select_it_so_User_can_see_more_list() throws InterruptedException, IOException{
+		
+	driver.findElement(By.xpath("//*[@id=\"studentgrid\"]/div/span[1]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='10']")).click();
+	System.out.println("STEP   | Click on Academy Radio ");
+	common.log("<br><br>STEP   | Click on Academy Radio ");
+	common.pause(10);
+}
+
+public void Verify_to_view_Student_DAILY() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"student_tab\"]/span[2]")).click();
+	System.out.println("STEP   | Click on Student Tab ");
+	common.log("<br><br>STEP   | Click on Student Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"students_grid\"]/table/tbody/tr[3]/td[2]")).click();
+	System.out.println("STEP   | Click on Any Student ");
+	common.log("<br><br>STEP   | Click on Any Student ");
+	common.pause(10);
+}
+
+
 
 
 

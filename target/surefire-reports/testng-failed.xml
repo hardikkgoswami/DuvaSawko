@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" verbose="0" name="Failed suite [Report]" parallel="tests">
-  <parameter name="selenium.port" value="6666"/>
-  <parameter name="selenium.host" value="localhost"/>
-  <parameter name="selenium.browser" value="chrome"/>
-  <parameter name="selenium.url" value="https://www.google.com/"/>
-  <test name="Verify Login details of Student(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CustomerSupport]">
+  <test thread-count="5" verbose="0" name="FAQs : Check whether it displays FAQ copy at the top of screen(failed)">
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="Verify_Login_Details_of_Student"/>
           <include name="onBefore"/>
+          <include name="Verify_Wrong_Password"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
     </classes>
-  </test> <!-- Verify Login details of Student(failed) -->
-</suite> <!-- Failed suite [Report] -->
+  </test> <!-- FAQs : Check whether it displays FAQ copy at the top of screen(failed) -->
+</suite> <!-- Failed suite [CustomerSupport] -->

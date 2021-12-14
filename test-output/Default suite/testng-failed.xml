@@ -6,7 +6,7 @@
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
           <include name="onBefore"/>
-          <include name="Verify_to_edit_Downloaded_in_any_chart"/>
+          <include name="Verify_to_view_Active_and_Inactive_in_Charts"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->

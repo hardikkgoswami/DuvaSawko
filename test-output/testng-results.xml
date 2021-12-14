@@ -17,37 +17,28 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
+      <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
+      <![CDATA[<br><br>STEP  | Click on Manage Emails ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+      <![CDATA[<br><br>STEP   | Click on Edit Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Select User from List ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP   | Click on Download Button ]]>
+      <![CDATA[<br><br>STEP   | Click on Clear Subject ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78265" started-at="2021-12-11T14:40:03Z" finished-at="2021-12-11T14:41:21Z">
+  <suite name="Default suite" duration-ms="49782" started-at="2021-12-14T08:26:43Z" finished-at="2021-12-14T08:27:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78265" started-at="2021-12-11T14:40:03Z" finished-at="2021-12-11T14:41:21Z">
+    <test name="Default test" duration-ms="49782" started-at="2021-12-14T08:26:43Z" finished-at="2021-12-14T08:27:33Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="21" started-at="2021-12-11T20:10:03Z" finished-at="2021-12-11T20:10:03Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="32" started-at="2021-12-14T13:56:43Z" finished-at="2021-12-14T13:56:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_download_Excel_file_and_view_data_of_Student_Progress()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_to_download_Excel_file_and_view_data_of_Student_Progress" duration-ms="78106" started-at="2021-12-11T20:10:03Z" finished-at="2021-12-11T20:11:21Z">
+        <test-method status="PASS" signature="Verify_sto_Display_Error_Message_when_fields_are_blank()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_sto_Display_Error_Message_when_fields_are_blank" duration-ms="49601" started-at="2021-12-14T13:56:43Z" finished-at="2021-12-14T13:57:33Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -65,29 +56,20 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
+              <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
+              <![CDATA[<br><br>STEP  | Click on Manage Emails ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
+              <![CDATA[<br><br>STEP   | Click on Edit Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Select User from List ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP   | Click on Download Button ]]>
+              <![CDATA[<br><br>STEP   | Click on Clear Subject ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_download_Excel_file_and_view_data_of_Student_Progress -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="128" started-at="2021-12-11T20:11:21Z" finished-at="2021-12-11T20:11:21Z">
+        </test-method> <!-- Verify_sto_Display_Error_Message_when_fields_are_blank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="133" started-at="2021-12-14T13:57:33Z" finished-at="2021-12-14T13:57:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

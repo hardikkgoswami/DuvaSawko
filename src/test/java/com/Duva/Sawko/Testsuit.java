@@ -2,8 +2,6 @@ package com.Duva.Sawko;
 import java.awt.AWTException;
 import java.io.IOException;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.*;
 
 
@@ -3218,6 +3216,122 @@ public class Testsuit {
     	 basePage.Verify_to_view_user_Progress();
     	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
     	 mainmenupage.Verify_to_download_User_Progress();
+    }
+    
+//  Test Case 413 ::    
+    @Test
+    public void Verify_to_view_Additional_Analytics_Charts() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Analytiics();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Additional_Analytics_Charts();
+    }
+    
+//  Test Case 414 ::    
+    @Test
+    public void Verify_sto_Display_Error_Message_when_fields_are_blank() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Utilities_Manage_Email();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_sto_Display_Error_Message_when_fields_are_blank();
+    }
+    
+    
+//  Test Case 415 ::    
+    @Test
+    public void Verify_to_Edit_Addenda_Attestation_for_two_charts_and_save_changes() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.Verify_to_Select_Mid_Level();
+    }
+    
+//  Test Case 416 ::    
+    @Test
+    public void Verify_to_create_a_Invalid_User_and_Find_that_user_into_list() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 417 ::    
+    @Test
+    public void Verify_to_view_Active_and_Inactive_in_Charts() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Analytiics();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Active_and_Inactive_in_Charts();
+    }
+
+    
+//  Test Case 418 ::    
+    @Test
+    public void Verify_sto_Select_All_Time_and_also_Select_Academy() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_login_details_of_admin();
+         basePage.Verify_to_Utilities();
+         basePage.Verify_to_Analytiics();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_sto_Select_All_Time_and_also_Select_Academy();
+    }
+    
+//  Test Case 419 ::    
+    @Test
+    public void Verify_to_Student_received_Test_Email_on_enter_Email_Address() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+         basePage.verify_to_add_new_applicant_as_student();
+    }
+    
+//  Test Case 420 ::    
+    @Test
+    public void Verify_to_view_Average_line_on_Active_User_only_Daily_Time_Per_Chart_Daily_Accuracy() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+         basePage.Verify_to_Analytiics();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_view_Active_and_Inactive_in_Charts();
+    	 mainmenupage.Verify_to_view_Additional_Analytics_Charts();
+    }
+    
+//  Test Case 421 ::    
+    @Test
+    public void Verify_to_view_10_option_in_dropdown_and_Select_it_so_User_can_see_more_list() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+        basePage.Verify_to_view_Student_Progress();
+    }
+    
+//  Test Case 422 ::    
+    @Test
+    public void Verify_to_view_Student_DAILY() throws InterruptedException, IOException, AWTException{
+    	basePage.enterURL();
+   	 	basePage.verify_login_details_of_admin();
+   	 	basePage.Verify_to_Utilities();
+        basePage.Verify_to_Analytiics();
+        MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+   	 	mainmenupage.Verify_to_view_Student_DAILY();
+    }
+    
+//  Test Case 423 ::    
+    @Test 
+    public void Verify_to_Deactivate_Provider_and_also_reactivate_Provider() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Answer_Key();
+    	 basePage.Manage_Providers();
+    }
+    
+//  Test Case 424 ::    
+    @Test 
+    public void Verify_to_send_Email_of_Academy_Email_and_Applicant_Email_to_InActive_users() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+         basePage.Manage_Users();
+         MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+         mainmenupage.Verify_to_View_Summary_of_any_User();
     }
     
     
