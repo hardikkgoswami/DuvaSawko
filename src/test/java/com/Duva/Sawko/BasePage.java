@@ -599,7 +599,7 @@ public class BasePage {
 		common.log("<br><br>STEP 06 | Click on Utilities  ");
 		common.pause(10);
 		
-		driver.findElement(By.xpath("//*[@id=\"menu_admin\"]/span")).click();
+		driver.findElement(By.xpath("//*[@id=\"menu_logins\"]/span")).click();
 		System.out.println("STEP 07 | Click on Logins ");
 		common.log("<br><br>STEP 07 | Click on Logins ");
 		common.pause(25);
@@ -607,7 +607,7 @@ public class BasePage {
 		driver.findElement(By.xpath("//*[@id=\"user_select_label\"]")).isDisplayed();
 		System.out.println("STEP 08 | Verify Logins Screen ");
 		common.log("<br><br>STEP 08 | Verify Logins Screen ");
-		common.pause(25);
+		common.pause(5);
   }
 
   public void Verify_to_check_My_Profile_and_Logout_options() throws InterruptedException, IOException{
@@ -5754,6 +5754,13 @@ public void Verify_to_Analytiics() throws InterruptedException, IOException{
 	driver.findElement(By.xpath("//*[@id=\"menu_analytics\"]/span")).click();
 	System.out.println("STEP  | Click on Analytiics ");
 	common.log("<br><br>STEP  | Click on Analytiics  ");
+	common.pause(10);
+}
+
+public void Verify_to_Logs() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"menu_logs\"]")).click();
+	System.out.println("STEP  | Click on Logs ");
+	common.log("<br><br>STEP  | Click on Logs ");
 	common.pause(10);
 }
 

@@ -17,28 +17,25 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
+      <![CDATA[<br><br>STEP  | Click on Manage Users button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Manage Emails ]]>
+      <![CDATA[<br><br>STEP  | Enter Email Address ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Edit Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP   | Click on Clear Subject ]]>
+      <![CDATA[<br><br>STEP  |  Hmmm, this email already exists. Please try a different one. ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49782" started-at="2021-12-14T08:26:43Z" finished-at="2021-12-14T08:27:33Z">
+  <suite name="Default suite" duration-ms="85894" started-at="2022-01-09T10:14:52Z" finished-at="2022-01-09T10:16:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49782" started-at="2021-12-14T08:26:43Z" finished-at="2021-12-14T08:27:33Z">
+    <test name="Default test" duration-ms="85894" started-at="2022-01-09T10:14:52Z" finished-at="2022-01-09T10:16:18Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="onBefore" is-config="true" duration-ms="32" started-at="2021-12-14T13:56:43Z" finished-at="2021-12-14T13:56:43Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="onBefore" is-config="true" duration-ms="59" started-at="2022-01-09T15:44:52Z" finished-at="2022-01-09T15:44:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_sto_Display_Error_Message_when_fields_are_blank()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="Verify_sto_Display_Error_Message_when_fields_are_blank" duration-ms="49601" started-at="2021-12-14T13:56:43Z" finished-at="2021-12-14T13:57:33Z">
+        <test-method status="PASS" signature="Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address" duration-ms="85544" started-at="2022-01-09T15:44:52Z" finished-at="2022-01-09T15:46:17Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -56,20 +53,17 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
+              <![CDATA[<br><br>STEP  | Click on Manage Users button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Manage Emails ]]>
+              <![CDATA[<br><br>STEP  | Enter Email Address ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Edit Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP   | Click on Clear Subject ]]>
+              <![CDATA[<br><br>STEP  |  Hmmm, this email already exists. Please try a different one. ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_sto_Display_Error_Message_when_fields_are_blank -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@5276e6b0]" name="tearDown" is-config="true" duration-ms="133" started-at="2021-12-14T13:57:33Z" finished-at="2021-12-14T13:57:33Z">
+        </test-method> <!-- Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="tearDown" is-config="true" duration-ms="149" started-at="2022-01-09T15:46:17Z" finished-at="2022-01-09T15:46:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

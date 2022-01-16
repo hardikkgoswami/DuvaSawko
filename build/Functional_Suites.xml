@@ -5132,4 +5132,438 @@
         </classes>
     </test>
     
+      <!-- Test Case 425 :: Analytics :: Verify to view Student Charts like Daily, Error, Statistics -->
+    <test name="Verify to view Student Charts like Daily Error Statistics">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Student_Charts_like_Daily_Error_Statistics"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 426 :: Student Answer Key :: Verify to show error message when fields are blank -->
+    <test name="Verify to show error message when fields are blank">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_show_error_message_when_fields_are_blank"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 427 :: Analytics :: Verify to view Pie Chart as per selected option of Date of Last Update -->
+    <test name="Verify to view Pie Chart as per selected option of Date of Last Update">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Pie_Chart_as_per_selected_option_of_Date_of_Last_Update"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 428 :: Analytics :: Verify to Chart Number Start with 75 percentage in Data Accuracy option -->
+    <test name="Verify to Chart Number Start with 75 percentage in Data Accuracy option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Chart_Number_Start_with_75_percentage_in_Data_Accuracy_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 429 :: Manage Providers :: Verify to display error message when user try to add existing data -->
+    <test name="Verify to display error message when user try to add existing data">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_error_message_when_user_try_to_add_existing_data"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 430 :: Chart Loader  :: Verify to Select PFSH option in Downcoded -->
+    <test name="Verify to Select PFSH option in Downcoded">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_PFSH_option_in_Downcoded"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 431 :: Student Progress  :: Verify to display Same Chart shows same question number -->
+    <test name="Verify to display Same Chart shows same question number">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Same_Chart_shows_same_question_number"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 432 :: Analytics  :: Verify to display all data as per selected data last updated option -->
+    <test name="Verify to display all data as per selected data last updated option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_all_data_as_per_selected_data_last_updated_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 433 :: Manage Users  :: Verify to Send Admin Template Name -->
+    <test name="Verify to Send Admin Template Name">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Send_Admin_Template_Name"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 434 :: Login  :: Verify to Remember Me option should work perfectly -->
+    <test name="Verify to Remember Me option should work perfectly">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Remember_Me_option_should_work_perfectly"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+     <!-- Test Case 435 :: Logs  :: Verify to view logs in logs tab -->
+    <test name="Verify to view logs in logs tab">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_logs_in_logs_tab"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+  <!-- Test Case 436 :: Logs  :: Verify to download email logs and logs by different apply filters -->
+    <test name="Verify to download email logs and logs by different apply filters">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_download_email_logs_and_logs_by_different_apply_filters"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 437 :: Student Progress  :: Verify view Final Score and percentage for date -->
+    <test name="Verify view Final Score and percentage for date">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_view_Final_Score_and_percentage_for_date"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>   
+    
+     <!-- Test Case 438 :: Student Progress  :: Verify to display all answer given by student -->
+    <test name="Verify to display all answer given by student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_all_answer_given_by_student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 439 :: Student Progress  :: Verify to not display blank data when Student Pause exam -->
+    <test name="Verify to not display blank data when Student Pause exam">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_not_display_blank_data_when_Student_Pause_exam"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 440 :: Student Progress  :: Verify to display Question ID not chart ID in User Progress -->
+    <test name="Verify to display Question ID not chart ID in User Progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Question_ID_not_chart_ID_in_User_Progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+      <!-- Test Case 441 :: Analytics  :: Verify to display Chart Analytics type in Chart option -->
+    <test name="Verify to display Chart Analytics type in Chart option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Chart_Analytics_type_in_Chart_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 442 :: Analytics Student Progress  :: Verify to display label to x and y axis into chart and also display Same days as in student Progress test -->
+    <test name="Verify to display label to x and y axis into chart and also display Same days as in student Progress test">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_label_to_x_and_y_axis_into_chart_and_also_display_Same_days_as_in_student_Progress_test"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 443 :: Analytics  :: Verify to view Daily, Errors and Statistics on Student -->
+    <test name="Verify to view Daily Errors and Statistics on Student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Daily_Errors_and_Statistics_on_Student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>   
+    
+     <!-- Test Case 444 :: Analytics  :: Verify to display Student name on below of charts -->
+    <test name="Verify to display Student name on below of charts">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Student_name_on_below_of_charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 445 :: Analytics  :: Verify to view when user click on chart in Error Chart -->
+    <test name="Verify to view when user click on chart in Error Chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_when_user_click_on_chart_in_Error_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 446 :: Analytics  :: Verify to Error charts max value changed dynamically -->
+    <test name="Verify to Error charts max value changed dynamically">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Error_charts_max_value_changed_dynamically"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 447 :: Student Progress  :: Verify to not display status dropdown option in Test History By Week -->
+    <test name="Verify to not display status dropdown option in Test History By Week">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_not_display_status_dropdown_option_in_Test_History_By_Week"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 448 :: Analytics  :: Verify to view statistics time and Percentage for Error Chart -->
+    <test name="Verify to view statistics time and Percentage for Error Chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_statistics_time_and_Percentage_for_Error_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+     <!-- Test Case 449 :: Analytics  :: Verify to display UC OC PRC PRV ICD and MOD in Error type -->
+    <test name="Verify to display UC OC PRC PRV ICD and MOD in Error type">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_UC_OC_PRC_PRV_ICD_and_MOD_in_Error_type"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>   
+     
+     <!-- Test Case 450 :: Email Logs  :: Verify to display Send Email logs in Email logs -->
+    <test name="Verify to display Send Email logs in Email logs">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Send_Email_logs_in_Email_logs"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>  
+    
+     <!-- Test Case 451 :: Analytics  :: Verify to view Chart number with OC UC PRC PRV ICD and MOD -->
+    <test name="Verify to view Chart number with OC UC PRC PRV ICD and MOD">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_Chart_number_with_OC_UC_PRC_PRV_ICD_and_MOD"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 452 :: Analytics  :: Verify to Select all chart type and also unselect all chart type -->
+    <test name="Verify to Select all chart type and also unselect all chart type">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Select_all_chart_type_and_also_unselect_all_chart_type"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 453 :: Analytics  :: Verify to display number when user hover mouse on charts -->
+    <test name="Verify to display number when user hover mouse on charts">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_sto_display_number_when_user_hover_mouse_on_charts"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>   
+    
+       <!-- Test Case 454 :: Student Progress :: Verify to Test history by Week -->
+    <test name="Verify to Test history by Week">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Test_history_by_Week"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 455 :: Student Progress :: Verify to view OC UC PRC PRV ICD and MOD of particular student -->
+    <test name="Verify to view OC UC PRC PRV ICD and MOD of particular student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_OC_UC_PRC_PRV_ICD_and_MOD_of_particular_student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 456 :: Student Progress :: Verify to Final Score Pre Score and also count in User progress -->
+    <test name="Verify to Final Score Pre Score and also count in User progress">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Final_Score_Pre_Score_and_also_count_in_User_progress"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 457 :: Manage Users :: Verify to view User Summary in that display OC UC PRC PRV ICD MOD -->
+    <test name="Verify to view User Summary in that display OCs UC PRC PRV ICD MOD">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_User_Summary_in_that_display_OC_UC_PRC_PRV_ICD_MOD"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 458 :: Student Progress :: Verify to Count final score of student -->
+    <test name="Verify to Count final score of student">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Count_final_score_of_student"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>   
+    
+      <!-- Test Case 459 :: Chart Loader :: Verify to Find chart by HPI Is this a new or established problem option -->
+    <test name="Verify to Find chart by HPI Is this a new or established problem option">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Find_chart_by_HPI_Is_this_new_or_established_problem_option"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>   
+    
+      <!-- Test Case 460 :: Provider Login :: Verify to login with Provider -->
+    <test name="Verify to login with Provider">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_login_with_Provider"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+    
+    
 </suite>

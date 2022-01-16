@@ -1270,7 +1270,7 @@ public void Verify_to_edit_Downloaded_in_any_chart() throws InterruptedException
 
 public void Verify_to_View_text_Fever_PE_tab() throws InterruptedException, IOException{
 	
-	driver.findElement(By.xpath("//*[@id=\"utilities_tab-1\"]/div[1]/div[1]/span/span/span[1]")).click();
+	//driver.findElement(By.xpath("//*[@id=\"utilities_tab-1\"]/div[1]/div[1]/span/span/span[1]")).click();
 	common.pause(5);
 	driver.findElement(By.xpath("//li[text()='E/M Summary for Coders']")).click();
 	System.out.println("STEP  | Click on Submit Button ");
@@ -1291,12 +1291,13 @@ public void Verify_to_download_excel_file_of_Active_User_and_Coded_chart() throw
 }
 
 public void Verify_to_view_Login_details_of_Particular_user() throws InterruptedException, IOException{
-	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
-	System.out.println("STEP  | Click on All Time Radio ");
-	common.log("<br><br>STEP  | Click on All Time Radio ");
 	common.pause(10);
-	
-	driver.findElement(By.xpath("//*[@id=\"timesheet_overview\"]/table/tbody/tr[2]/td[3]")).click();
+//	driver.findElement(By.xpath("//label[text()='All Time']")).click();
+//	System.out.println("STEP  | Click on All Time Radio ");
+//	common.log("<br><br>STEP  | Click on All Time Radio ");
+//	common.pause(10);
+//	
+//	driver.findElement(By.xpath("//*[@id=\"timesheet_overview\"]/table/tbody/tr[2]/td[3]")).click();
 	System.out.println("STEP  | Verify First Login Date ");
 	common.log("<br><br>STEP  | Verify First Login Date ");
 	common.pause(10);
@@ -1325,8 +1326,7 @@ public void Verify_to_display_error_message_when_all_fields_are_blank_and_also_a
 	driver.findElement(By.xpath("//input[@id='add_user']")).click();
 	common.pause(10);
 	
-	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[1]/div[3]/div/span")).isDisplayed();
-	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[1]/div[6]/div/span")).isDisplayed();
+	driver.findElement(By.xpath("//*[@id=\"message_box\"]/span")).isDisplayed();
 	System.out.println("STEP  |  Hmmm, this email already exists. Please try a different one. ");
 	common.log("<br><br>STEP  |  Hmmm, this email already exists. Please try a different one. ");
 	common.pause(10);
@@ -1413,6 +1413,266 @@ public void Verify_to_view_Student_DAILY() throws InterruptedException, IOExcept
 	common.log("<br><br>STEP   | Click on Any Student ");
 	common.pause(10);
 }
+
+public void Verify_to_view_Chart_tab() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"chart_tab\"]/span[2]")).click();
+	System.out.println("STEP   | Click on Chart Tab ");
+	common.log("<br><br>STEP   | Click on Chart Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"legend_switch\"]/span/span[2]/span/span[2]")).click();
+	System.out.println("STEP   | Click on None Button ");
+	common.log("<br><br>STEP   | Click on None Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"clear_barchartfilter\"]")).click();
+	System.out.println("STEP   | Click on Reset Button ");
+	common.log("<br><br>STEP   | Click on Reset Button ");
+	common.pause(10);
+}
+
+
+public void Verify_to_show_error_message_when_fields_are_blank() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"panel2\"]/span")).click();
+	System.out.println("STEP   | Click on Add Key ");
+	common.log("<br><br>STEP   | Click on Add Key ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"add_user\"]")).click();
+	System.out.println("STEP   | Click on Submit Button ");
+	common.log("<br><br>STEP   | Click on Submit Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/div[3]/div[1]/div/div/span")).isDisplayed();
+	System.out.println("STEP   | Error Message Display !!!! ");
+	common.log("<br><br>STEP   | Error Message Display !!!! ");
+	common.pause(10);
+}
+
+public void Verify_to_view_Pie_Chart_as_per_selected_option_of_Date_of_Last_Update() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"TopLeftPieChart_controller\"]/div/div/div/label[3]")).click();
+	System.out.println("STEP   | Click on Last 3 days ");
+	common.log("<br><br>STEP   | Click on Last 3 days ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"TopLeftPieChart_controller\"]/div/div/div/label[4]")).click();
+	System.out.println("STEP   | Click on Last 7 days ");
+	common.log("<br><br>STEP   | Click on Last 7 days ");
+	common.pause(10);
+}
+
+public void Verify_to_Chart_Number_Start_with_75_percentage_in_Data_Accuracy_option() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"dashboard_panel3\"]/span")).click();
+	System.out.println("STEP   | Click on Daily Accuracy ");
+	common.log("<br><br>STEP   | Click on Daily Accuracy ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"BottomRightBarChart_controller\"]/div[1]/div[1]/div/div/label[5]")).click();
+	System.out.println("STEP   | Click on All Time ");
+	common.log("<br><br>STEP   | Click on All Time ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"BottomRightBarChart\"]")).isDisplayed();
+	System.out.println("STEP   | Verify It Display Chart");
+	common.log("<br><br>STEP   | Verify It Display Chart ");
+	common.pause(10);
+}
+
+
+public void Verify_to_display_error_message_when_user_try_to_add_existing_data() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"namefirst\"]")).sendKeys("aaron");
+	System.out.println("STEP   | Enter First Name ");
+	common.log("<br><br>STEP   | Enter First Name ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"namelast\"]")).sendKeys("Snyderd");
+	System.out.println("STEP   | Enter Last Name ");
+	common.log("<br><br>STEP   | Enter Last Name ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"panelbar-add\"]/li/div/div/div/div[4]/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='MD']")).click();
+	System.out.println("STEP   | Select MD from Dropdown ");
+	common.log("<br><br>STEP   | Select MD from Dropdown ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"btn_add_provider\"]")).click();
+	System.out.println("STEP   | Click on Submit Button ");
+	common.log("<br><br>STEP   | Click on Submit Button ");
+	common.pause(10);
+}
+
+public void Verify_to_Select_PFSH_option_in_Downcoded() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//li[text()='PFSH']")).click();
+	common.pause(5);
+}
+
+public void Verify_to_display_all_data_as_per_selected_data_last_updated_option() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"TopRightBarChart_controller\"]/div[1]/div[1]/div/div/label[3]")).click();
+	System.out.println("STEP   | Click on Last 3 days ");
+	common.log("<br><br>STEP   | Click on Last 3 days ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"TopRightBarChart_controller\"]/div[1]/div[1]/div/div/label[4]")).click();
+	System.out.println("STEP   | Click on Last 7 days ");
+	common.log("<br><br>STEP   | Click on Last 7 days ");
+	common.pause(10);
+}
+
+public void Verify_to_Send_Admin_Template_Name() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"panelbar-other-all-add\"]/li[1]/div/div/div[2]/div[2]/div/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='Admin Template Name']")).click();
+	System.out.println("STEP   | Select Admin Template Name ");
+	common.log("<br><br>STEP   | Select Admin Template Name ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//html/body/div[64]/div[1]")).isDisplayed();
+	System.out.println("STEP   | Verify Send Email Template Display!!! ");
+	common.log("<br><br>STEP   | Verify Send Email Template Display!!! ");
+	common.pause(20);
+}
+
+public void Verify_to_view_logs_in_logs_tab() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"downloademaillist\"]")).click();
+	System.out.println("STEP   | Click on Download Button ");
+	common.log("<br><br>STEP   | Click on Download Button ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"jslogs\"]/span[2]")).click();
+	System.out.println("STEP   | Click on JS Logs Tab ");
+	common.log("<br><br>STEP   | Click on JS Logs Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"logs_tab-2\"]/div[3]/div[4]/div/span/span/span[1]")).click();
+	common.pause(5);
+	driver.findElement(By.xpath("//li[text()='Chrome']")).click();
+	System.out.println("STEP   | Select Browser Type ");
+	common.log("<br><br>STEP   | Select Browser Type ");
+	common.pause(10);
+}
+
+public void Verify_to_display_Chart_Analytics_type_in_Chart_option() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_tab\"]/span[2]")).click();
+	System.out.println("STEP   | Click on Chart tab ");
+	common.log("<br><br>STEP   | Click on Chart tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"barchart_controller1\"]/div[1]/div/label[2]")).click();
+	System.out.println("STEP   | Click on UC Checkbox ");
+	common.log("<br><br>STEP   | Click on UC Checkbox ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"barchart_controller1\"]/div[1]/div/label[3]")).click();
+	System.out.println("STEP   | Click on PRC Checkbox ");
+	common.log("<br><br>STEP   | Click on PRC Checkbox ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"barchart_controller1\"]/div[1]/div/label[4]")).click();
+	System.out.println("STEP   | Click on PRV Checkbox ");
+	common.log("<br><br>STEP   | Click on PRV Checkbox ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"barchart_controller1\"]/div[1]/div/label[5]")).click();
+	System.out.println("STEP   | Click on ICD Checkbox ");
+	common.log("<br><br>STEP   | Click on ICD Checkbox ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"barchart_controller1\"]/div[1]/div/label[6]")).click();
+	System.out.println("STEP   | Click on MOD Checkbox ");
+	common.log("<br><br>STEP   | Click on MOD Checkbox ");
+	common.pause(10);
+}
+
+public void Verify_to_display_label_to_x_and_y_axis_into_chart_and_also_display_Same_days_as_in_student_Progress_test() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"menu_student_progress\"]/span")).click();
+	System.out.println("STEP  | Click on Student Progress ");
+	common.log("<br><br>STEP  | Click on Student Progress ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"panel1\"]/span")).isDisplayed();
+	System.out.println("STEP  | Verify It display Student Progress!!! ");
+	common.log("<br><br>STEP  | Verify It display Student Progress!!! ");
+	common.pause(20);
+	
+	driver.findElement(By.xpath("//*[@id=\"overview\"]/div[1]/div[5]/div/label[5]")).click();
+	System.out.println("STEP   | Click on All Time Raio Button ");
+	common.log("<br><br>STEP   | Click on All Time Raio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"studentgrid\"]/table/tbody/tr[4]/td[3]")).click();
+	System.out.println("STEP  | Select User from List ");
+	common.log("<br><br>STEP  | Select User from List ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"testhistory\"]/table/tbody/tr/td[2]")).click();
+	System.out.println("STEP  | Click on Test History By Day ");
+	common.log("<br><br>STEP  | Click on Test History By Day ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"question\"]/table/tbody/tr[1]/td[3]")).isDisplayed();
+	System.out.println("STEP  | Verify It Display User Progress ");
+	common.log("<br><br>STEP  | Verify It Display User Progress ");
+	common.pause(10);
+}
+
+public void Verify_to_view_when_user_click_on_chart_in_Error_Chart() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"student_panel3\"]/span")).click();
+	System.out.println("STEP   | Click on Chart tab ");
+	common.log("<br><br>STEP   | Click on Chart tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"studentChart3_title\"]")).isDisplayed();
+	System.out.println("STEP   | Verify Error by Chart Display!!! ");
+	common.log("<br><br>STEP   | Verify Error by Chart Display!!! ");
+	common.pause(10);
+}
+
+public void Verify_to_not_display_status_dropdown_option_in_Test_History_By_Week() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"panel4\"]/span")).click();
+	System.out.println("STEP   | Click on Test History By Week ");
+	common.log("<br><br>STEP   | Click on Test History By Week ");
+	common.pause(10);
+}
+
+
+public void Verify_to_display_Send_Email_logs_in_Email_logs() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"emailsloggrid\"]/table/tbody/tr[1]/td[2]")).click();
+	System.out.println("STEP   | Verify Email Logs Displays!!! ");
+	common.log("<br><br>STEP   | Verify Email Logs Displays!!! ");
+	common.pause(10);
+}
+
+public void Verify_to_view_test_history_by_week() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"panel4\"]/span")).click();
+	System.out.println("STEP   | Click on Test History By Week ");
+	common.log("<br><br>STEP   | Click on Test History By Week ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"testhistoryweek\"]/table/tbody/tr/td[1]")).isDisplayed();
+	System.out.println("STEP   | Verify Test History By Week ");
+	common.log("<br><br>STEP   | Verify on Test History By Week ");
+	common.pause(10);
+}
+
+
+
 
 
 
