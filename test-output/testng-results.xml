@@ -17,25 +17,37 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Manage Users button ]]>
+      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Enter Email Address ]]>
+      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  |  Hmmm, this email already exists. Please try a different one. ]]>
+      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP   | Click on Unlock Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 10 | Click on Complete Button ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 11 | Click on Yes Option ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP 12 | Select Dropdown Option ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="85894" started-at="2022-01-09T10:14:52Z" finished-at="2022-01-09T10:16:18Z">
+  <suite name="Default suite" duration-ms="91617" started-at="2022-01-26T06:09:32Z" finished-at="2022-01-26T06:11:03Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="85894" started-at="2022-01-09T10:14:52Z" finished-at="2022-01-09T10:16:18Z">
+    <test name="Default test" duration-ms="91617" started-at="2022-01-26T06:09:32Z" finished-at="2022-01-26T06:11:03Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="onBefore" is-config="true" duration-ms="59" started-at="2022-01-09T15:44:52Z" finished-at="2022-01-09T15:44:52Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@4b770e40]" name="onBefore" is-config="true" duration-ms="49" started-at="2022-01-26T11:39:32Z" finished-at="2022-01-26T11:39:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address" duration-ms="85544" started-at="2022-01-09T15:44:52Z" finished-at="2022-01-09T15:46:17Z">
+        <test-method status="PASS" signature="Verify_to_Select_PFSH_option_in_Downcoded()[pri:0, instance:com.Duva.Sawko.Testsuit@4b770e40]" name="Verify_to_Select_PFSH_option_in_Downcoded" duration-ms="91250" started-at="2022-01-26T11:39:32Z" finished-at="2022-01-26T11:41:03Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -53,17 +65,29 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Manage Users button ]]>
+              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Enter Email Address ]]>
+              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  |  Hmmm, this email already exists. Please try a different one. ]]>
+              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP   | Click on Unlock Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 10 | Click on Complete Button ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 11 | Click on Yes Option ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP 12 | Select Dropdown Option ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="tearDown" is-config="true" duration-ms="149" started-at="2022-01-09T15:46:17Z" finished-at="2022-01-09T15:46:18Z">
+        </test-method> <!-- Verify_to_Select_PFSH_option_in_Downcoded -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@4b770e40]" name="tearDown" is-config="true" duration-ms="188" started-at="2022-01-26T11:41:03Z" finished-at="2022-01-26T11:41:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

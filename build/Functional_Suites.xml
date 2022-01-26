@@ -5564,6 +5564,66 @@
         </classes>
     </test>    
     
+       <!-- Test Case 461 :: Chart Loader :: Verify to display Copyright Notice below logs -->
+    <test name="Verify to display Copyright Notice below logs">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Copyright_Notice_below_logs"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 462 :: Analytics :: Verify to apply filter basic information -->
+    <test name="Verify to apply filter basic information">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_apply_filter_basic_information"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 463 :: Reset Password :: Verify to reset password link and set new password -->
+    <test name="Verify to reset password link and set new password">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_reset_password_link_and_set_new_password"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+     <!-- Test Case 464 :: Parameters :: Verify to Enable Submit when user edit any data in Applicant form -->
+    <test name="Verify to Enable Submit when user edit any data in Applicant form">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Enable_Submit_when_user_edit_any_data_in_Applicant_form"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 465 :: Analytics  :: Verify to display data in sorting order in Datagrid and Error Chart -->
+    <test name="Verify to display data in sorting order in Datagrid and Error Chart">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_data_in_sorting_order_in_Datagrid_and_Error_Chart"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
     
     
 </suite>

@@ -5852,6 +5852,14 @@ public void Chart_Finder_ADDENDA_ATTESTATION() throws InterruptedException, IOEx
 	common.pause(10);
 }
 
+public void Verify_to_display_Copyright_Notice_below_logs() throws InterruptedException, IOException{
+	driver.findElement(By.xpath("//*[@id=\"admin_menu_treeview\"]/li[8]/div/span")).isDisplayed();
+	System.out.println("STEP  | Verify © 2019 Healthcare Billing Services, LLC DBA DuvaSawko Codes® ");
+	common.log("<br><br>STEP  | Verify © 2019 Healthcare Billing Services, LLC DBA DuvaSawko Codes® ");
+	common.pause(10);
+	
+}
+
 
 
 

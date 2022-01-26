@@ -3695,6 +3695,55 @@ public class Testsuit {
     	 basePage.verify_login_details_of_admin();
     }
     
+//  Test Case 461 ::    
+    @Test
+    public void Verify_to_display_Copyright_Notice_below_logs() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_display_Copyright_Notice_below_logs();
+    }
+    
+//  Test Case 462 ::    
+    @Test
+    public void Verify_to_apply_filter_basic_information() throws InterruptedException, IOException, AWTException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Analytiics();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+   	 	 mainmenupage.Verify_to_apply_filter_basic_information();
+      }
+    
+    
+//  Test Case 463 :: 
+    @Test
+    public void Verify_to_reset_password_link_and_set_new_password() throws InterruptedException, IOException{
+        basePage.enterURL();
+        basePage.Verify_to_Reset_Password();
+    }
+    
+//  Test Case 464 :: 
+    @Test
+    public void Verify_to_Enable_Submit_when_user_edit_any_data_in_Applicant_form() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Parameters();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+   	 	 mainmenupage.Verify_to_Enable_Submit_when_user_edit_any_data_in_Applicant_form();
+    }
+    
+//  Test Case 465 :: 
+    @Test
+    public void Verify_to_display_data_in_sorting_order_in_Datagrid_and_Error_Chart() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Analytiics();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+   	 	 mainmenupage.Verify_to_apply_filter_basic_information();
+    }
+ 
     
     
     

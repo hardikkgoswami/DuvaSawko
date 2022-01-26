@@ -1671,6 +1671,39 @@ public void Verify_to_view_test_history_by_week() throws InterruptedException, I
 	common.pause(10);
 }
 
+public void Verify_to_apply_filter_basic_information() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"chart_tab\"]/span[2]")).click();
+	System.out.println("STEP   | Click on Chart Tab ");
+	common.log("<br><br>STEP   | Click on Chart Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_left_panelbar\"]/li[2]/span")).click();
+	System.out.println("STEP   | Click on Basic Information ");
+	common.log("<br><br>STEP   | Click on Basic Information ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"BI_FINDForm\"]/div/div/div[2]/div[2]/div/div[1]/label/span")).click();
+	System.out.println("STEP   | Click on Yes Radio Button ");
+	common.log("<br><br>STEP   | Click on Yes Radio Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"barchart_controller1\"]/div[1]/div/label[2]")).click();
+	System.out.println("STEP   | Click on UC Checkbox ");
+	common.log("<br><br>STEP   | Click on UC Checkbox ");
+	common.pause(10);
+	
+}
+
+public void Verify_to_Enable_Submit_when_user_edit_any_data_in_Applicant_form() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"applicantalertfinalpercentage\"]")).click();
+	System.out.println("STEP   | Click on Alert Final Textbox ");
+	common.log("<br><br>STEP   | Click on Alert Final Textbox ");
+	common.pause(10);
+	
+}
+
 
 
 

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
+          <include name="Verify_to_display_data_in_sorting_order_in_Datagrid_and_Error_Chart"/>
           <include name="onBefore"/>
-          <include name="Verify_to_display_error_message_when_all_fields_are_blank_and_also_already_used_email_address"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
