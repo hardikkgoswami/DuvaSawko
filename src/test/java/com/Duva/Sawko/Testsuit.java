@@ -3744,6 +3744,38 @@ public class Testsuit {
    	 	 mainmenupage.Verify_to_apply_filter_basic_information();
     }
  
+//  Test Case 466 :: 
+    @Test
+    public void Verify_to_view_application_list() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Analytiics();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+   	 	 mainmenupage.Verify_to_view_application_list();
+    }
+    
+//  Test Case 467 :: 
+    @Test
+    public void Verify_to_display_Provider_name_in_Capital() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_Chart_loader_load_Chart_unlock_chart();
+    	 basePage.Chart_Loader_Answer_Key();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_enter_CPT_and_Provider1();
+    }
+    
+//  Test Case 468 :: 
+    @Test
+    public void Verify_to_search_for_charts_by_enter_chart_number_and_display_result() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.verify_login_details_of_admin();
+    	 basePage.Verify_to_Utilities();
+    	 basePage.Verify_to_Analytiics();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_search_for_charts_by_enter_chart_number_and_display_result();
+    }
     
     
     

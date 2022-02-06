@@ -5624,6 +5624,42 @@
         </classes>
     </test>    
     
+      <!-- Test Case 466 :: Analytics  :: Verify to view application list -->
+    <test name="Verify to view application list">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_view_application_list"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+       <!-- Test Case 467 :: Manage Provider  :: Verify to display Provider name in Capital -->
+    <test name="Verify to display Provider name in Capital">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_Provider_name_in_Capital"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
+      <!-- Test Case 468 :: Analytics  :: Verify to search for charts by enter chart number and display result -->
+    <test name="Verify to search for charts by enter chart number and display result">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_search_for_charts_by_enter_chart_number_and_display_result"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>    
+    
     
     
 </suite>

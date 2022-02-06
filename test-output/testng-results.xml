@@ -17,37 +17,28 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+      <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+      <![CDATA[<br><br>STEP  | Click on Analytiics  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+      <![CDATA[<br><br>STEP   | Click on Chart Tab ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Unlock Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 10 | Click on Complete Button ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 11 | Click on Yes Option ]]>
-    </line>
-    <line>
-      <![CDATA[<br><br>STEP 12 | Select Dropdown Option ]]>
+      <![CDATA[<br><br>STEP   | Enter Chart Number ]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="91617" started-at="2022-01-26T06:09:32Z" finished-at="2022-01-26T06:11:03Z">
+  <suite name="Default suite" duration-ms="63240" started-at="2022-02-06T09:20:05Z" finished-at="2022-02-06T09:21:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="91617" started-at="2022-01-26T06:09:32Z" finished-at="2022-01-26T06:11:03Z">
+    <test name="Default test" duration-ms="63240" started-at="2022-02-06T09:20:05Z" finished-at="2022-02-06T09:21:08Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@4b770e40]" name="onBefore" is-config="true" duration-ms="49" started-at="2022-01-26T11:39:32Z" finished-at="2022-01-26T11:39:32Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="onBefore" is-config="true" duration-ms="52" started-at="2022-02-06T14:50:05Z" finished-at="2022-02-06T14:50:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_Select_PFSH_option_in_Downcoded()[pri:0, instance:com.Duva.Sawko.Testsuit@4b770e40]" name="Verify_to_Select_PFSH_option_in_Downcoded" duration-ms="91250" started-at="2022-01-26T11:39:32Z" finished-at="2022-01-26T11:41:03Z">
+        <test-method status="PASS" signature="Verify_to_search_for_charts_by_enter_chart_number_and_display_result()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="Verify_to_search_for_charts_by_enter_chart_number_and_display_result" duration-ms="62902" started-at="2022-02-06T14:50:05Z" finished-at="2022-02-06T14:51:08Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -65,29 +56,20 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 06 | Click on Chart Finder Tab ]]>
+              <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 07 | Select Chart Number ]]>
+              <![CDATA[<br><br>STEP  | Click on Analytiics  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP 08 | Click on Load Button ]]>
+              <![CDATA[<br><br>STEP   | Click on Chart Tab ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Unlock Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 10 | Click on Complete Button ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 11 | Click on Yes Option ]]>
-            </line>
-            <line>
-              <![CDATA[<br><br>STEP 12 | Select Dropdown Option ]]>
+              <![CDATA[<br><br>STEP   | Enter Chart Number ]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_Select_PFSH_option_in_Downcoded -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@4b770e40]" name="tearDown" is-config="true" duration-ms="188" started-at="2022-01-26T11:41:03Z" finished-at="2022-01-26T11:41:03Z">
+        </test-method> <!-- Verify_to_search_for_charts_by_enter_chart_number_and_display_result -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="tearDown" is-config="true" duration-ms="160" started-at="2022-02-06T14:51:08Z" finished-at="2022-02-06T14:51:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

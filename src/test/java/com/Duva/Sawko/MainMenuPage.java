@@ -1704,6 +1704,29 @@ public void Verify_to_Enable_Submit_when_user_edit_any_data_in_Applicant_form() 
 	
 }
 
+public void Verify_to_view_application_list() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"TopRightBarChart_controller2\"]/div[2]/div[1]/label[2]")).click();
+	System.out.println("STEP   | Click on Applicant Radio Button ");
+	common.log("<br><br>STEP   | Click on Applicant Radio Button ");
+	common.pause(10);
+	
+	Verify_to_view_Invalid_User_in_Student_Progress_and_Manage_User();
+}
+
+public void Verify_to_search_for_charts_by_enter_chart_number_and_display_result() throws InterruptedException, IOException{
+	
+	driver.findElement(By.xpath("//*[@id=\"chart_tab\"]/span[2]")).click();
+	System.out.println("STEP   | Click on Chart Tab ");
+	common.log("<br><br>STEP   | Click on Chart Tab ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"findchartnumber\"]")).sendKeys("123");
+	System.out.println("STEP   | Enter Chart Number ");
+	common.log("<br><br>STEP   | Enter Chart Number ");
+	common.pause(10);
+}
+
 
 
 
