@@ -3830,7 +3830,7 @@ public void Verify_to_Enrollment_enhancement() throws InterruptedException, IOEx
 	common.log("<br><br>STEP 06 | Click on Manage Users button ");
 	common.pause(40);
 	
-	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[1]/td[4]")).click();
+	driver.findElement(By.xpath("//*[@id=\"manage_user_grid\"]/table/tbody/tr[4]/td[1]")).click();
 	System.out.println("STEP 07 | Select User From List ");
 	common.log("<br><br>STEP 07 | Select User From List ");
 	common.pause(10);

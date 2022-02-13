@@ -17,28 +17,40 @@
       <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
+      <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP  | Click on Analytiics  ]]>
+      <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Click on Chart Tab ]]>
+      <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
     </line>
     <line>
-      <![CDATA[<br><br>STEP   | Enter Chart Number ]]>
+      <![CDATA[<br><br>STEP  | Select User from List ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP   | Click on Edit Button]]>
+    </line>
+    <line>
+      <![CDATA[<br><br>STEP   | Enter Some Data in Response]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63240" started-at="2022-02-06T09:20:05Z" finished-at="2022-02-06T09:21:08Z">
+  <suite name="Default suite" duration-ms="80938" started-at="2022-02-13T08:21:25Z" finished-at="2022-02-13T08:22:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63240" started-at="2022-02-06T09:20:05Z" finished-at="2022-02-06T09:21:08Z">
+    <test name="Default test" duration-ms="80938" started-at="2022-02-13T08:21:25Z" finished-at="2022-02-13T08:22:46Z">
       <class name="com.Duva.Sawko.Testsuit">
-        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="onBefore" is-config="true" duration-ms="52" started-at="2022-02-06T14:50:05Z" finished-at="2022-02-06T14:50:05Z">
+        <test-method status="PASS" signature="onBefore()[pri:0, instance:com.Duva.Sawko.Testsuit@26f143ed]" name="onBefore" is-config="true" duration-ms="79" started-at="2022-02-13T13:51:25Z" finished-at="2022-02-13T13:51:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onBefore -->
-        <test-method status="PASS" signature="Verify_to_search_for_charts_by_enter_chart_number_and_display_result()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="Verify_to_search_for_charts_by_enter_chart_number_and_display_result" duration-ms="62902" started-at="2022-02-06T14:50:05Z" finished-at="2022-02-06T14:51:08Z">
+        <test-method status="PASS" signature="Verify_to_display_Question_ID_not_chart_ID_in_User_Progress()[pri:0, instance:com.Duva.Sawko.Testsuit@26f143ed]" name="Verify_to_display_Question_ID_not_chart_ID_in_User_Progress" duration-ms="80570" started-at="2022-02-13T13:51:25Z" finished-at="2022-02-13T13:52:46Z">
           <reporter-output>
             <line>
               <![CDATA[<br><br>STEP 01 | Open URL ]]>
@@ -56,20 +68,32 @@
               <![CDATA[<br><br>STEP 05 | Admin Logged In  Successfully  ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Utilities  ]]>
+              <![CDATA[<br><br>STEP  | Click on Student Progress ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP  | Click on Analytiics  ]]>
+              <![CDATA[<br><br>STEP  | Verify It display Student Progress!!! ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Click on Chart Tab ]]>
+              <![CDATA[<br><br>STEP   | Click on All Time Raio Button ]]>
             </line>
             <line>
-              <![CDATA[<br><br>STEP   | Enter Chart Number ]]>
+              <![CDATA[<br><br>STEP  | Select User from List ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Click on Test History By Day ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP  | Verify It Display User Progress ]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP   | Click on Edit Button]]>
+            </line>
+            <line>
+              <![CDATA[<br><br>STEP   | Enter Some Data in Response]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Verify_to_search_for_charts_by_enter_chart_number_and_display_result -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@78e16155]" name="tearDown" is-config="true" duration-ms="160" started-at="2022-02-06T14:51:08Z" finished-at="2022-02-06T14:51:08Z">
+        </test-method> <!-- Verify_to_display_Question_ID_not_chart_ID_in_User_Progress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Duva.Sawko.Testsuit@26f143ed]" name="tearDown" is-config="true" duration-ms="155" started-at="2022-02-13T13:52:46Z" finished-at="2022-02-13T13:52:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

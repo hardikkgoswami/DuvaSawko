@@ -5,9 +5,9 @@
     <classes>
       <class name="com.Duva.Sawko.Testsuit">
         <methods>
-          <include name="Verify_to_display_data_in_sorting_order_in_Datagrid_and_Error_Chart"/>
           <include name="onBefore"/>
           <include name="tearDown"/>
+          <include name="Verify_to_Send_Admin_Template_Name"/>
         </methods>
       </class> <!-- com.Duva.Sawko.Testsuit -->
     </classes>

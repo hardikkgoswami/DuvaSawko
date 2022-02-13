@@ -1536,7 +1536,7 @@ public void Verify_to_Send_Admin_Template_Name() throws InterruptedException, IO
 	common.log("<br><br>STEP   | Select Admin Template Name ");
 	common.pause(20);
 	
-	driver.findElement(By.xpath("//html/body/div[64]/div[1]")).isDisplayed();
+	driver.findElement(By.xpath("//*[@id=\"email_name\"]")).isDisplayed();
 	System.out.println("STEP   | Verify Send Email Template Display!!! ");
 	common.log("<br><br>STEP   | Verify Send Email Template Display!!! ");
 	common.pause(20);
@@ -1724,6 +1724,27 @@ public void Verify_to_search_for_charts_by_enter_chart_number_and_display_result
 	driver.findElement(By.xpath("//*[@id=\"findchartnumber\"]")).sendKeys("123");
 	System.out.println("STEP   | Enter Chart Number ");
 	common.log("<br><br>STEP   | Enter Chart Number ");
+	common.pause(10);
+}
+
+public void Verify_to_Delete_email_and_also_send_email_to_particular_user() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"email_grid\"]/table/tbody/tr[1]/td[7]/a[2]")).click();
+	System.out.println("STEP   | Click on Delete Button ");
+	common.log("<br><br>STEP   | Click on Delete Button ");
+	common.pause(10);
+	
+	driver.findElement(By.xpath("//*[@id=\"noButton\"]")).click();
+	System.out.println("STEP   | Click on Yes Button ");
+	common.log("<br><br>STEP   | Click on Yes Button ");
+	common.pause(10);
+}
+
+public void Verify_to_display_pass_percentages_and_auto_pause_time() throws InterruptedException, IOException{
+
+	driver.findElement(By.xpath("//*[@id=\"autopausetime\"]")).sendKeys("3");
+	System.out.println("STEP   | Enter Auto Pause Time (Minutes) ");
+	common.log("<br><br>STEP   | Enter Auto Pause Time (Minutes) ");
 	common.pause(10);
 }
 

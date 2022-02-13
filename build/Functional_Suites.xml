@@ -5660,6 +5660,46 @@
         </classes>
     </test>    
     
+      <!-- Test Case 469 :: Manage User Email  :: Verify to Delete email and also send email to particular user -->
+    <test name="Verify to Delete email and also send email to particular user">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_Delete_email_and_also_send_email_to_particular_user"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+      <!-- Test Case 470 :: Parameters :: Verify to display pass percentages and auto pause time -->
+    <test name="Verify to display pass percentages and auto pause time">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_pass_percentages_and_auto_pause_time"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+       <!-- Test Case 471 :: Parameters :: Verify to display pass percentages and auto pause time -->
+    <test name="Verify to display pass percentages and auto pause time">
+        <classes> 	
+            <class name="com.Duva.Sawko.Testsuit">
+                <methods>
+                    <include name="Verify_to_display_pass_percentages_and_auto_pause_time"> 
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+        
+    
+    
+    
     
     
 </suite>

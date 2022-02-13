@@ -3777,6 +3777,24 @@ public class Testsuit {
     	 mainmenupage.Verify_to_search_for_charts_by_enter_chart_number_and_display_result();
     }
     
+//  Test Case 469 :: 
+    @Test
+    public void Verify_to_Delete_email_and_also_send_email_to_particular_user() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_functionality_of_Email();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_Delete_email_and_also_send_email_to_particular_user();
+    }
+    
+//  Test Case 470 :: 
+    @Test
+    public void Verify_to_display_pass_percentages_and_auto_pause_time() throws InterruptedException, IOException{
+    	 basePage.enterURL();
+    	 basePage.Verify_to_view_Stage_Messages();
+    	 MainMenuPage mainmenupage = new MainMenuPage(basePage.getDriver());
+    	 mainmenupage.Verify_to_display_pass_percentages_and_auto_pause_time();
+    }
+    
     
     
     
